@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "feature_count": 434,
+  "verified_statistics": [
+    {
+      "scope": "model_train",
+      "feature": "id_24",
+      "total_rows": 472432,
+      "missing_count": 468518,
+      "unique_count": 11
+    },
+    {
+      "scope": "model_train",
+      "feature": "c3",
+      "total_rows": 472432,
+      "missing_count": 0,
+      "unique_count": 24
+    },
+    {
+      "scope": "model_train",
+      "feature": "transactionamt",
+      "total_rows": 472432,
+      "missing_count": 0,
+      "unique_count": 18131
+    },
+    {
+      "scope": "model_train",
+      "feature": "deviceinfo",
+      "total_rows": 472432,
+      "missing_count": 372896,
+      "unique_count": 1639
+    },
+    {
+      "scope": "model_train",
+      "feature": "v1",
+      "total_rows": 472432,
+      "missing_count": 245973,
+      "unique_count": 2
+    },
+    {
+      "scope": "model_train",
+      "feature": "isfraud",
+      "total_rows": 472432,
+      "missing_count": 0,
+      "unique_count": 2
+    },
+    {
+      "scope": "all_train",
+      "feature": "id_24",
+      "total_rows": 590540,
+      "missing_count": 585793,
+      "unique_count": 12
+    },
+    {
+      "scope": "all_train",
+      "feature": "c3",
+      "total_rows": 590540,
+      "missing_count": 0,
+      "unique_count": 27
+    },
+    {
+      "scope": "all_train",
+      "feature": "transactionamt",
+      "total_rows": 590540,
+      "missing_count": 0,
+      "unique_count": 20902
+    },
+    {
+      "scope": "all_train",
+      "feature": "deviceinfo",
+      "total_rows": 590540,
+      "missing_count": 471874,
+      "unique_count": 1786
+    },
+    {
+      "scope": "all_train",
+      "feature": "v1",
+      "total_rows": 590540,
+      "missing_count": 279287,
+      "unique_count": 2
+    },
+    {
+      "scope": "all_train",
+      "feature": "isfraud",
+      "total_rows": 590540,
+      "missing_count": 0,
+      "unique_count": 2
+    }
+  ],
+  "high_correlation_pairs": 39,
+  "postgres_correlation_checks": 56,
+  "maximum_correlation_error": 1.57651669497e-13,
+  "sql_window_correlations": 156,
+  "source_train_rows": 590540,
+  "source_test_rows": 506691,
+  "source_script_hashes_match": true,
+  "synthetic_pairwise_tests": "PASS",
+  "report_invariants": "PASS"
+}
