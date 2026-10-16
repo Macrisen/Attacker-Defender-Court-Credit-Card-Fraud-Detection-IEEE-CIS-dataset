@@ -1,0 +1,11 @@
+numpy==2.5.4
+pandas==2.3.3
+scipy==1.18.1
+scikit-learn==1.9.1
+lightgbm==4.7.0
+psycopg==3.3.6
+psycopg-binary==3.3.6
+joblib==1.6.0
+python-dotenv==1.2.2
+matplotlib==3.11.1
+psutil==7.2.2

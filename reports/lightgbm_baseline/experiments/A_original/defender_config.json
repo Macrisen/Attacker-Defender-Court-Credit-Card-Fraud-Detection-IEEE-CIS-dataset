@@ -1,0 +1,26 @@
+{
+  "experiment": "A_original",
+  "calibration_method": "sigmoid",
+  "thresholds": {
+    "default_0.5": 0.5,
+    "theoretical_reward_1_6": 0.16666666666666666,
+    "calibration_reward_max": 0.16867541847823855
+  },
+  "default_threshold": 0.16666666666666666,
+  "strict_decision_rule": "FLAG iff p > threshold; ties APPROVE",
+  "num_threads": 4,
+  "reward_matrix": {
+    "fraud_flag": 10,
+    "fraud_approve": -20,
+    "legitimate_flag": -5,
+    "legitimate_approve": 1
+  },
+  "threshold_selection_objective": "Maximum realized mean reward on last chronological quarter of calibration period; ties prefer fewer flags; no capacity constraint",
+  "fit_partitions": {
+    "model_rows": 383851,
+    "calibrator_fit_rows": 66435,
+    "calibration_method_selection_rows": 22145,
+    "threshold_selection_rows": 22146
+  },
+  "holdout_used_for_selection": false
+}

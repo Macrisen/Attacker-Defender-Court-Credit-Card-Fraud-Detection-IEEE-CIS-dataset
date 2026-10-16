@@ -1,0 +1,6 @@
+{
+  "snapshot": "1331:1331:",
+  "postgres_version": "PostgreSQL 17.11 (Homebrew) on aarch64-apple-darwin25.6.0, compiled by Apple clang version 21.0.0 (clang-2100.1.1.101), 64-bit",
+  "csv_sha256": "1966e1c5128b180f08674825caf8aa524ffbbd86d698f54461dd21f2538b1b30",
+  "captured_at": "2026-10-14T14:18:25.318527+00:00"
+}

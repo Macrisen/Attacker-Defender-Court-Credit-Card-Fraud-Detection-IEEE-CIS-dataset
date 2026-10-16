@@ -1,0 +1,52 @@
+2026-10-14 21:17:45,896 INFO Beginning read-only dataset inspection
+2026-10-14 21:18:26,726 INFO Rows: model=383851 calibration=88581 holdout=118108; 418 clean predictors; original extras=['c2', 'c6', 'c11', 'v18', 'v28', 'v32', 'v57', 'v71', 'v92', 'v154', 'v250', 'v291', 'v331']
+2026-10-14 21:18:26,726 INFO B_clean: inner chronological early stopping, 418 predictors
+2026-10-14 21:18:34,301 INFO Training until validation scores don't improve for 100 rounds
+2026-10-14 21:18:41,468 INFO [100]	inner_chronological_validation's average_precision: 0.496291
+2026-10-14 21:18:49,683 INFO [200]	inner_chronological_validation's average_precision: 0.539514
+2026-10-14 21:18:57,148 INFO [300]	inner_chronological_validation's average_precision: 0.557208
+2026-10-14 21:19:03,847 INFO [400]	inner_chronological_validation's average_precision: 0.563966
+2026-10-14 21:19:10,558 INFO [500]	inner_chronological_validation's average_precision: 0.568898
+2026-10-14 21:19:16,693 INFO [600]	inner_chronological_validation's average_precision: 0.573028
+2026-10-14 21:19:22,702 INFO [700]	inner_chronological_validation's average_precision: 0.573889
+2026-10-14 21:19:28,631 INFO [800]	inner_chronological_validation's average_precision: 0.575149
+2026-10-14 21:19:34,648 INFO [900]	inner_chronological_validation's average_precision: 0.576297
+2026-10-14 21:19:40,561 INFO [1000]	inner_chronological_validation's average_precision: 0.577304
+2026-10-14 21:19:46,567 INFO [1100]	inner_chronological_validation's average_precision: 0.578317
+2026-10-14 21:19:52,523 INFO [1200]	inner_chronological_validation's average_precision: 0.579478
+2026-10-14 21:19:58,463 INFO [1300]	inner_chronological_validation's average_precision: 0.580411
+2026-10-14 21:20:04,354 INFO [1400]	inner_chronological_validation's average_precision: 0.580509
+2026-10-14 21:20:05,235 INFO Early stopping, best iteration is:
+[1315]	inner_chronological_validation's average_precision: 0.58087
+2026-10-14 21:20:05,235 INFO Evaluated only: average_precision
+2026-10-14 21:20:05,432 INFO B_clean: refitting 1315 trees on 383851 model-training rows
+2026-10-14 21:22:05,021 INFO B_clean: frozen calibration=isotonic; policy threshold=0.17142857. Now evaluating holdout.
+2026-10-14 21:22:27,638 INFO B_clean complete: calibrated holdout AP=0.48669, isotonic, 240.9 sec
+2026-10-14 21:22:27,707 INFO A_original: inner chronological early stopping, 431 predictors
+2026-10-14 21:22:36,561 INFO Training until validation scores don't improve for 100 rounds
+2026-10-14 21:22:46,852 INFO [100]	inner_chronological_validation's average_precision: 0.503469
+2026-10-14 21:22:57,336 INFO [200]	inner_chronological_validation's average_precision: 0.542482
+2026-10-14 21:23:06,861 INFO [300]	inner_chronological_validation's average_precision: 0.559926
+2026-10-14 21:23:15,550 INFO [400]	inner_chronological_validation's average_precision: 0.567509
+2026-10-14 21:23:23,538 INFO [500]	inner_chronological_validation's average_precision: 0.572429
+2026-10-14 21:23:31,353 INFO [600]	inner_chronological_validation's average_precision: 0.576345
+2026-10-14 21:23:38,880 INFO [700]	inner_chronological_validation's average_precision: 0.578571
+2026-10-14 21:23:46,386 INFO [800]	inner_chronological_validation's average_precision: 0.580058
+2026-10-14 21:23:54,382 INFO [900]	inner_chronological_validation's average_precision: 0.581549
+2026-10-14 21:24:02,074 INFO [1000]	inner_chronological_validation's average_precision: 0.582993
+2026-10-14 21:24:09,179 INFO [1100]	inner_chronological_validation's average_precision: 0.583419
+2026-10-14 21:24:16,047 INFO [1200]	inner_chronological_validation's average_precision: 0.583827
+2026-10-14 21:24:23,141 INFO [1300]	inner_chronological_validation's average_precision: 0.584439
+2026-10-14 21:24:26,068 INFO Early stopping, best iteration is:
+[1242]	inner_chronological_validation's average_precision: 0.584817
+2026-10-14 21:24:26,068 INFO Evaluated only: average_precision
+2026-10-14 21:24:26,273 INFO A_original: refitting 1242 trees on 383851 model-training rows
+2026-10-14 21:26:35,706 INFO A_original: frozen calibration=sigmoid; policy threshold=0.16867542. Now evaluating holdout.
+2026-10-14 21:26:43,321 INFO A_original complete: calibrated holdout AP=0.50645, sigmoid, 255.6 sec
+2026-10-14 21:26:48,577 WARNING Matplotlib is building the font cache; this may take a moment.
+2026-10-14 21:26:54,353 INFO Failed to extract font properties from /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc: FT_Open_Face (ft2font.cpp line 200) failed with error 0x02: unknown file format
+2026-10-14 21:26:54,412 INFO Failed to extract font properties from /System/Library/Fonts/LastResort.otf: tuple indices must be integers or slices, not str
+2026-10-14 21:26:54,558 INFO Failed to extract font properties from /System/Library/Fonts/Supplemental/NISC18030.ttf: Non-scalable fonts are not supported
+2026-10-14 21:26:54,608 INFO Failed to extract font properties from /System/Library/Fonts/Apple Color Emoji.ttc: Non-scalable fonts are not supported
+2026-10-14 21:26:54,654 INFO generated new fontManager
+2026-10-14 21:26:55,318 INFO All experiments and report generation completed: /Users/macrisen/Desktop/credit card fraud detect/reports/lightgbm_baseline

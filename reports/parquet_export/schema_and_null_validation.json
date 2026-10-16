@@ -1,0 +1,5893 @@
+{
+  "train_clean": [
+    {
+      "column": "transactionid",
+      "postgresql_type": "integer",
+      "parquet_arrow_type": "int32",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "isfraud",
+      "postgresql_type": "smallint",
+      "parquet_arrow_type": "int16",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "transactiondt",
+      "postgresql_type": "integer",
+      "parquet_arrow_type": "int32",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "transactionamt",
+      "postgresql_type": "numeric",
+      "parquet_arrow_type": "decimal128(8, 3)",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "productcd",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "card1",
+      "postgresql_type": "integer",
+      "parquet_arrow_type": "int32",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "card2",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 8933,
+      "parquet_nulls": 8933
+    },
+    {
+      "column": "card3",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 1565,
+      "parquet_nulls": 1565
+    },
+    {
+      "column": "card4",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 1577,
+      "parquet_nulls": 1577
+    },
+    {
+      "column": "card5",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 4259,
+      "parquet_nulls": 4259
+    },
+    {
+      "column": "card6",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 1571,
+      "parquet_nulls": 1571
+    },
+    {
+      "column": "addr1",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 65706,
+      "parquet_nulls": 65706
+    },
+    {
+      "column": "addr2",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 65706,
+      "parquet_nulls": 65706
+    },
+    {
+      "column": "dist1",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 352271,
+      "parquet_nulls": 352271
+    },
+    {
+      "column": "dist2",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 552913,
+      "parquet_nulls": 552913
+    },
+    {
+      "column": "p_emaildomain",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 94456,
+      "parquet_nulls": 94456
+    },
+    {
+      "column": "r_emaildomain",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 453249,
+      "parquet_nulls": 453249
+    },
+    {
+      "column": "c1",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "c3",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "c4",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "c5",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "c7",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "c8",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "c9",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "c10",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "c12",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "c13",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "c14",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "d1",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 1269,
+      "parquet_nulls": 1269
+    },
+    {
+      "column": "d2",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 280797,
+      "parquet_nulls": 280797
+    },
+    {
+      "column": "d3",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 262878,
+      "parquet_nulls": 262878
+    },
+    {
+      "column": "d4",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 168922,
+      "parquet_nulls": 168922
+    },
+    {
+      "column": "d5",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 309841,
+      "parquet_nulls": 309841
+    },
+    {
+      "column": "d6",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 517353,
+      "parquet_nulls": 517353
+    },
+    {
+      "column": "d7",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 551623,
+      "parquet_nulls": 551623
+    },
+    {
+      "column": "d8",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 515614,
+      "parquet_nulls": 515614
+    },
+    {
+      "column": "d9",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 515614,
+      "parquet_nulls": 515614
+    },
+    {
+      "column": "d10",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76022,
+      "parquet_nulls": 76022
+    },
+    {
+      "column": "d11",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 279287,
+      "parquet_nulls": 279287
+    },
+    {
+      "column": "d12",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 525823,
+      "parquet_nulls": 525823
+    },
+    {
+      "column": "d13",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 528588,
+      "parquet_nulls": 528588
+    },
+    {
+      "column": "d14",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 528353,
+      "parquet_nulls": 528353
+    },
+    {
+      "column": "d15",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 89113,
+      "parquet_nulls": 89113
+    },
+    {
+      "column": "m1",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 271100,
+      "parquet_nulls": 271100
+    },
+    {
+      "column": "m2",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 271100,
+      "parquet_nulls": 271100
+    },
+    {
+      "column": "m3",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 271100,
+      "parquet_nulls": 271100
+    },
+    {
+      "column": "m4",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 281444,
+      "parquet_nulls": 281444
+    },
+    {
+      "column": "m5",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 350482,
+      "parquet_nulls": 350482
+    },
+    {
+      "column": "m6",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 169360,
+      "parquet_nulls": 169360
+    },
+    {
+      "column": "m7",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 346265,
+      "parquet_nulls": 346265
+    },
+    {
+      "column": "m8",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 346252,
+      "parquet_nulls": 346252
+    },
+    {
+      "column": "m9",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 346252,
+      "parquet_nulls": 346252
+    },
+    {
+      "column": "v1",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 279287,
+      "parquet_nulls": 279287
+    },
+    {
+      "column": "v2",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 279287,
+      "parquet_nulls": 279287
+    },
+    {
+      "column": "v3",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 279287,
+      "parquet_nulls": 279287
+    },
+    {
+      "column": "v4",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 279287,
+      "parquet_nulls": 279287
+    },
+    {
+      "column": "v5",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 279287,
+      "parquet_nulls": 279287
+    },
+    {
+      "column": "v6",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 279287,
+      "parquet_nulls": 279287
+    },
+    {
+      "column": "v7",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 279287,
+      "parquet_nulls": 279287
+    },
+    {
+      "column": "v8",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 279287,
+      "parquet_nulls": 279287
+    },
+    {
+      "column": "v9",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 279287,
+      "parquet_nulls": 279287
+    },
+    {
+      "column": "v10",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 279287,
+      "parquet_nulls": 279287
+    },
+    {
+      "column": "v11",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 279287,
+      "parquet_nulls": 279287
+    },
+    {
+      "column": "v12",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76073,
+      "parquet_nulls": 76073
+    },
+    {
+      "column": "v13",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76073,
+      "parquet_nulls": 76073
+    },
+    {
+      "column": "v14",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76073,
+      "parquet_nulls": 76073
+    },
+    {
+      "column": "v15",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76073,
+      "parquet_nulls": 76073
+    },
+    {
+      "column": "v16",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76073,
+      "parquet_nulls": 76073
+    },
+    {
+      "column": "v17",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76073,
+      "parquet_nulls": 76073
+    },
+    {
+      "column": "v19",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76073,
+      "parquet_nulls": 76073
+    },
+    {
+      "column": "v20",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76073,
+      "parquet_nulls": 76073
+    },
+    {
+      "column": "v21",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76073,
+      "parquet_nulls": 76073
+    },
+    {
+      "column": "v22",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76073,
+      "parquet_nulls": 76073
+    },
+    {
+      "column": "v23",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76073,
+      "parquet_nulls": 76073
+    },
+    {
+      "column": "v24",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76073,
+      "parquet_nulls": 76073
+    },
+    {
+      "column": "v25",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76073,
+      "parquet_nulls": 76073
+    },
+    {
+      "column": "v26",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76073,
+      "parquet_nulls": 76073
+    },
+    {
+      "column": "v27",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76073,
+      "parquet_nulls": 76073
+    },
+    {
+      "column": "v29",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76073,
+      "parquet_nulls": 76073
+    },
+    {
+      "column": "v30",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76073,
+      "parquet_nulls": 76073
+    },
+    {
+      "column": "v31",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76073,
+      "parquet_nulls": 76073
+    },
+    {
+      "column": "v33",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76073,
+      "parquet_nulls": 76073
+    },
+    {
+      "column": "v34",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76073,
+      "parquet_nulls": 76073
+    },
+    {
+      "column": "v35",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 168969,
+      "parquet_nulls": 168969
+    },
+    {
+      "column": "v36",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 168969,
+      "parquet_nulls": 168969
+    },
+    {
+      "column": "v37",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 168969,
+      "parquet_nulls": 168969
+    },
+    {
+      "column": "v38",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 168969,
+      "parquet_nulls": 168969
+    },
+    {
+      "column": "v39",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 168969,
+      "parquet_nulls": 168969
+    },
+    {
+      "column": "v40",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 168969,
+      "parquet_nulls": 168969
+    },
+    {
+      "column": "v41",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 168969,
+      "parquet_nulls": 168969
+    },
+    {
+      "column": "v42",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 168969,
+      "parquet_nulls": 168969
+    },
+    {
+      "column": "v43",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 168969,
+      "parquet_nulls": 168969
+    },
+    {
+      "column": "v44",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 168969,
+      "parquet_nulls": 168969
+    },
+    {
+      "column": "v45",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 168969,
+      "parquet_nulls": 168969
+    },
+    {
+      "column": "v46",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 168969,
+      "parquet_nulls": 168969
+    },
+    {
+      "column": "v47",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 168969,
+      "parquet_nulls": 168969
+    },
+    {
+      "column": "v48",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 168969,
+      "parquet_nulls": 168969
+    },
+    {
+      "column": "v49",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 168969,
+      "parquet_nulls": 168969
+    },
+    {
+      "column": "v50",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 168969,
+      "parquet_nulls": 168969
+    },
+    {
+      "column": "v51",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 168969,
+      "parquet_nulls": 168969
+    },
+    {
+      "column": "v52",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 168969,
+      "parquet_nulls": 168969
+    },
+    {
+      "column": "v53",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 77096,
+      "parquet_nulls": 77096
+    },
+    {
+      "column": "v54",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 77096,
+      "parquet_nulls": 77096
+    },
+    {
+      "column": "v55",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 77096,
+      "parquet_nulls": 77096
+    },
+    {
+      "column": "v56",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 77096,
+      "parquet_nulls": 77096
+    },
+    {
+      "column": "v58",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 77096,
+      "parquet_nulls": 77096
+    },
+    {
+      "column": "v59",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 77096,
+      "parquet_nulls": 77096
+    },
+    {
+      "column": "v60",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 77096,
+      "parquet_nulls": 77096
+    },
+    {
+      "column": "v61",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 77096,
+      "parquet_nulls": 77096
+    },
+    {
+      "column": "v62",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 77096,
+      "parquet_nulls": 77096
+    },
+    {
+      "column": "v63",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 77096,
+      "parquet_nulls": 77096
+    },
+    {
+      "column": "v64",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 77096,
+      "parquet_nulls": 77096
+    },
+    {
+      "column": "v65",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 77096,
+      "parquet_nulls": 77096
+    },
+    {
+      "column": "v66",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 77096,
+      "parquet_nulls": 77096
+    },
+    {
+      "column": "v67",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 77096,
+      "parquet_nulls": 77096
+    },
+    {
+      "column": "v68",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 77096,
+      "parquet_nulls": 77096
+    },
+    {
+      "column": "v69",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 77096,
+      "parquet_nulls": 77096
+    },
+    {
+      "column": "v70",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 77096,
+      "parquet_nulls": 77096
+    },
+    {
+      "column": "v72",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 77096,
+      "parquet_nulls": 77096
+    },
+    {
+      "column": "v73",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 77096,
+      "parquet_nulls": 77096
+    },
+    {
+      "column": "v74",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 77096,
+      "parquet_nulls": 77096
+    },
+    {
+      "column": "v75",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 89164,
+      "parquet_nulls": 89164
+    },
+    {
+      "column": "v76",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 89164,
+      "parquet_nulls": 89164
+    },
+    {
+      "column": "v77",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 89164,
+      "parquet_nulls": 89164
+    },
+    {
+      "column": "v78",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 89164,
+      "parquet_nulls": 89164
+    },
+    {
+      "column": "v79",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 89164,
+      "parquet_nulls": 89164
+    },
+    {
+      "column": "v80",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 89164,
+      "parquet_nulls": 89164
+    },
+    {
+      "column": "v81",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 89164,
+      "parquet_nulls": 89164
+    },
+    {
+      "column": "v82",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 89164,
+      "parquet_nulls": 89164
+    },
+    {
+      "column": "v83",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 89164,
+      "parquet_nulls": 89164
+    },
+    {
+      "column": "v84",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 89164,
+      "parquet_nulls": 89164
+    },
+    {
+      "column": "v85",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 89164,
+      "parquet_nulls": 89164
+    },
+    {
+      "column": "v86",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 89164,
+      "parquet_nulls": 89164
+    },
+    {
+      "column": "v87",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 89164,
+      "parquet_nulls": 89164
+    },
+    {
+      "column": "v88",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 89164,
+      "parquet_nulls": 89164
+    },
+    {
+      "column": "v89",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 89164,
+      "parquet_nulls": 89164
+    },
+    {
+      "column": "v90",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 89164,
+      "parquet_nulls": 89164
+    },
+    {
+      "column": "v91",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 89164,
+      "parquet_nulls": 89164
+    },
+    {
+      "column": "v93",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 89164,
+      "parquet_nulls": 89164
+    },
+    {
+      "column": "v94",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 89164,
+      "parquet_nulls": 89164
+    },
+    {
+      "column": "v95",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v96",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v97",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v98",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v99",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v100",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v101",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v102",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v103",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v104",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v105",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v106",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v107",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v108",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v109",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v110",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v111",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v112",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v113",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v114",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v115",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v116",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v117",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v118",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v119",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v120",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v121",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v122",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v123",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v124",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v125",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v126",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v127",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v128",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v129",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v130",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v131",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v132",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v133",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v134",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v135",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v136",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v137",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 314,
+      "parquet_nulls": 314
+    },
+    {
+      "column": "v138",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508595,
+      "parquet_nulls": 508595
+    },
+    {
+      "column": "v139",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508595,
+      "parquet_nulls": 508595
+    },
+    {
+      "column": "v140",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508595,
+      "parquet_nulls": 508595
+    },
+    {
+      "column": "v141",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508595,
+      "parquet_nulls": 508595
+    },
+    {
+      "column": "v142",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508595,
+      "parquet_nulls": 508595
+    },
+    {
+      "column": "v143",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508589,
+      "parquet_nulls": 508589
+    },
+    {
+      "column": "v144",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508589,
+      "parquet_nulls": 508589
+    },
+    {
+      "column": "v145",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508589,
+      "parquet_nulls": 508589
+    },
+    {
+      "column": "v146",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508595,
+      "parquet_nulls": 508595
+    },
+    {
+      "column": "v147",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508595,
+      "parquet_nulls": 508595
+    },
+    {
+      "column": "v148",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508595,
+      "parquet_nulls": 508595
+    },
+    {
+      "column": "v149",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508595,
+      "parquet_nulls": 508595
+    },
+    {
+      "column": "v150",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508589,
+      "parquet_nulls": 508589
+    },
+    {
+      "column": "v151",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508589,
+      "parquet_nulls": 508589
+    },
+    {
+      "column": "v152",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508589,
+      "parquet_nulls": 508589
+    },
+    {
+      "column": "v153",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508595,
+      "parquet_nulls": 508595
+    },
+    {
+      "column": "v155",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508595,
+      "parquet_nulls": 508595
+    },
+    {
+      "column": "v156",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508595,
+      "parquet_nulls": 508595
+    },
+    {
+      "column": "v157",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508595,
+      "parquet_nulls": 508595
+    },
+    {
+      "column": "v158",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508595,
+      "parquet_nulls": 508595
+    },
+    {
+      "column": "v159",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508589,
+      "parquet_nulls": 508589
+    },
+    {
+      "column": "v160",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508589,
+      "parquet_nulls": 508589
+    },
+    {
+      "column": "v161",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508595,
+      "parquet_nulls": 508595
+    },
+    {
+      "column": "v162",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508595,
+      "parquet_nulls": 508595
+    },
+    {
+      "column": "v163",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508595,
+      "parquet_nulls": 508595
+    },
+    {
+      "column": "v164",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508589,
+      "parquet_nulls": 508589
+    },
+    {
+      "column": "v165",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508589,
+      "parquet_nulls": 508589
+    },
+    {
+      "column": "v166",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508589,
+      "parquet_nulls": 508589
+    },
+    {
+      "column": "v167",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v168",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v169",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450721,
+      "parquet_nulls": 450721
+    },
+    {
+      "column": "v170",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450721,
+      "parquet_nulls": 450721
+    },
+    {
+      "column": "v171",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450721,
+      "parquet_nulls": 450721
+    },
+    {
+      "column": "v172",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v173",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v174",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450721,
+      "parquet_nulls": 450721
+    },
+    {
+      "column": "v175",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450721,
+      "parquet_nulls": 450721
+    },
+    {
+      "column": "v176",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v177",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v178",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v179",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v180",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450721,
+      "parquet_nulls": 450721
+    },
+    {
+      "column": "v181",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v182",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v183",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v184",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450721,
+      "parquet_nulls": 450721
+    },
+    {
+      "column": "v185",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450721,
+      "parquet_nulls": 450721
+    },
+    {
+      "column": "v186",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v187",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v188",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450721,
+      "parquet_nulls": 450721
+    },
+    {
+      "column": "v189",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450721,
+      "parquet_nulls": 450721
+    },
+    {
+      "column": "v190",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v191",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v192",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v193",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v194",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450721,
+      "parquet_nulls": 450721
+    },
+    {
+      "column": "v195",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450721,
+      "parquet_nulls": 450721
+    },
+    {
+      "column": "v196",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v197",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450721,
+      "parquet_nulls": 450721
+    },
+    {
+      "column": "v198",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450721,
+      "parquet_nulls": 450721
+    },
+    {
+      "column": "v199",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v200",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450721,
+      "parquet_nulls": 450721
+    },
+    {
+      "column": "v201",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450721,
+      "parquet_nulls": 450721
+    },
+    {
+      "column": "v202",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v203",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v204",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v205",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v206",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v207",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v208",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450721,
+      "parquet_nulls": 450721
+    },
+    {
+      "column": "v209",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450721,
+      "parquet_nulls": 450721
+    },
+    {
+      "column": "v210",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450721,
+      "parquet_nulls": 450721
+    },
+    {
+      "column": "v211",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v212",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v213",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v214",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v215",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v216",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 450909,
+      "parquet_nulls": 450909
+    },
+    {
+      "column": "v217",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v218",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v219",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v220",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 449124,
+      "parquet_nulls": 449124
+    },
+    {
+      "column": "v221",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 449124,
+      "parquet_nulls": 449124
+    },
+    {
+      "column": "v222",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 449124,
+      "parquet_nulls": 449124
+    },
+    {
+      "column": "v223",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v224",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v225",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v226",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v227",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 449124,
+      "parquet_nulls": 449124
+    },
+    {
+      "column": "v228",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v229",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v230",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v231",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v232",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v233",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v234",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 449124,
+      "parquet_nulls": 449124
+    },
+    {
+      "column": "v235",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v236",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v237",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v238",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 449124,
+      "parquet_nulls": 449124
+    },
+    {
+      "column": "v239",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 449124,
+      "parquet_nulls": 449124
+    },
+    {
+      "column": "v240",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v241",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v242",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v243",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v244",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v245",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 449124,
+      "parquet_nulls": 449124
+    },
+    {
+      "column": "v246",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v247",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v248",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v249",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v251",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 449124,
+      "parquet_nulls": 449124
+    },
+    {
+      "column": "v252",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v253",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v254",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v255",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 449124,
+      "parquet_nulls": 449124
+    },
+    {
+      "column": "v256",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 449124,
+      "parquet_nulls": 449124
+    },
+    {
+      "column": "v257",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v258",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v259",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 449124,
+      "parquet_nulls": 449124
+    },
+    {
+      "column": "v260",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v261",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v262",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v263",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v264",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v265",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v266",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v267",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v268",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v269",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v270",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 449124,
+      "parquet_nulls": 449124
+    },
+    {
+      "column": "v271",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 449124,
+      "parquet_nulls": 449124
+    },
+    {
+      "column": "v272",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 449124,
+      "parquet_nulls": 449124
+    },
+    {
+      "column": "v273",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v274",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v275",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v276",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v277",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v278",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 460110,
+      "parquet_nulls": 460110
+    },
+    {
+      "column": "v279",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v280",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v281",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 1269,
+      "parquet_nulls": 1269
+    },
+    {
+      "column": "v282",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 1269,
+      "parquet_nulls": 1269
+    },
+    {
+      "column": "v283",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 1269,
+      "parquet_nulls": 1269
+    },
+    {
+      "column": "v284",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v285",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v286",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v287",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v288",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 1269,
+      "parquet_nulls": 1269
+    },
+    {
+      "column": "v289",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 1269,
+      "parquet_nulls": 1269
+    },
+    {
+      "column": "v290",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v292",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v293",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v294",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v295",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v296",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 1269,
+      "parquet_nulls": 1269
+    },
+    {
+      "column": "v297",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v298",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v299",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v300",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 1269,
+      "parquet_nulls": 1269
+    },
+    {
+      "column": "v301",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 1269,
+      "parquet_nulls": 1269
+    },
+    {
+      "column": "v302",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v303",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v304",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v305",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v306",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v307",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v308",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v309",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v310",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v311",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v312",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v313",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 1269,
+      "parquet_nulls": 1269
+    },
+    {
+      "column": "v314",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 1269,
+      "parquet_nulls": 1269
+    },
+    {
+      "column": "v315",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 1269,
+      "parquet_nulls": 1269
+    },
+    {
+      "column": "v316",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v317",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v318",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v319",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v320",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v321",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12,
+      "parquet_nulls": 12
+    },
+    {
+      "column": "v322",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508189,
+      "parquet_nulls": 508189
+    },
+    {
+      "column": "v323",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508189,
+      "parquet_nulls": 508189
+    },
+    {
+      "column": "v324",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508189,
+      "parquet_nulls": 508189
+    },
+    {
+      "column": "v325",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508189,
+      "parquet_nulls": 508189
+    },
+    {
+      "column": "v326",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508189,
+      "parquet_nulls": 508189
+    },
+    {
+      "column": "v327",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508189,
+      "parquet_nulls": 508189
+    },
+    {
+      "column": "v328",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508189,
+      "parquet_nulls": 508189
+    },
+    {
+      "column": "v329",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508189,
+      "parquet_nulls": 508189
+    },
+    {
+      "column": "v330",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508189,
+      "parquet_nulls": 508189
+    },
+    {
+      "column": "v332",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508189,
+      "parquet_nulls": 508189
+    },
+    {
+      "column": "v333",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508189,
+      "parquet_nulls": 508189
+    },
+    {
+      "column": "v334",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508189,
+      "parquet_nulls": 508189
+    },
+    {
+      "column": "v335",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508189,
+      "parquet_nulls": 508189
+    },
+    {
+      "column": "v336",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508189,
+      "parquet_nulls": 508189
+    },
+    {
+      "column": "v337",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508189,
+      "parquet_nulls": 508189
+    },
+    {
+      "column": "v338",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508189,
+      "parquet_nulls": 508189
+    },
+    {
+      "column": "v339",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 508189,
+      "parquet_nulls": 508189
+    },
+    {
+      "column": "id_01",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 446307,
+      "parquet_nulls": 446307
+    },
+    {
+      "column": "id_02",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 449668,
+      "parquet_nulls": 449668
+    },
+    {
+      "column": "id_03",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 524216,
+      "parquet_nulls": 524216
+    },
+    {
+      "column": "id_04",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 524216,
+      "parquet_nulls": 524216
+    },
+    {
+      "column": "id_05",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 453675,
+      "parquet_nulls": 453675
+    },
+    {
+      "column": "id_06",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 453675,
+      "parquet_nulls": 453675
+    },
+    {
+      "column": "id_07",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 585385,
+      "parquet_nulls": 585385
+    },
+    {
+      "column": "id_08",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 585385,
+      "parquet_nulls": 585385
+    },
+    {
+      "column": "id_09",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 515614,
+      "parquet_nulls": 515614
+    },
+    {
+      "column": "id_10",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 515614,
+      "parquet_nulls": 515614
+    },
+    {
+      "column": "id_11",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 449562,
+      "parquet_nulls": 449562
+    },
+    {
+      "column": "id_12",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 446307,
+      "parquet_nulls": 446307
+    },
+    {
+      "column": "id_13",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 463220,
+      "parquet_nulls": 463220
+    },
+    {
+      "column": "id_14",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 510496,
+      "parquet_nulls": 510496
+    },
+    {
+      "column": "id_15",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 449555,
+      "parquet_nulls": 449555
+    },
+    {
+      "column": "id_16",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 461200,
+      "parquet_nulls": 461200
+    },
+    {
+      "column": "id_17",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 451171,
+      "parquet_nulls": 451171
+    },
+    {
+      "column": "id_18",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 545427,
+      "parquet_nulls": 545427
+    },
+    {
+      "column": "id_19",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 451222,
+      "parquet_nulls": 451222
+    },
+    {
+      "column": "id_20",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 451279,
+      "parquet_nulls": 451279
+    },
+    {
+      "column": "id_21",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 585381,
+      "parquet_nulls": 585381
+    },
+    {
+      "column": "id_22",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 585371,
+      "parquet_nulls": 585371
+    },
+    {
+      "column": "id_23",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 585371,
+      "parquet_nulls": 585371
+    },
+    {
+      "column": "id_24",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 585793,
+      "parquet_nulls": 585793
+    },
+    {
+      "column": "id_25",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 585408,
+      "parquet_nulls": 585408
+    },
+    {
+      "column": "id_26",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 585377,
+      "parquet_nulls": 585377
+    },
+    {
+      "column": "id_27",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 585371,
+      "parquet_nulls": 585371
+    },
+    {
+      "column": "id_28",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 449562,
+      "parquet_nulls": 449562
+    },
+    {
+      "column": "id_29",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 449562,
+      "parquet_nulls": 449562
+    },
+    {
+      "column": "id_30",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 512975,
+      "parquet_nulls": 512975
+    },
+    {
+      "column": "id_31",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 450258,
+      "parquet_nulls": 450258
+    },
+    {
+      "column": "id_32",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 512954,
+      "parquet_nulls": 512954
+    },
+    {
+      "column": "id_33",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 517251,
+      "parquet_nulls": 517251
+    },
+    {
+      "column": "id_34",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 512735,
+      "parquet_nulls": 512735
+    },
+    {
+      "column": "id_35",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 449555,
+      "parquet_nulls": 449555
+    },
+    {
+      "column": "id_36",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 449555,
+      "parquet_nulls": 449555
+    },
+    {
+      "column": "id_37",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 449555,
+      "parquet_nulls": 449555
+    },
+    {
+      "column": "id_38",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 449555,
+      "parquet_nulls": 449555
+    },
+    {
+      "column": "devicetype",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 449730,
+      "parquet_nulls": 449730
+    },
+    {
+      "column": "deviceinfo",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 471874,
+      "parquet_nulls": 471874
+    }
+  ],
+  "test_clean": [
+    {
+      "column": "transactionid",
+      "postgresql_type": "integer",
+      "parquet_arrow_type": "int32",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "transactiondt",
+      "postgresql_type": "integer",
+      "parquet_arrow_type": "int32",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "transactionamt",
+      "postgresql_type": "numeric",
+      "parquet_arrow_type": "decimal128(8, 3)",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "productcd",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "card1",
+      "postgresql_type": "integer",
+      "parquet_arrow_type": "int32",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "card2",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 8654,
+      "parquet_nulls": 8654
+    },
+    {
+      "column": "card3",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3002,
+      "parquet_nulls": 3002
+    },
+    {
+      "column": "card4",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 3086,
+      "parquet_nulls": 3086
+    },
+    {
+      "column": "card5",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 4547,
+      "parquet_nulls": 4547
+    },
+    {
+      "column": "card6",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 3007,
+      "parquet_nulls": 3007
+    },
+    {
+      "column": "addr1",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 65609,
+      "parquet_nulls": 65609
+    },
+    {
+      "column": "addr2",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 65609,
+      "parquet_nulls": 65609
+    },
+    {
+      "column": "dist1",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 291217,
+      "parquet_nulls": 291217
+    },
+    {
+      "column": "dist2",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 470255,
+      "parquet_nulls": 470255
+    },
+    {
+      "column": "p_emaildomain",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 69192,
+      "parquet_nulls": 69192
+    },
+    {
+      "column": "r_emaildomain",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 370821,
+      "parquet_nulls": 370821
+    },
+    {
+      "column": "c1",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "c3",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "c4",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "c5",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "c7",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "c8",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "c9",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "c10",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "c12",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "c13",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 4748,
+      "parquet_nulls": 4748
+    },
+    {
+      "column": "c14",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "d1",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 6031,
+      "parquet_nulls": 6031
+    },
+    {
+      "column": "d2",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 234769,
+      "parquet_nulls": 234769
+    },
+    {
+      "column": "d3",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 203142,
+      "parquet_nulls": 203142
+    },
+    {
+      "column": "d4",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76851,
+      "parquet_nulls": 76851
+    },
+    {
+      "column": "d5",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 224375,
+      "parquet_nulls": 224375
+    },
+    {
+      "column": "d6",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 381908,
+      "parquet_nulls": 381908
+    },
+    {
+      "column": "d7",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 446558,
+      "parquet_nulls": 446558
+    },
+    {
+      "column": "d8",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 432353,
+      "parquet_nulls": 432353
+    },
+    {
+      "column": "d9",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 432353,
+      "parquet_nulls": 432353
+    },
+    {
+      "column": "d10",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12545,
+      "parquet_nulls": 12545
+    },
+    {
+      "column": "d11",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 176518,
+      "parquet_nulls": 176518
+    },
+    {
+      "column": "d12",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 437437,
+      "parquet_nulls": 437437
+    },
+    {
+      "column": "d13",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 383307,
+      "parquet_nulls": 383307
+    },
+    {
+      "column": "d14",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 391497,
+      "parquet_nulls": 391497
+    },
+    {
+      "column": "d15",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12069,
+      "parquet_nulls": 12069
+    },
+    {
+      "column": "m1",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 176639,
+      "parquet_nulls": 176639
+    },
+    {
+      "column": "m2",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 176639,
+      "parquet_nulls": 176639
+    },
+    {
+      "column": "m3",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 176639,
+      "parquet_nulls": 176639
+    },
+    {
+      "column": "m4",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 237745,
+      "parquet_nulls": 237745
+    },
+    {
+      "column": "m5",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 309632,
+      "parquet_nulls": 309632
+    },
+    {
+      "column": "m6",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 158939,
+      "parquet_nulls": 158939
+    },
+    {
+      "column": "m7",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 235018,
+      "parquet_nulls": 235018
+    },
+    {
+      "column": "m8",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 235004,
+      "parquet_nulls": 235004
+    },
+    {
+      "column": "m9",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 235004,
+      "parquet_nulls": 235004
+    },
+    {
+      "column": "v1",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 176518,
+      "parquet_nulls": 176518
+    },
+    {
+      "column": "v2",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 176518,
+      "parquet_nulls": 176518
+    },
+    {
+      "column": "v3",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 176518,
+      "parquet_nulls": 176518
+    },
+    {
+      "column": "v4",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 176518,
+      "parquet_nulls": 176518
+    },
+    {
+      "column": "v5",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 176518,
+      "parquet_nulls": 176518
+    },
+    {
+      "column": "v6",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 176518,
+      "parquet_nulls": 176518
+    },
+    {
+      "column": "v7",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 176518,
+      "parquet_nulls": 176518
+    },
+    {
+      "column": "v8",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 176518,
+      "parquet_nulls": 176518
+    },
+    {
+      "column": "v9",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 176518,
+      "parquet_nulls": 176518
+    },
+    {
+      "column": "v10",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 176518,
+      "parquet_nulls": 176518
+    },
+    {
+      "column": "v11",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 176518,
+      "parquet_nulls": 176518
+    },
+    {
+      "column": "v12",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12589,
+      "parquet_nulls": 12589
+    },
+    {
+      "column": "v13",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12589,
+      "parquet_nulls": 12589
+    },
+    {
+      "column": "v14",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12589,
+      "parquet_nulls": 12589
+    },
+    {
+      "column": "v15",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12589,
+      "parquet_nulls": 12589
+    },
+    {
+      "column": "v16",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12589,
+      "parquet_nulls": 12589
+    },
+    {
+      "column": "v17",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12589,
+      "parquet_nulls": 12589
+    },
+    {
+      "column": "v19",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12589,
+      "parquet_nulls": 12589
+    },
+    {
+      "column": "v20",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12589,
+      "parquet_nulls": 12589
+    },
+    {
+      "column": "v21",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12589,
+      "parquet_nulls": 12589
+    },
+    {
+      "column": "v22",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12589,
+      "parquet_nulls": 12589
+    },
+    {
+      "column": "v23",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12589,
+      "parquet_nulls": 12589
+    },
+    {
+      "column": "v24",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12589,
+      "parquet_nulls": 12589
+    },
+    {
+      "column": "v25",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12589,
+      "parquet_nulls": 12589
+    },
+    {
+      "column": "v26",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12589,
+      "parquet_nulls": 12589
+    },
+    {
+      "column": "v27",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12589,
+      "parquet_nulls": 12589
+    },
+    {
+      "column": "v29",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12589,
+      "parquet_nulls": 12589
+    },
+    {
+      "column": "v30",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12589,
+      "parquet_nulls": 12589
+    },
+    {
+      "column": "v31",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12589,
+      "parquet_nulls": 12589
+    },
+    {
+      "column": "v33",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12589,
+      "parquet_nulls": 12589
+    },
+    {
+      "column": "v34",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12589,
+      "parquet_nulls": 12589
+    },
+    {
+      "column": "v35",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76854,
+      "parquet_nulls": 76854
+    },
+    {
+      "column": "v36",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76854,
+      "parquet_nulls": 76854
+    },
+    {
+      "column": "v37",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76854,
+      "parquet_nulls": 76854
+    },
+    {
+      "column": "v38",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76854,
+      "parquet_nulls": 76854
+    },
+    {
+      "column": "v39",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76854,
+      "parquet_nulls": 76854
+    },
+    {
+      "column": "v40",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76854,
+      "parquet_nulls": 76854
+    },
+    {
+      "column": "v41",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76854,
+      "parquet_nulls": 76854
+    },
+    {
+      "column": "v42",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76854,
+      "parquet_nulls": 76854
+    },
+    {
+      "column": "v43",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76854,
+      "parquet_nulls": 76854
+    },
+    {
+      "column": "v44",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76854,
+      "parquet_nulls": 76854
+    },
+    {
+      "column": "v45",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76854,
+      "parquet_nulls": 76854
+    },
+    {
+      "column": "v46",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76854,
+      "parquet_nulls": 76854
+    },
+    {
+      "column": "v47",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76854,
+      "parquet_nulls": 76854
+    },
+    {
+      "column": "v48",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76854,
+      "parquet_nulls": 76854
+    },
+    {
+      "column": "v49",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76854,
+      "parquet_nulls": 76854
+    },
+    {
+      "column": "v50",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76854,
+      "parquet_nulls": 76854
+    },
+    {
+      "column": "v51",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76854,
+      "parquet_nulls": 76854
+    },
+    {
+      "column": "v52",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 76854,
+      "parquet_nulls": 76854
+    },
+    {
+      "column": "v53",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12899,
+      "parquet_nulls": 12899
+    },
+    {
+      "column": "v54",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12899,
+      "parquet_nulls": 12899
+    },
+    {
+      "column": "v55",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12899,
+      "parquet_nulls": 12899
+    },
+    {
+      "column": "v56",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12899,
+      "parquet_nulls": 12899
+    },
+    {
+      "column": "v58",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12899,
+      "parquet_nulls": 12899
+    },
+    {
+      "column": "v59",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12899,
+      "parquet_nulls": 12899
+    },
+    {
+      "column": "v60",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12899,
+      "parquet_nulls": 12899
+    },
+    {
+      "column": "v61",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12899,
+      "parquet_nulls": 12899
+    },
+    {
+      "column": "v62",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12899,
+      "parquet_nulls": 12899
+    },
+    {
+      "column": "v63",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12899,
+      "parquet_nulls": 12899
+    },
+    {
+      "column": "v64",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12899,
+      "parquet_nulls": 12899
+    },
+    {
+      "column": "v65",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12899,
+      "parquet_nulls": 12899
+    },
+    {
+      "column": "v66",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12899,
+      "parquet_nulls": 12899
+    },
+    {
+      "column": "v67",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12899,
+      "parquet_nulls": 12899
+    },
+    {
+      "column": "v68",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12899,
+      "parquet_nulls": 12899
+    },
+    {
+      "column": "v69",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12899,
+      "parquet_nulls": 12899
+    },
+    {
+      "column": "v70",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12899,
+      "parquet_nulls": 12899
+    },
+    {
+      "column": "v72",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12899,
+      "parquet_nulls": 12899
+    },
+    {
+      "column": "v73",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12899,
+      "parquet_nulls": 12899
+    },
+    {
+      "column": "v74",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12899,
+      "parquet_nulls": 12899
+    },
+    {
+      "column": "v75",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12081,
+      "parquet_nulls": 12081
+    },
+    {
+      "column": "v76",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12081,
+      "parquet_nulls": 12081
+    },
+    {
+      "column": "v77",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12081,
+      "parquet_nulls": 12081
+    },
+    {
+      "column": "v78",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12081,
+      "parquet_nulls": 12081
+    },
+    {
+      "column": "v79",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12081,
+      "parquet_nulls": 12081
+    },
+    {
+      "column": "v80",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12081,
+      "parquet_nulls": 12081
+    },
+    {
+      "column": "v81",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12081,
+      "parquet_nulls": 12081
+    },
+    {
+      "column": "v82",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12081,
+      "parquet_nulls": 12081
+    },
+    {
+      "column": "v83",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12081,
+      "parquet_nulls": 12081
+    },
+    {
+      "column": "v84",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12081,
+      "parquet_nulls": 12081
+    },
+    {
+      "column": "v85",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12081,
+      "parquet_nulls": 12081
+    },
+    {
+      "column": "v86",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12081,
+      "parquet_nulls": 12081
+    },
+    {
+      "column": "v87",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12081,
+      "parquet_nulls": 12081
+    },
+    {
+      "column": "v88",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12081,
+      "parquet_nulls": 12081
+    },
+    {
+      "column": "v89",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12081,
+      "parquet_nulls": 12081
+    },
+    {
+      "column": "v90",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12081,
+      "parquet_nulls": 12081
+    },
+    {
+      "column": "v91",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12081,
+      "parquet_nulls": 12081
+    },
+    {
+      "column": "v93",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12081,
+      "parquet_nulls": 12081
+    },
+    {
+      "column": "v94",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 12081,
+      "parquet_nulls": 12081
+    },
+    {
+      "column": "v95",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v96",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v97",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v98",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v99",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v100",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v101",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v102",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v103",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v104",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v105",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v106",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v107",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v108",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v109",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v110",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v111",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v112",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v113",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v114",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v115",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v116",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v117",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v118",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v119",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v120",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v121",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v122",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v123",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v124",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v125",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v126",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v127",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v128",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v129",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v130",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v131",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v132",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v133",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v134",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v135",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v136",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v137",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 0,
+      "parquet_nulls": 0
+    },
+    {
+      "column": "v138",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430906,
+      "parquet_nulls": 430906
+    },
+    {
+      "column": "v139",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430906,
+      "parquet_nulls": 430906
+    },
+    {
+      "column": "v140",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430906,
+      "parquet_nulls": 430906
+    },
+    {
+      "column": "v141",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430906,
+      "parquet_nulls": 430906
+    },
+    {
+      "column": "v142",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430906,
+      "parquet_nulls": 430906
+    },
+    {
+      "column": "v143",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430636,
+      "parquet_nulls": 430636
+    },
+    {
+      "column": "v144",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430636,
+      "parquet_nulls": 430636
+    },
+    {
+      "column": "v145",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430636,
+      "parquet_nulls": 430636
+    },
+    {
+      "column": "v146",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430906,
+      "parquet_nulls": 430906
+    },
+    {
+      "column": "v147",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430906,
+      "parquet_nulls": 430906
+    },
+    {
+      "column": "v148",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430906,
+      "parquet_nulls": 430906
+    },
+    {
+      "column": "v149",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430906,
+      "parquet_nulls": 430906
+    },
+    {
+      "column": "v150",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430636,
+      "parquet_nulls": 430636
+    },
+    {
+      "column": "v151",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430636,
+      "parquet_nulls": 430636
+    },
+    {
+      "column": "v152",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430636,
+      "parquet_nulls": 430636
+    },
+    {
+      "column": "v153",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430906,
+      "parquet_nulls": 430906
+    },
+    {
+      "column": "v155",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430906,
+      "parquet_nulls": 430906
+    },
+    {
+      "column": "v156",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430906,
+      "parquet_nulls": 430906
+    },
+    {
+      "column": "v157",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430906,
+      "parquet_nulls": 430906
+    },
+    {
+      "column": "v158",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430906,
+      "parquet_nulls": 430906
+    },
+    {
+      "column": "v159",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430636,
+      "parquet_nulls": 430636
+    },
+    {
+      "column": "v160",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430636,
+      "parquet_nulls": 430636
+    },
+    {
+      "column": "v161",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430906,
+      "parquet_nulls": 430906
+    },
+    {
+      "column": "v162",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430906,
+      "parquet_nulls": 430906
+    },
+    {
+      "column": "v163",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430906,
+      "parquet_nulls": 430906
+    },
+    {
+      "column": "v164",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430636,
+      "parquet_nulls": 430636
+    },
+    {
+      "column": "v165",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430636,
+      "parquet_nulls": 430636
+    },
+    {
+      "column": "v166",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430636,
+      "parquet_nulls": 430636
+    },
+    {
+      "column": "v167",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v168",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v169",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370316,
+      "parquet_nulls": 370316
+    },
+    {
+      "column": "v170",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370316,
+      "parquet_nulls": 370316
+    },
+    {
+      "column": "v171",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370316,
+      "parquet_nulls": 370316
+    },
+    {
+      "column": "v172",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v173",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v174",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370316,
+      "parquet_nulls": 370316
+    },
+    {
+      "column": "v175",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370316,
+      "parquet_nulls": 370316
+    },
+    {
+      "column": "v176",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v177",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v178",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v179",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v180",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370316,
+      "parquet_nulls": 370316
+    },
+    {
+      "column": "v181",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v182",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v183",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v184",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370316,
+      "parquet_nulls": 370316
+    },
+    {
+      "column": "v185",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370316,
+      "parquet_nulls": 370316
+    },
+    {
+      "column": "v186",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v187",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v188",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370316,
+      "parquet_nulls": 370316
+    },
+    {
+      "column": "v189",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370316,
+      "parquet_nulls": 370316
+    },
+    {
+      "column": "v190",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v191",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v192",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v193",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v194",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370316,
+      "parquet_nulls": 370316
+    },
+    {
+      "column": "v195",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370316,
+      "parquet_nulls": 370316
+    },
+    {
+      "column": "v196",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v197",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370316,
+      "parquet_nulls": 370316
+    },
+    {
+      "column": "v198",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370316,
+      "parquet_nulls": 370316
+    },
+    {
+      "column": "v199",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v200",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370316,
+      "parquet_nulls": 370316
+    },
+    {
+      "column": "v201",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370316,
+      "parquet_nulls": 370316
+    },
+    {
+      "column": "v202",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v203",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v204",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v205",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v206",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v207",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v208",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370316,
+      "parquet_nulls": 370316
+    },
+    {
+      "column": "v209",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370316,
+      "parquet_nulls": 370316
+    },
+    {
+      "column": "v210",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370316,
+      "parquet_nulls": 370316
+    },
+    {
+      "column": "v211",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v212",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v213",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v214",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v215",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v216",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369957,
+      "parquet_nulls": 369957
+    },
+    {
+      "column": "v217",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v218",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v219",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v220",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369375,
+      "parquet_nulls": 369375
+    },
+    {
+      "column": "v221",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369375,
+      "parquet_nulls": 369375
+    },
+    {
+      "column": "v222",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369375,
+      "parquet_nulls": 369375
+    },
+    {
+      "column": "v223",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v224",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v225",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v226",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v227",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369375,
+      "parquet_nulls": 369375
+    },
+    {
+      "column": "v228",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v229",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v230",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v231",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v232",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v233",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v234",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369375,
+      "parquet_nulls": 369375
+    },
+    {
+      "column": "v235",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v236",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v237",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v238",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369375,
+      "parquet_nulls": 369375
+    },
+    {
+      "column": "v239",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369375,
+      "parquet_nulls": 369375
+    },
+    {
+      "column": "v240",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v241",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v242",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v243",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v244",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v245",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369375,
+      "parquet_nulls": 369375
+    },
+    {
+      "column": "v246",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v247",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v248",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v249",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v251",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369375,
+      "parquet_nulls": 369375
+    },
+    {
+      "column": "v252",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v253",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v254",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v255",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369375,
+      "parquet_nulls": 369375
+    },
+    {
+      "column": "v256",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369375,
+      "parquet_nulls": 369375
+    },
+    {
+      "column": "v257",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v258",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v259",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369375,
+      "parquet_nulls": 369375
+    },
+    {
+      "column": "v260",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v261",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v262",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v263",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v264",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v265",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v266",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v267",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v268",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v269",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v270",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369375,
+      "parquet_nulls": 369375
+    },
+    {
+      "column": "v271",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369375,
+      "parquet_nulls": 369375
+    },
+    {
+      "column": "v272",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369375,
+      "parquet_nulls": 369375
+    },
+    {
+      "column": "v273",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v274",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v275",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v276",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v277",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v278",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 379963,
+      "parquet_nulls": 379963
+    },
+    {
+      "column": "v279",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v280",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v281",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 6031,
+      "parquet_nulls": 6031
+    },
+    {
+      "column": "v282",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 6031,
+      "parquet_nulls": 6031
+    },
+    {
+      "column": "v283",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 6031,
+      "parquet_nulls": 6031
+    },
+    {
+      "column": "v284",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v285",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v286",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v287",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v288",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 6031,
+      "parquet_nulls": 6031
+    },
+    {
+      "column": "v289",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 6031,
+      "parquet_nulls": 6031
+    },
+    {
+      "column": "v290",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v292",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v293",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v294",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v295",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v296",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 6031,
+      "parquet_nulls": 6031
+    },
+    {
+      "column": "v297",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v298",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v299",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v300",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 6031,
+      "parquet_nulls": 6031
+    },
+    {
+      "column": "v301",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 6031,
+      "parquet_nulls": 6031
+    },
+    {
+      "column": "v302",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v303",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v304",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v305",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v306",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v307",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v308",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v309",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v310",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v311",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v312",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v313",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 6031,
+      "parquet_nulls": 6031
+    },
+    {
+      "column": "v314",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 6031,
+      "parquet_nulls": 6031
+    },
+    {
+      "column": "v315",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 6031,
+      "parquet_nulls": 6031
+    },
+    {
+      "column": "v316",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v317",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v318",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v319",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v320",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v321",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 3,
+      "parquet_nulls": 3
+    },
+    {
+      "column": "v322",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430260,
+      "parquet_nulls": 430260
+    },
+    {
+      "column": "v323",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430260,
+      "parquet_nulls": 430260
+    },
+    {
+      "column": "v324",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430260,
+      "parquet_nulls": 430260
+    },
+    {
+      "column": "v325",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430260,
+      "parquet_nulls": 430260
+    },
+    {
+      "column": "v326",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430260,
+      "parquet_nulls": 430260
+    },
+    {
+      "column": "v327",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430260,
+      "parquet_nulls": 430260
+    },
+    {
+      "column": "v328",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430260,
+      "parquet_nulls": 430260
+    },
+    {
+      "column": "v329",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430260,
+      "parquet_nulls": 430260
+    },
+    {
+      "column": "v330",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430260,
+      "parquet_nulls": 430260
+    },
+    {
+      "column": "v332",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430260,
+      "parquet_nulls": 430260
+    },
+    {
+      "column": "v333",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430260,
+      "parquet_nulls": 430260
+    },
+    {
+      "column": "v334",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430260,
+      "parquet_nulls": 430260
+    },
+    {
+      "column": "v335",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430260,
+      "parquet_nulls": 430260
+    },
+    {
+      "column": "v336",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430260,
+      "parquet_nulls": 430260
+    },
+    {
+      "column": "v337",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430260,
+      "parquet_nulls": 430260
+    },
+    {
+      "column": "v338",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430260,
+      "parquet_nulls": 430260
+    },
+    {
+      "column": "v339",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 430260,
+      "parquet_nulls": 430260
+    },
+    {
+      "column": "id_01",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 364784,
+      "parquet_nulls": 364784
+    },
+    {
+      "column": "id_02",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369715,
+      "parquet_nulls": 369715
+    },
+    {
+      "column": "id_03",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 440210,
+      "parquet_nulls": 440210
+    },
+    {
+      "column": "id_04",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 440210,
+      "parquet_nulls": 440210
+    },
+    {
+      "column": "id_05",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 371941,
+      "parquet_nulls": 371941
+    },
+    {
+      "column": "id_06",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 371941,
+      "parquet_nulls": 371941
+    },
+    {
+      "column": "id_07",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 501632,
+      "parquet_nulls": 501632
+    },
+    {
+      "column": "id_08",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 501632,
+      "parquet_nulls": 501632
+    },
+    {
+      "column": "id_09",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 432353,
+      "parquet_nulls": 432353
+    },
+    {
+      "column": "id_10",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 432353,
+      "parquet_nulls": 432353
+    },
+    {
+      "column": "id_11",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 369913,
+      "parquet_nulls": 369913
+    },
+    {
+      "column": "id_12",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 364784,
+      "parquet_nulls": 364784
+    },
+    {
+      "column": "id_13",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 376405,
+      "parquet_nulls": 376405
+    },
+    {
+      "column": "id_14",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 435334,
+      "parquet_nulls": 435334
+    },
+    {
+      "column": "id_15",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 369714,
+      "parquet_nulls": 369714
+    },
+    {
+      "column": "id_16",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 380944,
+      "parquet_nulls": 380944
+    },
+    {
+      "column": "id_17",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370725,
+      "parquet_nulls": 370725
+    },
+    {
+      "column": "id_18",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 455816,
+      "parquet_nulls": 455816
+    },
+    {
+      "column": "id_19",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 370785,
+      "parquet_nulls": 370785
+    },
+    {
+      "column": "id_20",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 371058,
+      "parquet_nulls": 371058
+    },
+    {
+      "column": "id_21",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 501632,
+      "parquet_nulls": 501632
+    },
+    {
+      "column": "id_22",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 501629,
+      "parquet_nulls": 501629
+    },
+    {
+      "column": "id_23",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 501629,
+      "parquet_nulls": 501629
+    },
+    {
+      "column": "id_24",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 501951,
+      "parquet_nulls": 501951
+    },
+    {
+      "column": "id_25",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 501652,
+      "parquet_nulls": 501652
+    },
+    {
+      "column": "id_26",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 501644,
+      "parquet_nulls": 501644
+    },
+    {
+      "column": "id_27",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 501629,
+      "parquet_nulls": 501629
+    },
+    {
+      "column": "id_28",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 369913,
+      "parquet_nulls": 369913
+    },
+    {
+      "column": "id_29",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 369913,
+      "parquet_nulls": 369913
+    },
+    {
+      "column": "id_30",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 436032,
+      "parquet_nulls": 436032
+    },
+    {
+      "column": "id_31",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 370066,
+      "parquet_nulls": 370066
+    },
+    {
+      "column": "id_32",
+      "postgresql_type": "double precision",
+      "parquet_arrow_type": "double",
+      "postgresql_nulls": 436020,
+      "parquet_nulls": 436020
+    },
+    {
+      "column": "id_33",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 436020,
+      "parquet_nulls": 436020
+    },
+    {
+      "column": "id_34",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 434516,
+      "parquet_nulls": 434516
+    },
+    {
+      "column": "id_35",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 369714,
+      "parquet_nulls": 369714
+    },
+    {
+      "column": "id_36",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 369714,
+      "parquet_nulls": 369714
+    },
+    {
+      "column": "id_37",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 369714,
+      "parquet_nulls": 369714
+    },
+    {
+      "column": "id_38",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 369714,
+      "parquet_nulls": 369714
+    },
+    {
+      "column": "devicetype",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 369760,
+      "parquet_nulls": 369760
+    },
+    {
+      "column": "deviceinfo",
+      "postgresql_type": "text",
+      "parquet_arrow_type": "string",
+      "postgresql_nulls": 391634,
+      "parquet_nulls": 391634
+    }
+  ]
+}

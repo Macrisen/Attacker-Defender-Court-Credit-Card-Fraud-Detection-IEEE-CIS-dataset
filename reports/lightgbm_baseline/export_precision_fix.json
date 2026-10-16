@@ -1,0 +1,7 @@
+{
+  "completed_at": "2026-10-14T14:27:11.653808+00:00",
+  "change": "Prediction CSV re-exported from original binary probabilities with 17 significant digits. Training csv helper updated for future runs. No model fitting, calibrator selection, threshold selection or metrics changed.",
+  "original_csv_sha256": "63705b27bdabdd0679fd86631c123ff373dd5a80a7a030bc92a1107f0573287d",
+  "corrected_csv_sha256": "598226ca608c15b487413b37ec2547dd4fced9cb5b60691aba95eaefa5fca5a1",
+  "updated_train_py_sha256": "d4f21160cafdb93845687311861efdca8f4843ea9518fcd6a048db37e9e3b2c1"
+}

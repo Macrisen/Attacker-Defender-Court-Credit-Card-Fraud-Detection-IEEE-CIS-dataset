@@ -1,1 +1,9 @@
-*.csv 
+*.csv
+.venv_defender/
+__pycache__/
+.env
+.env.*
+!.env.example
+reports/lightgbm_baseline/cache/
+data/processed/*.parquet
+data/processed/*.tmp

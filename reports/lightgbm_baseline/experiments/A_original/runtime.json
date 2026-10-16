@@ -1,0 +1,18 @@
+{
+  "experiment": "A_original",
+  "feature_count": 431,
+  "categorical_features": 49,
+  "best_iteration": 1242,
+  "inner_validation_average_precision": 0.5848170852473303,
+  "tuning_seconds": 111.86748416704359,
+  "refit_seconds": 117.8736420419882,
+  "training_seconds": 229.7411262090318,
+  "holdout_prediction_seconds": 5.052705500042066,
+  "batch_amortized_prediction_ms": 0.042780383208944915,
+  "model_size_bytes": 15123895,
+  "single_transaction_pipeline_ms_median": 16.943792026722804,
+  "single_transaction_pipeline_ms_p95": 17.932877043494955,
+  "experiment_seconds": 255.60081800003536,
+  "process_peak_rss_mb": 3400.390625,
+  "peak_memory_scope": "Process cumulative high-water RSS, not isolated per-experiment increment"
+}

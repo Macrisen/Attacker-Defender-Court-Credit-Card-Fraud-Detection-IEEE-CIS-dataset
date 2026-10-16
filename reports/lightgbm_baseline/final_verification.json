@@ -1,0 +1,18 @@
+{
+  "verified_at": "2026-10-14T14:28:04.619192+00:00",
+  "protocol_tests": "4 passed",
+  "independent_prediction_verification": "output_verification.json",
+  "live_test_inference": "32 actual public.test_clean rows scored successfully using read-only connection",
+  "post_run_changes": [
+    "Lossless prediction CSV export from original binary probabilities; no model or metric changes.",
+    "Confusion-matrix annotation contrast corrected and report regenerated."
+  ],
+  "final_source_hashes": {
+    "defender/test_protocol.py": "cc78cde236188b5b0d0773d28fa1f1d42d8aefd64fc47790b5922128c3c75df4",
+    "defender/__init__.py": "82c432a5a3b7952c8ae38df84c1c0b170ec5109e8ecd2bc4085621a6d34380bf",
+    "defender/train.py": "d4f21160cafdb93845687311861efdca8f4843ea9518fcd6a048db37e9e3b2c1",
+    "defender/inference.py": "b08be5ab89847d9069ab6245441b562509b50d6740d8ed926994ddd32ae1887e",
+    "defender/verify_outputs.py": "d9632700433bc83547ff136ea8142e1c2385025e05f4cee5993fbad549965b48",
+    "defender/report.py": "e4bf1266836028f0aa028b474301747946e9854e9bf90721897da5d9c034f17e"
+  }
+}

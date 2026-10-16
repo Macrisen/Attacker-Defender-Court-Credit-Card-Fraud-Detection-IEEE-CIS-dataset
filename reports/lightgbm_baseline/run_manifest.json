@@ -1,0 +1,30 @@
+{
+  "started_at": "2026-10-14T14:18:25.318527+00:00",
+  "completed_at": "2026-10-14T14:26:43.366127+00:00",
+  "total_runtime_seconds": 537.4661104580155,
+  "seed": 42,
+  "python": "3.14.6",
+  "platform": "macOS-26.3.1-arm64-arm-64bit-Mach-O",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "psycopg": "3.3.6",
+    "psycopg-binary": "3.3.6",
+    "joblib": "1.6.0",
+    "python-dotenv": "1.2.2",
+    "matplotlib": "3.11.1",
+    "psutil": "7.2.2"
+  },
+  "database_access": "READ ONLY REPEATABLE READ; no writes or schema changes",
+  "source_hashes": {
+    "defender/test_protocol.py": "cc78cde236188b5b0d0773d28fa1f1d42d8aefd64fc47790b5922128c3c75df4",
+    "defender/__init__.py": "82c432a5a3b7952c8ae38df84c1c0b170ec5109e8ecd2bc4085621a6d34380bf",
+    "defender/train.py": "f317930e2f2adeaefd897e3b812e064bee88574a7e66fb71ae0fb6d59058937c",
+    "defender/inference.py": "b08be5ab89847d9069ab6245441b562509b50d6740d8ed926994ddd32ae1887e",
+    "defender/verify_outputs.py": "d9632700433bc83547ff136ea8142e1c2385025e05f4cee5993fbad549965b48",
+    "defender/report.py": "d7ad6761856872cf88e23df509fe79d3a996eed0dc632673ba42f88d9af41d77"
+  }
+}

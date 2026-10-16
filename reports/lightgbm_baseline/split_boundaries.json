@@ -1,0 +1,10 @@
+{
+  "inner_end": 326273,
+  "train_end": 383851,
+  "hold_start": 472432,
+  "total_rows": 590540,
+  "inner_training_cutoff": 8035929.0,
+  "model_training_cutoff": 9614637.0,
+  "prior_holdout_cutoff": 12192842,
+  "sorting": "TransactionDT ascending, then TransactionID; identical timestamps stay together"
+}

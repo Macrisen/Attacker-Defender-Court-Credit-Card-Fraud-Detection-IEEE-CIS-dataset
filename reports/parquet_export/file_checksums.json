@@ -1,0 +1,8 @@
+{
+  "sha256": {
+    "data/processed/test_clean.parquet": "56438468f1f1694814af100ddb6c9ec267df15e16526c41719032e43c4e09e30",
+    "data/processed/train_clean.parquet": "a024c5ca9f5a248b4aad5b5657aecce7a124fdab41ce7cae63d17f15b5e4c6dd"
+  },
+  "rerun_existing_file_protection": "PASS",
+  "test_has_no_isfraud": "PASS"
+}

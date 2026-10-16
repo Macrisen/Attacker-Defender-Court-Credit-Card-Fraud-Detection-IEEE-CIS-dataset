@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "prediction_rows": 118108,
+  "metric_rows_recomputed": 6,
+  "checks": [
+    "unique IDs",
+    "lossless probability CSV round trip",
+    "saved labels",
+    "AP and ROC AUC",
+    "confusion matrices",
+    "realized rewards",
+    "all primary decisions",
+    "required report files"
+  ]
+}

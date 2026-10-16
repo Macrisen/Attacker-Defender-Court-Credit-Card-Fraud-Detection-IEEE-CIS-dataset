@@ -1,0 +1,48 @@
+2026-10-16 18:22:17,345 INFO train_clean: exported 50000/590540 rows
+2026-10-16 18:22:19,905 INFO train_clean: exported 100000/590540 rows
+2026-10-16 18:22:22,242 INFO train_clean: exported 150000/590540 rows
+2026-10-16 18:22:24,408 INFO train_clean: exported 200000/590540 rows
+2026-10-16 18:22:26,618 INFO train_clean: exported 250000/590540 rows
+2026-10-16 18:22:28,783 INFO train_clean: exported 300000/590540 rows
+2026-10-16 18:22:30,953 INFO train_clean: exported 350000/590540 rows
+2026-10-16 18:22:33,166 INFO train_clean: exported 400000/590540 rows
+2026-10-16 18:22:35,354 INFO train_clean: exported 450000/590540 rows
+2026-10-16 18:22:37,553 INFO train_clean: exported 500000/590540 rows
+2026-10-16 18:22:39,847 INFO train_clean: exported 550000/590540 rows
+2026-10-16 18:22:41,677 INFO train_clean: exported 590540/590540 rows
+2026-10-16 18:22:43,716 INFO train_clean: verified every value in 50000/590540 rows
+2026-10-16 18:22:45,992 INFO train_clean: verified every value in 100000/590540 rows
+2026-10-16 18:22:48,141 INFO train_clean: verified every value in 150000/590540 rows
+2026-10-16 18:22:50,167 INFO train_clean: verified every value in 200000/590540 rows
+2026-10-16 18:22:52,208 INFO train_clean: verified every value in 250000/590540 rows
+2026-10-16 18:22:54,192 INFO train_clean: verified every value in 300000/590540 rows
+2026-10-16 18:22:56,215 INFO train_clean: verified every value in 350000/590540 rows
+2026-10-16 18:22:58,219 INFO train_clean: verified every value in 400000/590540 rows
+2026-10-16 18:23:00,204 INFO train_clean: verified every value in 450000/590540 rows
+2026-10-16 18:23:02,173 INFO train_clean: verified every value in 500000/590540 rows
+2026-10-16 18:23:04,383 INFO train_clean: verified every value in 550000/590540 rows
+2026-10-16 18:23:06,008 INFO train_clean: verified every value in 590540/590540 rows
+2026-10-16 18:23:09,807 INFO test_clean: exported 50000/506691 rows
+2026-10-16 18:23:12,102 INFO test_clean: exported 100000/506691 rows
+2026-10-16 18:23:14,429 INFO test_clean: exported 150000/506691 rows
+2026-10-16 18:23:16,638 INFO test_clean: exported 200000/506691 rows
+2026-10-16 18:23:18,985 INFO test_clean: exported 250000/506691 rows
+2026-10-16 18:23:21,263 INFO test_clean: exported 300000/506691 rows
+2026-10-16 18:23:23,563 INFO test_clean: exported 350000/506691 rows
+2026-10-16 18:23:25,917 INFO test_clean: exported 400000/506691 rows
+2026-10-16 18:23:28,358 INFO test_clean: exported 450000/506691 rows
+2026-10-16 18:23:31,018 INFO test_clean: exported 500000/506691 rows
+2026-10-16 18:23:31,375 INFO test_clean: exported 506691/506691 rows
+2026-10-16 18:23:33,320 INFO test_clean: verified every value in 50000/506691 rows
+2026-10-16 18:23:35,343 INFO test_clean: verified every value in 100000/506691 rows
+2026-10-16 18:23:37,378 INFO test_clean: verified every value in 150000/506691 rows
+2026-10-16 18:23:39,399 INFO test_clean: verified every value in 200000/506691 rows
+2026-10-16 18:23:41,429 INFO test_clean: verified every value in 250000/506691 rows
+2026-10-16 18:23:43,555 INFO test_clean: verified every value in 300000/506691 rows
+2026-10-16 18:23:45,648 INFO test_clean: verified every value in 350000/506691 rows
+2026-10-16 18:23:47,740 INFO test_clean: verified every value in 400000/506691 rows
+2026-10-16 18:23:49,933 INFO test_clean: verified every value in 450000/506691 rows
+2026-10-16 18:23:52,344 INFO test_clean: verified every value in 500000/506691 rows
+2026-10-16 18:23:52,673 INFO test_clean: verified every value in 506691/506691 rows
+2026-10-16 18:23:52,693 INFO PASS: /Users/macrisen/Desktop/credit card fraud detect/data/processed/train_clean.parquet
+2026-10-16 18:23:52,693 INFO PASS: /Users/macrisen/Desktop/credit card fraud detect/data/processed/test_clean.parquet
