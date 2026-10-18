@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/macrisen/Desktop/credit card fraud detect/scripts/remaining_pipeline.py", line 74, in execute_phase
+    result=run_phase(phase,config,root,resume)
+  File "/Users/macrisen/Desktop/credit card fraud detect/scripts/remaining_later_phases.py", line 64, in run_phase
+    if phase=='5':return phase5(config,out,resume)
+                         ~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/macrisen/Desktop/credit card fraud detect/scripts/remaining_later_phases.py", line 138, in phase5
+    updates.extend([dict(version=version,scenario=name,**r) for r in history]);forgetting.extend([dict(version=version,scenario=name,**r) for r in forget]);drift.extend([dict(version=version,scenario=name,**r) for r in dr])
+                                                                                                  ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: dict() got multiple values for keyword argument 'version'

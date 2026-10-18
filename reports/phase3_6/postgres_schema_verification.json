@@ -1,0 +1,8570 @@
+[
+  {
+    "table": "public.train_merge",
+    "rows": 590540,
+    "column_count": 434,
+    "columns": [
+      [
+        "transactionid",
+        "integer",
+        1
+      ],
+      [
+        "isfraud",
+        "smallint",
+        2
+      ],
+      [
+        "transactiondt",
+        "integer",
+        3
+      ],
+      [
+        "transactionamt",
+        "numeric",
+        4
+      ],
+      [
+        "productcd",
+        "text",
+        5
+      ],
+      [
+        "card1",
+        "integer",
+        6
+      ],
+      [
+        "card2",
+        "double precision",
+        7
+      ],
+      [
+        "card3",
+        "double precision",
+        8
+      ],
+      [
+        "card4",
+        "text",
+        9
+      ],
+      [
+        "card5",
+        "double precision",
+        10
+      ],
+      [
+        "card6",
+        "text",
+        11
+      ],
+      [
+        "addr1",
+        "double precision",
+        12
+      ],
+      [
+        "addr2",
+        "double precision",
+        13
+      ],
+      [
+        "dist1",
+        "double precision",
+        14
+      ],
+      [
+        "dist2",
+        "double precision",
+        15
+      ],
+      [
+        "p_emaildomain",
+        "text",
+        16
+      ],
+      [
+        "r_emaildomain",
+        "text",
+        17
+      ],
+      [
+        "c1",
+        "double precision",
+        18
+      ],
+      [
+        "c2",
+        "double precision",
+        19
+      ],
+      [
+        "c3",
+        "double precision",
+        20
+      ],
+      [
+        "c4",
+        "double precision",
+        21
+      ],
+      [
+        "c5",
+        "double precision",
+        22
+      ],
+      [
+        "c6",
+        "double precision",
+        23
+      ],
+      [
+        "c7",
+        "double precision",
+        24
+      ],
+      [
+        "c8",
+        "double precision",
+        25
+      ],
+      [
+        "c9",
+        "double precision",
+        26
+      ],
+      [
+        "c10",
+        "double precision",
+        27
+      ],
+      [
+        "c11",
+        "double precision",
+        28
+      ],
+      [
+        "c12",
+        "double precision",
+        29
+      ],
+      [
+        "c13",
+        "double precision",
+        30
+      ],
+      [
+        "c14",
+        "double precision",
+        31
+      ],
+      [
+        "d1",
+        "double precision",
+        32
+      ],
+      [
+        "d2",
+        "double precision",
+        33
+      ],
+      [
+        "d3",
+        "double precision",
+        34
+      ],
+      [
+        "d4",
+        "double precision",
+        35
+      ],
+      [
+        "d5",
+        "double precision",
+        36
+      ],
+      [
+        "d6",
+        "double precision",
+        37
+      ],
+      [
+        "d7",
+        "double precision",
+        38
+      ],
+      [
+        "d8",
+        "double precision",
+        39
+      ],
+      [
+        "d9",
+        "double precision",
+        40
+      ],
+      [
+        "d10",
+        "double precision",
+        41
+      ],
+      [
+        "d11",
+        "double precision",
+        42
+      ],
+      [
+        "d12",
+        "double precision",
+        43
+      ],
+      [
+        "d13",
+        "double precision",
+        44
+      ],
+      [
+        "d14",
+        "double precision",
+        45
+      ],
+      [
+        "d15",
+        "double precision",
+        46
+      ],
+      [
+        "m1",
+        "text",
+        47
+      ],
+      [
+        "m2",
+        "text",
+        48
+      ],
+      [
+        "m3",
+        "text",
+        49
+      ],
+      [
+        "m4",
+        "text",
+        50
+      ],
+      [
+        "m5",
+        "text",
+        51
+      ],
+      [
+        "m6",
+        "text",
+        52
+      ],
+      [
+        "m7",
+        "text",
+        53
+      ],
+      [
+        "m8",
+        "text",
+        54
+      ],
+      [
+        "m9",
+        "text",
+        55
+      ],
+      [
+        "v1",
+        "double precision",
+        56
+      ],
+      [
+        "v2",
+        "double precision",
+        57
+      ],
+      [
+        "v3",
+        "double precision",
+        58
+      ],
+      [
+        "v4",
+        "double precision",
+        59
+      ],
+      [
+        "v5",
+        "double precision",
+        60
+      ],
+      [
+        "v6",
+        "double precision",
+        61
+      ],
+      [
+        "v7",
+        "double precision",
+        62
+      ],
+      [
+        "v8",
+        "double precision",
+        63
+      ],
+      [
+        "v9",
+        "double precision",
+        64
+      ],
+      [
+        "v10",
+        "double precision",
+        65
+      ],
+      [
+        "v11",
+        "double precision",
+        66
+      ],
+      [
+        "v12",
+        "double precision",
+        67
+      ],
+      [
+        "v13",
+        "double precision",
+        68
+      ],
+      [
+        "v14",
+        "double precision",
+        69
+      ],
+      [
+        "v15",
+        "double precision",
+        70
+      ],
+      [
+        "v16",
+        "double precision",
+        71
+      ],
+      [
+        "v17",
+        "double precision",
+        72
+      ],
+      [
+        "v18",
+        "double precision",
+        73
+      ],
+      [
+        "v19",
+        "double precision",
+        74
+      ],
+      [
+        "v20",
+        "double precision",
+        75
+      ],
+      [
+        "v21",
+        "double precision",
+        76
+      ],
+      [
+        "v22",
+        "double precision",
+        77
+      ],
+      [
+        "v23",
+        "double precision",
+        78
+      ],
+      [
+        "v24",
+        "double precision",
+        79
+      ],
+      [
+        "v25",
+        "double precision",
+        80
+      ],
+      [
+        "v26",
+        "double precision",
+        81
+      ],
+      [
+        "v27",
+        "double precision",
+        82
+      ],
+      [
+        "v28",
+        "double precision",
+        83
+      ],
+      [
+        "v29",
+        "double precision",
+        84
+      ],
+      [
+        "v30",
+        "double precision",
+        85
+      ],
+      [
+        "v31",
+        "double precision",
+        86
+      ],
+      [
+        "v32",
+        "double precision",
+        87
+      ],
+      [
+        "v33",
+        "double precision",
+        88
+      ],
+      [
+        "v34",
+        "double precision",
+        89
+      ],
+      [
+        "v35",
+        "double precision",
+        90
+      ],
+      [
+        "v36",
+        "double precision",
+        91
+      ],
+      [
+        "v37",
+        "double precision",
+        92
+      ],
+      [
+        "v38",
+        "double precision",
+        93
+      ],
+      [
+        "v39",
+        "double precision",
+        94
+      ],
+      [
+        "v40",
+        "double precision",
+        95
+      ],
+      [
+        "v41",
+        "double precision",
+        96
+      ],
+      [
+        "v42",
+        "double precision",
+        97
+      ],
+      [
+        "v43",
+        "double precision",
+        98
+      ],
+      [
+        "v44",
+        "double precision",
+        99
+      ],
+      [
+        "v45",
+        "double precision",
+        100
+      ],
+      [
+        "v46",
+        "double precision",
+        101
+      ],
+      [
+        "v47",
+        "double precision",
+        102
+      ],
+      [
+        "v48",
+        "double precision",
+        103
+      ],
+      [
+        "v49",
+        "double precision",
+        104
+      ],
+      [
+        "v50",
+        "double precision",
+        105
+      ],
+      [
+        "v51",
+        "double precision",
+        106
+      ],
+      [
+        "v52",
+        "double precision",
+        107
+      ],
+      [
+        "v53",
+        "double precision",
+        108
+      ],
+      [
+        "v54",
+        "double precision",
+        109
+      ],
+      [
+        "v55",
+        "double precision",
+        110
+      ],
+      [
+        "v56",
+        "double precision",
+        111
+      ],
+      [
+        "v57",
+        "double precision",
+        112
+      ],
+      [
+        "v58",
+        "double precision",
+        113
+      ],
+      [
+        "v59",
+        "double precision",
+        114
+      ],
+      [
+        "v60",
+        "double precision",
+        115
+      ],
+      [
+        "v61",
+        "double precision",
+        116
+      ],
+      [
+        "v62",
+        "double precision",
+        117
+      ],
+      [
+        "v63",
+        "double precision",
+        118
+      ],
+      [
+        "v64",
+        "double precision",
+        119
+      ],
+      [
+        "v65",
+        "double precision",
+        120
+      ],
+      [
+        "v66",
+        "double precision",
+        121
+      ],
+      [
+        "v67",
+        "double precision",
+        122
+      ],
+      [
+        "v68",
+        "double precision",
+        123
+      ],
+      [
+        "v69",
+        "double precision",
+        124
+      ],
+      [
+        "v70",
+        "double precision",
+        125
+      ],
+      [
+        "v71",
+        "double precision",
+        126
+      ],
+      [
+        "v72",
+        "double precision",
+        127
+      ],
+      [
+        "v73",
+        "double precision",
+        128
+      ],
+      [
+        "v74",
+        "double precision",
+        129
+      ],
+      [
+        "v75",
+        "double precision",
+        130
+      ],
+      [
+        "v76",
+        "double precision",
+        131
+      ],
+      [
+        "v77",
+        "double precision",
+        132
+      ],
+      [
+        "v78",
+        "double precision",
+        133
+      ],
+      [
+        "v79",
+        "double precision",
+        134
+      ],
+      [
+        "v80",
+        "double precision",
+        135
+      ],
+      [
+        "v81",
+        "double precision",
+        136
+      ],
+      [
+        "v82",
+        "double precision",
+        137
+      ],
+      [
+        "v83",
+        "double precision",
+        138
+      ],
+      [
+        "v84",
+        "double precision",
+        139
+      ],
+      [
+        "v85",
+        "double precision",
+        140
+      ],
+      [
+        "v86",
+        "double precision",
+        141
+      ],
+      [
+        "v87",
+        "double precision",
+        142
+      ],
+      [
+        "v88",
+        "double precision",
+        143
+      ],
+      [
+        "v89",
+        "double precision",
+        144
+      ],
+      [
+        "v90",
+        "double precision",
+        145
+      ],
+      [
+        "v91",
+        "double precision",
+        146
+      ],
+      [
+        "v92",
+        "double precision",
+        147
+      ],
+      [
+        "v93",
+        "double precision",
+        148
+      ],
+      [
+        "v94",
+        "double precision",
+        149
+      ],
+      [
+        "v95",
+        "double precision",
+        150
+      ],
+      [
+        "v96",
+        "double precision",
+        151
+      ],
+      [
+        "v97",
+        "double precision",
+        152
+      ],
+      [
+        "v98",
+        "double precision",
+        153
+      ],
+      [
+        "v99",
+        "double precision",
+        154
+      ],
+      [
+        "v100",
+        "double precision",
+        155
+      ],
+      [
+        "v101",
+        "double precision",
+        156
+      ],
+      [
+        "v102",
+        "double precision",
+        157
+      ],
+      [
+        "v103",
+        "double precision",
+        158
+      ],
+      [
+        "v104",
+        "double precision",
+        159
+      ],
+      [
+        "v105",
+        "double precision",
+        160
+      ],
+      [
+        "v106",
+        "double precision",
+        161
+      ],
+      [
+        "v107",
+        "double precision",
+        162
+      ],
+      [
+        "v108",
+        "double precision",
+        163
+      ],
+      [
+        "v109",
+        "double precision",
+        164
+      ],
+      [
+        "v110",
+        "double precision",
+        165
+      ],
+      [
+        "v111",
+        "double precision",
+        166
+      ],
+      [
+        "v112",
+        "double precision",
+        167
+      ],
+      [
+        "v113",
+        "double precision",
+        168
+      ],
+      [
+        "v114",
+        "double precision",
+        169
+      ],
+      [
+        "v115",
+        "double precision",
+        170
+      ],
+      [
+        "v116",
+        "double precision",
+        171
+      ],
+      [
+        "v117",
+        "double precision",
+        172
+      ],
+      [
+        "v118",
+        "double precision",
+        173
+      ],
+      [
+        "v119",
+        "double precision",
+        174
+      ],
+      [
+        "v120",
+        "double precision",
+        175
+      ],
+      [
+        "v121",
+        "double precision",
+        176
+      ],
+      [
+        "v122",
+        "double precision",
+        177
+      ],
+      [
+        "v123",
+        "double precision",
+        178
+      ],
+      [
+        "v124",
+        "double precision",
+        179
+      ],
+      [
+        "v125",
+        "double precision",
+        180
+      ],
+      [
+        "v126",
+        "double precision",
+        181
+      ],
+      [
+        "v127",
+        "double precision",
+        182
+      ],
+      [
+        "v128",
+        "double precision",
+        183
+      ],
+      [
+        "v129",
+        "double precision",
+        184
+      ],
+      [
+        "v130",
+        "double precision",
+        185
+      ],
+      [
+        "v131",
+        "double precision",
+        186
+      ],
+      [
+        "v132",
+        "double precision",
+        187
+      ],
+      [
+        "v133",
+        "double precision",
+        188
+      ],
+      [
+        "v134",
+        "double precision",
+        189
+      ],
+      [
+        "v135",
+        "double precision",
+        190
+      ],
+      [
+        "v136",
+        "double precision",
+        191
+      ],
+      [
+        "v137",
+        "double precision",
+        192
+      ],
+      [
+        "v138",
+        "double precision",
+        193
+      ],
+      [
+        "v139",
+        "double precision",
+        194
+      ],
+      [
+        "v140",
+        "double precision",
+        195
+      ],
+      [
+        "v141",
+        "double precision",
+        196
+      ],
+      [
+        "v142",
+        "double precision",
+        197
+      ],
+      [
+        "v143",
+        "double precision",
+        198
+      ],
+      [
+        "v144",
+        "double precision",
+        199
+      ],
+      [
+        "v145",
+        "double precision",
+        200
+      ],
+      [
+        "v146",
+        "double precision",
+        201
+      ],
+      [
+        "v147",
+        "double precision",
+        202
+      ],
+      [
+        "v148",
+        "double precision",
+        203
+      ],
+      [
+        "v149",
+        "double precision",
+        204
+      ],
+      [
+        "v150",
+        "double precision",
+        205
+      ],
+      [
+        "v151",
+        "double precision",
+        206
+      ],
+      [
+        "v152",
+        "double precision",
+        207
+      ],
+      [
+        "v153",
+        "double precision",
+        208
+      ],
+      [
+        "v154",
+        "double precision",
+        209
+      ],
+      [
+        "v155",
+        "double precision",
+        210
+      ],
+      [
+        "v156",
+        "double precision",
+        211
+      ],
+      [
+        "v157",
+        "double precision",
+        212
+      ],
+      [
+        "v158",
+        "double precision",
+        213
+      ],
+      [
+        "v159",
+        "double precision",
+        214
+      ],
+      [
+        "v160",
+        "double precision",
+        215
+      ],
+      [
+        "v161",
+        "double precision",
+        216
+      ],
+      [
+        "v162",
+        "double precision",
+        217
+      ],
+      [
+        "v163",
+        "double precision",
+        218
+      ],
+      [
+        "v164",
+        "double precision",
+        219
+      ],
+      [
+        "v165",
+        "double precision",
+        220
+      ],
+      [
+        "v166",
+        "double precision",
+        221
+      ],
+      [
+        "v167",
+        "double precision",
+        222
+      ],
+      [
+        "v168",
+        "double precision",
+        223
+      ],
+      [
+        "v169",
+        "double precision",
+        224
+      ],
+      [
+        "v170",
+        "double precision",
+        225
+      ],
+      [
+        "v171",
+        "double precision",
+        226
+      ],
+      [
+        "v172",
+        "double precision",
+        227
+      ],
+      [
+        "v173",
+        "double precision",
+        228
+      ],
+      [
+        "v174",
+        "double precision",
+        229
+      ],
+      [
+        "v175",
+        "double precision",
+        230
+      ],
+      [
+        "v176",
+        "double precision",
+        231
+      ],
+      [
+        "v177",
+        "double precision",
+        232
+      ],
+      [
+        "v178",
+        "double precision",
+        233
+      ],
+      [
+        "v179",
+        "double precision",
+        234
+      ],
+      [
+        "v180",
+        "double precision",
+        235
+      ],
+      [
+        "v181",
+        "double precision",
+        236
+      ],
+      [
+        "v182",
+        "double precision",
+        237
+      ],
+      [
+        "v183",
+        "double precision",
+        238
+      ],
+      [
+        "v184",
+        "double precision",
+        239
+      ],
+      [
+        "v185",
+        "double precision",
+        240
+      ],
+      [
+        "v186",
+        "double precision",
+        241
+      ],
+      [
+        "v187",
+        "double precision",
+        242
+      ],
+      [
+        "v188",
+        "double precision",
+        243
+      ],
+      [
+        "v189",
+        "double precision",
+        244
+      ],
+      [
+        "v190",
+        "double precision",
+        245
+      ],
+      [
+        "v191",
+        "double precision",
+        246
+      ],
+      [
+        "v192",
+        "double precision",
+        247
+      ],
+      [
+        "v193",
+        "double precision",
+        248
+      ],
+      [
+        "v194",
+        "double precision",
+        249
+      ],
+      [
+        "v195",
+        "double precision",
+        250
+      ],
+      [
+        "v196",
+        "double precision",
+        251
+      ],
+      [
+        "v197",
+        "double precision",
+        252
+      ],
+      [
+        "v198",
+        "double precision",
+        253
+      ],
+      [
+        "v199",
+        "double precision",
+        254
+      ],
+      [
+        "v200",
+        "double precision",
+        255
+      ],
+      [
+        "v201",
+        "double precision",
+        256
+      ],
+      [
+        "v202",
+        "double precision",
+        257
+      ],
+      [
+        "v203",
+        "double precision",
+        258
+      ],
+      [
+        "v204",
+        "double precision",
+        259
+      ],
+      [
+        "v205",
+        "double precision",
+        260
+      ],
+      [
+        "v206",
+        "double precision",
+        261
+      ],
+      [
+        "v207",
+        "double precision",
+        262
+      ],
+      [
+        "v208",
+        "double precision",
+        263
+      ],
+      [
+        "v209",
+        "double precision",
+        264
+      ],
+      [
+        "v210",
+        "double precision",
+        265
+      ],
+      [
+        "v211",
+        "double precision",
+        266
+      ],
+      [
+        "v212",
+        "double precision",
+        267
+      ],
+      [
+        "v213",
+        "double precision",
+        268
+      ],
+      [
+        "v214",
+        "double precision",
+        269
+      ],
+      [
+        "v215",
+        "double precision",
+        270
+      ],
+      [
+        "v216",
+        "double precision",
+        271
+      ],
+      [
+        "v217",
+        "double precision",
+        272
+      ],
+      [
+        "v218",
+        "double precision",
+        273
+      ],
+      [
+        "v219",
+        "double precision",
+        274
+      ],
+      [
+        "v220",
+        "double precision",
+        275
+      ],
+      [
+        "v221",
+        "double precision",
+        276
+      ],
+      [
+        "v222",
+        "double precision",
+        277
+      ],
+      [
+        "v223",
+        "double precision",
+        278
+      ],
+      [
+        "v224",
+        "double precision",
+        279
+      ],
+      [
+        "v225",
+        "double precision",
+        280
+      ],
+      [
+        "v226",
+        "double precision",
+        281
+      ],
+      [
+        "v227",
+        "double precision",
+        282
+      ],
+      [
+        "v228",
+        "double precision",
+        283
+      ],
+      [
+        "v229",
+        "double precision",
+        284
+      ],
+      [
+        "v230",
+        "double precision",
+        285
+      ],
+      [
+        "v231",
+        "double precision",
+        286
+      ],
+      [
+        "v232",
+        "double precision",
+        287
+      ],
+      [
+        "v233",
+        "double precision",
+        288
+      ],
+      [
+        "v234",
+        "double precision",
+        289
+      ],
+      [
+        "v235",
+        "double precision",
+        290
+      ],
+      [
+        "v236",
+        "double precision",
+        291
+      ],
+      [
+        "v237",
+        "double precision",
+        292
+      ],
+      [
+        "v238",
+        "double precision",
+        293
+      ],
+      [
+        "v239",
+        "double precision",
+        294
+      ],
+      [
+        "v240",
+        "double precision",
+        295
+      ],
+      [
+        "v241",
+        "double precision",
+        296
+      ],
+      [
+        "v242",
+        "double precision",
+        297
+      ],
+      [
+        "v243",
+        "double precision",
+        298
+      ],
+      [
+        "v244",
+        "double precision",
+        299
+      ],
+      [
+        "v245",
+        "double precision",
+        300
+      ],
+      [
+        "v246",
+        "double precision",
+        301
+      ],
+      [
+        "v247",
+        "double precision",
+        302
+      ],
+      [
+        "v248",
+        "double precision",
+        303
+      ],
+      [
+        "v249",
+        "double precision",
+        304
+      ],
+      [
+        "v250",
+        "double precision",
+        305
+      ],
+      [
+        "v251",
+        "double precision",
+        306
+      ],
+      [
+        "v252",
+        "double precision",
+        307
+      ],
+      [
+        "v253",
+        "double precision",
+        308
+      ],
+      [
+        "v254",
+        "double precision",
+        309
+      ],
+      [
+        "v255",
+        "double precision",
+        310
+      ],
+      [
+        "v256",
+        "double precision",
+        311
+      ],
+      [
+        "v257",
+        "double precision",
+        312
+      ],
+      [
+        "v258",
+        "double precision",
+        313
+      ],
+      [
+        "v259",
+        "double precision",
+        314
+      ],
+      [
+        "v260",
+        "double precision",
+        315
+      ],
+      [
+        "v261",
+        "double precision",
+        316
+      ],
+      [
+        "v262",
+        "double precision",
+        317
+      ],
+      [
+        "v263",
+        "double precision",
+        318
+      ],
+      [
+        "v264",
+        "double precision",
+        319
+      ],
+      [
+        "v265",
+        "double precision",
+        320
+      ],
+      [
+        "v266",
+        "double precision",
+        321
+      ],
+      [
+        "v267",
+        "double precision",
+        322
+      ],
+      [
+        "v268",
+        "double precision",
+        323
+      ],
+      [
+        "v269",
+        "double precision",
+        324
+      ],
+      [
+        "v270",
+        "double precision",
+        325
+      ],
+      [
+        "v271",
+        "double precision",
+        326
+      ],
+      [
+        "v272",
+        "double precision",
+        327
+      ],
+      [
+        "v273",
+        "double precision",
+        328
+      ],
+      [
+        "v274",
+        "double precision",
+        329
+      ],
+      [
+        "v275",
+        "double precision",
+        330
+      ],
+      [
+        "v276",
+        "double precision",
+        331
+      ],
+      [
+        "v277",
+        "double precision",
+        332
+      ],
+      [
+        "v278",
+        "double precision",
+        333
+      ],
+      [
+        "v279",
+        "double precision",
+        334
+      ],
+      [
+        "v280",
+        "double precision",
+        335
+      ],
+      [
+        "v281",
+        "double precision",
+        336
+      ],
+      [
+        "v282",
+        "double precision",
+        337
+      ],
+      [
+        "v283",
+        "double precision",
+        338
+      ],
+      [
+        "v284",
+        "double precision",
+        339
+      ],
+      [
+        "v285",
+        "double precision",
+        340
+      ],
+      [
+        "v286",
+        "double precision",
+        341
+      ],
+      [
+        "v287",
+        "double precision",
+        342
+      ],
+      [
+        "v288",
+        "double precision",
+        343
+      ],
+      [
+        "v289",
+        "double precision",
+        344
+      ],
+      [
+        "v290",
+        "double precision",
+        345
+      ],
+      [
+        "v291",
+        "double precision",
+        346
+      ],
+      [
+        "v292",
+        "double precision",
+        347
+      ],
+      [
+        "v293",
+        "double precision",
+        348
+      ],
+      [
+        "v294",
+        "double precision",
+        349
+      ],
+      [
+        "v295",
+        "double precision",
+        350
+      ],
+      [
+        "v296",
+        "double precision",
+        351
+      ],
+      [
+        "v297",
+        "double precision",
+        352
+      ],
+      [
+        "v298",
+        "double precision",
+        353
+      ],
+      [
+        "v299",
+        "double precision",
+        354
+      ],
+      [
+        "v300",
+        "double precision",
+        355
+      ],
+      [
+        "v301",
+        "double precision",
+        356
+      ],
+      [
+        "v302",
+        "double precision",
+        357
+      ],
+      [
+        "v303",
+        "double precision",
+        358
+      ],
+      [
+        "v304",
+        "double precision",
+        359
+      ],
+      [
+        "v305",
+        "double precision",
+        360
+      ],
+      [
+        "v306",
+        "double precision",
+        361
+      ],
+      [
+        "v307",
+        "double precision",
+        362
+      ],
+      [
+        "v308",
+        "double precision",
+        363
+      ],
+      [
+        "v309",
+        "double precision",
+        364
+      ],
+      [
+        "v310",
+        "double precision",
+        365
+      ],
+      [
+        "v311",
+        "double precision",
+        366
+      ],
+      [
+        "v312",
+        "double precision",
+        367
+      ],
+      [
+        "v313",
+        "double precision",
+        368
+      ],
+      [
+        "v314",
+        "double precision",
+        369
+      ],
+      [
+        "v315",
+        "double precision",
+        370
+      ],
+      [
+        "v316",
+        "double precision",
+        371
+      ],
+      [
+        "v317",
+        "double precision",
+        372
+      ],
+      [
+        "v318",
+        "double precision",
+        373
+      ],
+      [
+        "v319",
+        "double precision",
+        374
+      ],
+      [
+        "v320",
+        "double precision",
+        375
+      ],
+      [
+        "v321",
+        "double precision",
+        376
+      ],
+      [
+        "v322",
+        "double precision",
+        377
+      ],
+      [
+        "v323",
+        "double precision",
+        378
+      ],
+      [
+        "v324",
+        "double precision",
+        379
+      ],
+      [
+        "v325",
+        "double precision",
+        380
+      ],
+      [
+        "v326",
+        "double precision",
+        381
+      ],
+      [
+        "v327",
+        "double precision",
+        382
+      ],
+      [
+        "v328",
+        "double precision",
+        383
+      ],
+      [
+        "v329",
+        "double precision",
+        384
+      ],
+      [
+        "v330",
+        "double precision",
+        385
+      ],
+      [
+        "v331",
+        "double precision",
+        386
+      ],
+      [
+        "v332",
+        "double precision",
+        387
+      ],
+      [
+        "v333",
+        "double precision",
+        388
+      ],
+      [
+        "v334",
+        "double precision",
+        389
+      ],
+      [
+        "v335",
+        "double precision",
+        390
+      ],
+      [
+        "v336",
+        "double precision",
+        391
+      ],
+      [
+        "v337",
+        "double precision",
+        392
+      ],
+      [
+        "v338",
+        "double precision",
+        393
+      ],
+      [
+        "v339",
+        "double precision",
+        394
+      ],
+      [
+        "id_01",
+        "double precision",
+        395
+      ],
+      [
+        "id_02",
+        "double precision",
+        396
+      ],
+      [
+        "id_03",
+        "double precision",
+        397
+      ],
+      [
+        "id_04",
+        "double precision",
+        398
+      ],
+      [
+        "id_05",
+        "double precision",
+        399
+      ],
+      [
+        "id_06",
+        "double precision",
+        400
+      ],
+      [
+        "id_07",
+        "double precision",
+        401
+      ],
+      [
+        "id_08",
+        "double precision",
+        402
+      ],
+      [
+        "id_09",
+        "double precision",
+        403
+      ],
+      [
+        "id_10",
+        "double precision",
+        404
+      ],
+      [
+        "id_11",
+        "double precision",
+        405
+      ],
+      [
+        "id_12",
+        "text",
+        406
+      ],
+      [
+        "id_13",
+        "double precision",
+        407
+      ],
+      [
+        "id_14",
+        "double precision",
+        408
+      ],
+      [
+        "id_15",
+        "text",
+        409
+      ],
+      [
+        "id_16",
+        "text",
+        410
+      ],
+      [
+        "id_17",
+        "double precision",
+        411
+      ],
+      [
+        "id_18",
+        "double precision",
+        412
+      ],
+      [
+        "id_19",
+        "double precision",
+        413
+      ],
+      [
+        "id_20",
+        "double precision",
+        414
+      ],
+      [
+        "id_21",
+        "double precision",
+        415
+      ],
+      [
+        "id_22",
+        "double precision",
+        416
+      ],
+      [
+        "id_23",
+        "text",
+        417
+      ],
+      [
+        "id_24",
+        "double precision",
+        418
+      ],
+      [
+        "id_25",
+        "double precision",
+        419
+      ],
+      [
+        "id_26",
+        "double precision",
+        420
+      ],
+      [
+        "id_27",
+        "text",
+        421
+      ],
+      [
+        "id_28",
+        "text",
+        422
+      ],
+      [
+        "id_29",
+        "text",
+        423
+      ],
+      [
+        "id_30",
+        "text",
+        424
+      ],
+      [
+        "id_31",
+        "text",
+        425
+      ],
+      [
+        "id_32",
+        "double precision",
+        426
+      ],
+      [
+        "id_33",
+        "text",
+        427
+      ],
+      [
+        "id_34",
+        "text",
+        428
+      ],
+      [
+        "id_35",
+        "text",
+        429
+      ],
+      [
+        "id_36",
+        "text",
+        430
+      ],
+      [
+        "id_37",
+        "text",
+        431
+      ],
+      [
+        "id_38",
+        "text",
+        432
+      ],
+      [
+        "devicetype",
+        "text",
+        433
+      ],
+      [
+        "deviceinfo",
+        "text",
+        434
+      ]
+    ]
+  },
+  {
+    "table": "public.test_merge",
+    "rows": 506691,
+    "column_count": 433,
+    "columns": [
+      [
+        "transactionid",
+        "integer",
+        1
+      ],
+      [
+        "transactiondt",
+        "integer",
+        2
+      ],
+      [
+        "transactionamt",
+        "numeric",
+        3
+      ],
+      [
+        "productcd",
+        "text",
+        4
+      ],
+      [
+        "card1",
+        "integer",
+        5
+      ],
+      [
+        "card2",
+        "double precision",
+        6
+      ],
+      [
+        "card3",
+        "double precision",
+        7
+      ],
+      [
+        "card4",
+        "text",
+        8
+      ],
+      [
+        "card5",
+        "double precision",
+        9
+      ],
+      [
+        "card6",
+        "text",
+        10
+      ],
+      [
+        "addr1",
+        "double precision",
+        11
+      ],
+      [
+        "addr2",
+        "double precision",
+        12
+      ],
+      [
+        "dist1",
+        "double precision",
+        13
+      ],
+      [
+        "dist2",
+        "double precision",
+        14
+      ],
+      [
+        "p_emaildomain",
+        "text",
+        15
+      ],
+      [
+        "r_emaildomain",
+        "text",
+        16
+      ],
+      [
+        "c1",
+        "double precision",
+        17
+      ],
+      [
+        "c2",
+        "double precision",
+        18
+      ],
+      [
+        "c3",
+        "double precision",
+        19
+      ],
+      [
+        "c4",
+        "double precision",
+        20
+      ],
+      [
+        "c5",
+        "double precision",
+        21
+      ],
+      [
+        "c6",
+        "double precision",
+        22
+      ],
+      [
+        "c7",
+        "double precision",
+        23
+      ],
+      [
+        "c8",
+        "double precision",
+        24
+      ],
+      [
+        "c9",
+        "double precision",
+        25
+      ],
+      [
+        "c10",
+        "double precision",
+        26
+      ],
+      [
+        "c11",
+        "double precision",
+        27
+      ],
+      [
+        "c12",
+        "double precision",
+        28
+      ],
+      [
+        "c13",
+        "double precision",
+        29
+      ],
+      [
+        "c14",
+        "double precision",
+        30
+      ],
+      [
+        "d1",
+        "double precision",
+        31
+      ],
+      [
+        "d2",
+        "double precision",
+        32
+      ],
+      [
+        "d3",
+        "double precision",
+        33
+      ],
+      [
+        "d4",
+        "double precision",
+        34
+      ],
+      [
+        "d5",
+        "double precision",
+        35
+      ],
+      [
+        "d6",
+        "double precision",
+        36
+      ],
+      [
+        "d7",
+        "double precision",
+        37
+      ],
+      [
+        "d8",
+        "double precision",
+        38
+      ],
+      [
+        "d9",
+        "double precision",
+        39
+      ],
+      [
+        "d10",
+        "double precision",
+        40
+      ],
+      [
+        "d11",
+        "double precision",
+        41
+      ],
+      [
+        "d12",
+        "double precision",
+        42
+      ],
+      [
+        "d13",
+        "double precision",
+        43
+      ],
+      [
+        "d14",
+        "double precision",
+        44
+      ],
+      [
+        "d15",
+        "double precision",
+        45
+      ],
+      [
+        "m1",
+        "text",
+        46
+      ],
+      [
+        "m2",
+        "text",
+        47
+      ],
+      [
+        "m3",
+        "text",
+        48
+      ],
+      [
+        "m4",
+        "text",
+        49
+      ],
+      [
+        "m5",
+        "text",
+        50
+      ],
+      [
+        "m6",
+        "text",
+        51
+      ],
+      [
+        "m7",
+        "text",
+        52
+      ],
+      [
+        "m8",
+        "text",
+        53
+      ],
+      [
+        "m9",
+        "text",
+        54
+      ],
+      [
+        "v1",
+        "double precision",
+        55
+      ],
+      [
+        "v2",
+        "double precision",
+        56
+      ],
+      [
+        "v3",
+        "double precision",
+        57
+      ],
+      [
+        "v4",
+        "double precision",
+        58
+      ],
+      [
+        "v5",
+        "double precision",
+        59
+      ],
+      [
+        "v6",
+        "double precision",
+        60
+      ],
+      [
+        "v7",
+        "double precision",
+        61
+      ],
+      [
+        "v8",
+        "double precision",
+        62
+      ],
+      [
+        "v9",
+        "double precision",
+        63
+      ],
+      [
+        "v10",
+        "double precision",
+        64
+      ],
+      [
+        "v11",
+        "double precision",
+        65
+      ],
+      [
+        "v12",
+        "double precision",
+        66
+      ],
+      [
+        "v13",
+        "double precision",
+        67
+      ],
+      [
+        "v14",
+        "double precision",
+        68
+      ],
+      [
+        "v15",
+        "double precision",
+        69
+      ],
+      [
+        "v16",
+        "double precision",
+        70
+      ],
+      [
+        "v17",
+        "double precision",
+        71
+      ],
+      [
+        "v18",
+        "double precision",
+        72
+      ],
+      [
+        "v19",
+        "double precision",
+        73
+      ],
+      [
+        "v20",
+        "double precision",
+        74
+      ],
+      [
+        "v21",
+        "double precision",
+        75
+      ],
+      [
+        "v22",
+        "double precision",
+        76
+      ],
+      [
+        "v23",
+        "double precision",
+        77
+      ],
+      [
+        "v24",
+        "double precision",
+        78
+      ],
+      [
+        "v25",
+        "double precision",
+        79
+      ],
+      [
+        "v26",
+        "double precision",
+        80
+      ],
+      [
+        "v27",
+        "double precision",
+        81
+      ],
+      [
+        "v28",
+        "double precision",
+        82
+      ],
+      [
+        "v29",
+        "double precision",
+        83
+      ],
+      [
+        "v30",
+        "double precision",
+        84
+      ],
+      [
+        "v31",
+        "double precision",
+        85
+      ],
+      [
+        "v32",
+        "double precision",
+        86
+      ],
+      [
+        "v33",
+        "double precision",
+        87
+      ],
+      [
+        "v34",
+        "double precision",
+        88
+      ],
+      [
+        "v35",
+        "double precision",
+        89
+      ],
+      [
+        "v36",
+        "double precision",
+        90
+      ],
+      [
+        "v37",
+        "double precision",
+        91
+      ],
+      [
+        "v38",
+        "double precision",
+        92
+      ],
+      [
+        "v39",
+        "double precision",
+        93
+      ],
+      [
+        "v40",
+        "double precision",
+        94
+      ],
+      [
+        "v41",
+        "double precision",
+        95
+      ],
+      [
+        "v42",
+        "double precision",
+        96
+      ],
+      [
+        "v43",
+        "double precision",
+        97
+      ],
+      [
+        "v44",
+        "double precision",
+        98
+      ],
+      [
+        "v45",
+        "double precision",
+        99
+      ],
+      [
+        "v46",
+        "double precision",
+        100
+      ],
+      [
+        "v47",
+        "double precision",
+        101
+      ],
+      [
+        "v48",
+        "double precision",
+        102
+      ],
+      [
+        "v49",
+        "double precision",
+        103
+      ],
+      [
+        "v50",
+        "double precision",
+        104
+      ],
+      [
+        "v51",
+        "double precision",
+        105
+      ],
+      [
+        "v52",
+        "double precision",
+        106
+      ],
+      [
+        "v53",
+        "double precision",
+        107
+      ],
+      [
+        "v54",
+        "double precision",
+        108
+      ],
+      [
+        "v55",
+        "double precision",
+        109
+      ],
+      [
+        "v56",
+        "double precision",
+        110
+      ],
+      [
+        "v57",
+        "double precision",
+        111
+      ],
+      [
+        "v58",
+        "double precision",
+        112
+      ],
+      [
+        "v59",
+        "double precision",
+        113
+      ],
+      [
+        "v60",
+        "double precision",
+        114
+      ],
+      [
+        "v61",
+        "double precision",
+        115
+      ],
+      [
+        "v62",
+        "double precision",
+        116
+      ],
+      [
+        "v63",
+        "double precision",
+        117
+      ],
+      [
+        "v64",
+        "double precision",
+        118
+      ],
+      [
+        "v65",
+        "double precision",
+        119
+      ],
+      [
+        "v66",
+        "double precision",
+        120
+      ],
+      [
+        "v67",
+        "double precision",
+        121
+      ],
+      [
+        "v68",
+        "double precision",
+        122
+      ],
+      [
+        "v69",
+        "double precision",
+        123
+      ],
+      [
+        "v70",
+        "double precision",
+        124
+      ],
+      [
+        "v71",
+        "double precision",
+        125
+      ],
+      [
+        "v72",
+        "double precision",
+        126
+      ],
+      [
+        "v73",
+        "double precision",
+        127
+      ],
+      [
+        "v74",
+        "double precision",
+        128
+      ],
+      [
+        "v75",
+        "double precision",
+        129
+      ],
+      [
+        "v76",
+        "double precision",
+        130
+      ],
+      [
+        "v77",
+        "double precision",
+        131
+      ],
+      [
+        "v78",
+        "double precision",
+        132
+      ],
+      [
+        "v79",
+        "double precision",
+        133
+      ],
+      [
+        "v80",
+        "double precision",
+        134
+      ],
+      [
+        "v81",
+        "double precision",
+        135
+      ],
+      [
+        "v82",
+        "double precision",
+        136
+      ],
+      [
+        "v83",
+        "double precision",
+        137
+      ],
+      [
+        "v84",
+        "double precision",
+        138
+      ],
+      [
+        "v85",
+        "double precision",
+        139
+      ],
+      [
+        "v86",
+        "double precision",
+        140
+      ],
+      [
+        "v87",
+        "double precision",
+        141
+      ],
+      [
+        "v88",
+        "double precision",
+        142
+      ],
+      [
+        "v89",
+        "double precision",
+        143
+      ],
+      [
+        "v90",
+        "double precision",
+        144
+      ],
+      [
+        "v91",
+        "double precision",
+        145
+      ],
+      [
+        "v92",
+        "double precision",
+        146
+      ],
+      [
+        "v93",
+        "double precision",
+        147
+      ],
+      [
+        "v94",
+        "double precision",
+        148
+      ],
+      [
+        "v95",
+        "double precision",
+        149
+      ],
+      [
+        "v96",
+        "double precision",
+        150
+      ],
+      [
+        "v97",
+        "double precision",
+        151
+      ],
+      [
+        "v98",
+        "double precision",
+        152
+      ],
+      [
+        "v99",
+        "double precision",
+        153
+      ],
+      [
+        "v100",
+        "double precision",
+        154
+      ],
+      [
+        "v101",
+        "double precision",
+        155
+      ],
+      [
+        "v102",
+        "double precision",
+        156
+      ],
+      [
+        "v103",
+        "double precision",
+        157
+      ],
+      [
+        "v104",
+        "double precision",
+        158
+      ],
+      [
+        "v105",
+        "double precision",
+        159
+      ],
+      [
+        "v106",
+        "double precision",
+        160
+      ],
+      [
+        "v107",
+        "double precision",
+        161
+      ],
+      [
+        "v108",
+        "double precision",
+        162
+      ],
+      [
+        "v109",
+        "double precision",
+        163
+      ],
+      [
+        "v110",
+        "double precision",
+        164
+      ],
+      [
+        "v111",
+        "double precision",
+        165
+      ],
+      [
+        "v112",
+        "double precision",
+        166
+      ],
+      [
+        "v113",
+        "double precision",
+        167
+      ],
+      [
+        "v114",
+        "double precision",
+        168
+      ],
+      [
+        "v115",
+        "double precision",
+        169
+      ],
+      [
+        "v116",
+        "double precision",
+        170
+      ],
+      [
+        "v117",
+        "double precision",
+        171
+      ],
+      [
+        "v118",
+        "double precision",
+        172
+      ],
+      [
+        "v119",
+        "double precision",
+        173
+      ],
+      [
+        "v120",
+        "double precision",
+        174
+      ],
+      [
+        "v121",
+        "double precision",
+        175
+      ],
+      [
+        "v122",
+        "double precision",
+        176
+      ],
+      [
+        "v123",
+        "double precision",
+        177
+      ],
+      [
+        "v124",
+        "double precision",
+        178
+      ],
+      [
+        "v125",
+        "double precision",
+        179
+      ],
+      [
+        "v126",
+        "double precision",
+        180
+      ],
+      [
+        "v127",
+        "double precision",
+        181
+      ],
+      [
+        "v128",
+        "double precision",
+        182
+      ],
+      [
+        "v129",
+        "double precision",
+        183
+      ],
+      [
+        "v130",
+        "double precision",
+        184
+      ],
+      [
+        "v131",
+        "double precision",
+        185
+      ],
+      [
+        "v132",
+        "double precision",
+        186
+      ],
+      [
+        "v133",
+        "double precision",
+        187
+      ],
+      [
+        "v134",
+        "double precision",
+        188
+      ],
+      [
+        "v135",
+        "double precision",
+        189
+      ],
+      [
+        "v136",
+        "double precision",
+        190
+      ],
+      [
+        "v137",
+        "double precision",
+        191
+      ],
+      [
+        "v138",
+        "double precision",
+        192
+      ],
+      [
+        "v139",
+        "double precision",
+        193
+      ],
+      [
+        "v140",
+        "double precision",
+        194
+      ],
+      [
+        "v141",
+        "double precision",
+        195
+      ],
+      [
+        "v142",
+        "double precision",
+        196
+      ],
+      [
+        "v143",
+        "double precision",
+        197
+      ],
+      [
+        "v144",
+        "double precision",
+        198
+      ],
+      [
+        "v145",
+        "double precision",
+        199
+      ],
+      [
+        "v146",
+        "double precision",
+        200
+      ],
+      [
+        "v147",
+        "double precision",
+        201
+      ],
+      [
+        "v148",
+        "double precision",
+        202
+      ],
+      [
+        "v149",
+        "double precision",
+        203
+      ],
+      [
+        "v150",
+        "double precision",
+        204
+      ],
+      [
+        "v151",
+        "double precision",
+        205
+      ],
+      [
+        "v152",
+        "double precision",
+        206
+      ],
+      [
+        "v153",
+        "double precision",
+        207
+      ],
+      [
+        "v154",
+        "double precision",
+        208
+      ],
+      [
+        "v155",
+        "double precision",
+        209
+      ],
+      [
+        "v156",
+        "double precision",
+        210
+      ],
+      [
+        "v157",
+        "double precision",
+        211
+      ],
+      [
+        "v158",
+        "double precision",
+        212
+      ],
+      [
+        "v159",
+        "double precision",
+        213
+      ],
+      [
+        "v160",
+        "double precision",
+        214
+      ],
+      [
+        "v161",
+        "double precision",
+        215
+      ],
+      [
+        "v162",
+        "double precision",
+        216
+      ],
+      [
+        "v163",
+        "double precision",
+        217
+      ],
+      [
+        "v164",
+        "double precision",
+        218
+      ],
+      [
+        "v165",
+        "double precision",
+        219
+      ],
+      [
+        "v166",
+        "double precision",
+        220
+      ],
+      [
+        "v167",
+        "double precision",
+        221
+      ],
+      [
+        "v168",
+        "double precision",
+        222
+      ],
+      [
+        "v169",
+        "double precision",
+        223
+      ],
+      [
+        "v170",
+        "double precision",
+        224
+      ],
+      [
+        "v171",
+        "double precision",
+        225
+      ],
+      [
+        "v172",
+        "double precision",
+        226
+      ],
+      [
+        "v173",
+        "double precision",
+        227
+      ],
+      [
+        "v174",
+        "double precision",
+        228
+      ],
+      [
+        "v175",
+        "double precision",
+        229
+      ],
+      [
+        "v176",
+        "double precision",
+        230
+      ],
+      [
+        "v177",
+        "double precision",
+        231
+      ],
+      [
+        "v178",
+        "double precision",
+        232
+      ],
+      [
+        "v179",
+        "double precision",
+        233
+      ],
+      [
+        "v180",
+        "double precision",
+        234
+      ],
+      [
+        "v181",
+        "double precision",
+        235
+      ],
+      [
+        "v182",
+        "double precision",
+        236
+      ],
+      [
+        "v183",
+        "double precision",
+        237
+      ],
+      [
+        "v184",
+        "double precision",
+        238
+      ],
+      [
+        "v185",
+        "double precision",
+        239
+      ],
+      [
+        "v186",
+        "double precision",
+        240
+      ],
+      [
+        "v187",
+        "double precision",
+        241
+      ],
+      [
+        "v188",
+        "double precision",
+        242
+      ],
+      [
+        "v189",
+        "double precision",
+        243
+      ],
+      [
+        "v190",
+        "double precision",
+        244
+      ],
+      [
+        "v191",
+        "double precision",
+        245
+      ],
+      [
+        "v192",
+        "double precision",
+        246
+      ],
+      [
+        "v193",
+        "double precision",
+        247
+      ],
+      [
+        "v194",
+        "double precision",
+        248
+      ],
+      [
+        "v195",
+        "double precision",
+        249
+      ],
+      [
+        "v196",
+        "double precision",
+        250
+      ],
+      [
+        "v197",
+        "double precision",
+        251
+      ],
+      [
+        "v198",
+        "double precision",
+        252
+      ],
+      [
+        "v199",
+        "double precision",
+        253
+      ],
+      [
+        "v200",
+        "double precision",
+        254
+      ],
+      [
+        "v201",
+        "double precision",
+        255
+      ],
+      [
+        "v202",
+        "double precision",
+        256
+      ],
+      [
+        "v203",
+        "double precision",
+        257
+      ],
+      [
+        "v204",
+        "double precision",
+        258
+      ],
+      [
+        "v205",
+        "double precision",
+        259
+      ],
+      [
+        "v206",
+        "double precision",
+        260
+      ],
+      [
+        "v207",
+        "double precision",
+        261
+      ],
+      [
+        "v208",
+        "double precision",
+        262
+      ],
+      [
+        "v209",
+        "double precision",
+        263
+      ],
+      [
+        "v210",
+        "double precision",
+        264
+      ],
+      [
+        "v211",
+        "double precision",
+        265
+      ],
+      [
+        "v212",
+        "double precision",
+        266
+      ],
+      [
+        "v213",
+        "double precision",
+        267
+      ],
+      [
+        "v214",
+        "double precision",
+        268
+      ],
+      [
+        "v215",
+        "double precision",
+        269
+      ],
+      [
+        "v216",
+        "double precision",
+        270
+      ],
+      [
+        "v217",
+        "double precision",
+        271
+      ],
+      [
+        "v218",
+        "double precision",
+        272
+      ],
+      [
+        "v219",
+        "double precision",
+        273
+      ],
+      [
+        "v220",
+        "double precision",
+        274
+      ],
+      [
+        "v221",
+        "double precision",
+        275
+      ],
+      [
+        "v222",
+        "double precision",
+        276
+      ],
+      [
+        "v223",
+        "double precision",
+        277
+      ],
+      [
+        "v224",
+        "double precision",
+        278
+      ],
+      [
+        "v225",
+        "double precision",
+        279
+      ],
+      [
+        "v226",
+        "double precision",
+        280
+      ],
+      [
+        "v227",
+        "double precision",
+        281
+      ],
+      [
+        "v228",
+        "double precision",
+        282
+      ],
+      [
+        "v229",
+        "double precision",
+        283
+      ],
+      [
+        "v230",
+        "double precision",
+        284
+      ],
+      [
+        "v231",
+        "double precision",
+        285
+      ],
+      [
+        "v232",
+        "double precision",
+        286
+      ],
+      [
+        "v233",
+        "double precision",
+        287
+      ],
+      [
+        "v234",
+        "double precision",
+        288
+      ],
+      [
+        "v235",
+        "double precision",
+        289
+      ],
+      [
+        "v236",
+        "double precision",
+        290
+      ],
+      [
+        "v237",
+        "double precision",
+        291
+      ],
+      [
+        "v238",
+        "double precision",
+        292
+      ],
+      [
+        "v239",
+        "double precision",
+        293
+      ],
+      [
+        "v240",
+        "double precision",
+        294
+      ],
+      [
+        "v241",
+        "double precision",
+        295
+      ],
+      [
+        "v242",
+        "double precision",
+        296
+      ],
+      [
+        "v243",
+        "double precision",
+        297
+      ],
+      [
+        "v244",
+        "double precision",
+        298
+      ],
+      [
+        "v245",
+        "double precision",
+        299
+      ],
+      [
+        "v246",
+        "double precision",
+        300
+      ],
+      [
+        "v247",
+        "double precision",
+        301
+      ],
+      [
+        "v248",
+        "double precision",
+        302
+      ],
+      [
+        "v249",
+        "double precision",
+        303
+      ],
+      [
+        "v250",
+        "double precision",
+        304
+      ],
+      [
+        "v251",
+        "double precision",
+        305
+      ],
+      [
+        "v252",
+        "double precision",
+        306
+      ],
+      [
+        "v253",
+        "double precision",
+        307
+      ],
+      [
+        "v254",
+        "double precision",
+        308
+      ],
+      [
+        "v255",
+        "double precision",
+        309
+      ],
+      [
+        "v256",
+        "double precision",
+        310
+      ],
+      [
+        "v257",
+        "double precision",
+        311
+      ],
+      [
+        "v258",
+        "double precision",
+        312
+      ],
+      [
+        "v259",
+        "double precision",
+        313
+      ],
+      [
+        "v260",
+        "double precision",
+        314
+      ],
+      [
+        "v261",
+        "double precision",
+        315
+      ],
+      [
+        "v262",
+        "double precision",
+        316
+      ],
+      [
+        "v263",
+        "double precision",
+        317
+      ],
+      [
+        "v264",
+        "double precision",
+        318
+      ],
+      [
+        "v265",
+        "double precision",
+        319
+      ],
+      [
+        "v266",
+        "double precision",
+        320
+      ],
+      [
+        "v267",
+        "double precision",
+        321
+      ],
+      [
+        "v268",
+        "double precision",
+        322
+      ],
+      [
+        "v269",
+        "double precision",
+        323
+      ],
+      [
+        "v270",
+        "double precision",
+        324
+      ],
+      [
+        "v271",
+        "double precision",
+        325
+      ],
+      [
+        "v272",
+        "double precision",
+        326
+      ],
+      [
+        "v273",
+        "double precision",
+        327
+      ],
+      [
+        "v274",
+        "double precision",
+        328
+      ],
+      [
+        "v275",
+        "double precision",
+        329
+      ],
+      [
+        "v276",
+        "double precision",
+        330
+      ],
+      [
+        "v277",
+        "double precision",
+        331
+      ],
+      [
+        "v278",
+        "double precision",
+        332
+      ],
+      [
+        "v279",
+        "double precision",
+        333
+      ],
+      [
+        "v280",
+        "double precision",
+        334
+      ],
+      [
+        "v281",
+        "double precision",
+        335
+      ],
+      [
+        "v282",
+        "double precision",
+        336
+      ],
+      [
+        "v283",
+        "double precision",
+        337
+      ],
+      [
+        "v284",
+        "double precision",
+        338
+      ],
+      [
+        "v285",
+        "double precision",
+        339
+      ],
+      [
+        "v286",
+        "double precision",
+        340
+      ],
+      [
+        "v287",
+        "double precision",
+        341
+      ],
+      [
+        "v288",
+        "double precision",
+        342
+      ],
+      [
+        "v289",
+        "double precision",
+        343
+      ],
+      [
+        "v290",
+        "double precision",
+        344
+      ],
+      [
+        "v291",
+        "double precision",
+        345
+      ],
+      [
+        "v292",
+        "double precision",
+        346
+      ],
+      [
+        "v293",
+        "double precision",
+        347
+      ],
+      [
+        "v294",
+        "double precision",
+        348
+      ],
+      [
+        "v295",
+        "double precision",
+        349
+      ],
+      [
+        "v296",
+        "double precision",
+        350
+      ],
+      [
+        "v297",
+        "double precision",
+        351
+      ],
+      [
+        "v298",
+        "double precision",
+        352
+      ],
+      [
+        "v299",
+        "double precision",
+        353
+      ],
+      [
+        "v300",
+        "double precision",
+        354
+      ],
+      [
+        "v301",
+        "double precision",
+        355
+      ],
+      [
+        "v302",
+        "double precision",
+        356
+      ],
+      [
+        "v303",
+        "double precision",
+        357
+      ],
+      [
+        "v304",
+        "double precision",
+        358
+      ],
+      [
+        "v305",
+        "double precision",
+        359
+      ],
+      [
+        "v306",
+        "double precision",
+        360
+      ],
+      [
+        "v307",
+        "double precision",
+        361
+      ],
+      [
+        "v308",
+        "double precision",
+        362
+      ],
+      [
+        "v309",
+        "double precision",
+        363
+      ],
+      [
+        "v310",
+        "double precision",
+        364
+      ],
+      [
+        "v311",
+        "double precision",
+        365
+      ],
+      [
+        "v312",
+        "double precision",
+        366
+      ],
+      [
+        "v313",
+        "double precision",
+        367
+      ],
+      [
+        "v314",
+        "double precision",
+        368
+      ],
+      [
+        "v315",
+        "double precision",
+        369
+      ],
+      [
+        "v316",
+        "double precision",
+        370
+      ],
+      [
+        "v317",
+        "double precision",
+        371
+      ],
+      [
+        "v318",
+        "double precision",
+        372
+      ],
+      [
+        "v319",
+        "double precision",
+        373
+      ],
+      [
+        "v320",
+        "double precision",
+        374
+      ],
+      [
+        "v321",
+        "double precision",
+        375
+      ],
+      [
+        "v322",
+        "double precision",
+        376
+      ],
+      [
+        "v323",
+        "double precision",
+        377
+      ],
+      [
+        "v324",
+        "double precision",
+        378
+      ],
+      [
+        "v325",
+        "double precision",
+        379
+      ],
+      [
+        "v326",
+        "double precision",
+        380
+      ],
+      [
+        "v327",
+        "double precision",
+        381
+      ],
+      [
+        "v328",
+        "double precision",
+        382
+      ],
+      [
+        "v329",
+        "double precision",
+        383
+      ],
+      [
+        "v330",
+        "double precision",
+        384
+      ],
+      [
+        "v331",
+        "double precision",
+        385
+      ],
+      [
+        "v332",
+        "double precision",
+        386
+      ],
+      [
+        "v333",
+        "double precision",
+        387
+      ],
+      [
+        "v334",
+        "double precision",
+        388
+      ],
+      [
+        "v335",
+        "double precision",
+        389
+      ],
+      [
+        "v336",
+        "double precision",
+        390
+      ],
+      [
+        "v337",
+        "double precision",
+        391
+      ],
+      [
+        "v338",
+        "double precision",
+        392
+      ],
+      [
+        "v339",
+        "double precision",
+        393
+      ],
+      [
+        "id_01",
+        "double precision",
+        394
+      ],
+      [
+        "id_02",
+        "double precision",
+        395
+      ],
+      [
+        "id_03",
+        "double precision",
+        396
+      ],
+      [
+        "id_04",
+        "double precision",
+        397
+      ],
+      [
+        "id_05",
+        "double precision",
+        398
+      ],
+      [
+        "id_06",
+        "double precision",
+        399
+      ],
+      [
+        "id_07",
+        "double precision",
+        400
+      ],
+      [
+        "id_08",
+        "double precision",
+        401
+      ],
+      [
+        "id_09",
+        "double precision",
+        402
+      ],
+      [
+        "id_10",
+        "double precision",
+        403
+      ],
+      [
+        "id_11",
+        "double precision",
+        404
+      ],
+      [
+        "id_12",
+        "text",
+        405
+      ],
+      [
+        "id_13",
+        "double precision",
+        406
+      ],
+      [
+        "id_14",
+        "double precision",
+        407
+      ],
+      [
+        "id_15",
+        "text",
+        408
+      ],
+      [
+        "id_16",
+        "text",
+        409
+      ],
+      [
+        "id_17",
+        "double precision",
+        410
+      ],
+      [
+        "id_18",
+        "double precision",
+        411
+      ],
+      [
+        "id_19",
+        "double precision",
+        412
+      ],
+      [
+        "id_20",
+        "double precision",
+        413
+      ],
+      [
+        "id_21",
+        "double precision",
+        414
+      ],
+      [
+        "id_22",
+        "double precision",
+        415
+      ],
+      [
+        "id_23",
+        "text",
+        416
+      ],
+      [
+        "id_24",
+        "double precision",
+        417
+      ],
+      [
+        "id_25",
+        "double precision",
+        418
+      ],
+      [
+        "id_26",
+        "double precision",
+        419
+      ],
+      [
+        "id_27",
+        "text",
+        420
+      ],
+      [
+        "id_28",
+        "text",
+        421
+      ],
+      [
+        "id_29",
+        "text",
+        422
+      ],
+      [
+        "id_30",
+        "text",
+        423
+      ],
+      [
+        "id_31",
+        "text",
+        424
+      ],
+      [
+        "id_32",
+        "double precision",
+        425
+      ],
+      [
+        "id_33",
+        "text",
+        426
+      ],
+      [
+        "id_34",
+        "text",
+        427
+      ],
+      [
+        "id_35",
+        "text",
+        428
+      ],
+      [
+        "id_36",
+        "text",
+        429
+      ],
+      [
+        "id_37",
+        "text",
+        430
+      ],
+      [
+        "id_38",
+        "text",
+        431
+      ],
+      [
+        "devicetype",
+        "text",
+        432
+      ],
+      [
+        "deviceinfo",
+        "text",
+        433
+      ]
+    ]
+  },
+  {
+    "table": "public.train_clean",
+    "rows": 590540,
+    "column_count": 421,
+    "columns": [
+      [
+        "transactionid",
+        "integer",
+        1
+      ],
+      [
+        "isfraud",
+        "smallint",
+        2
+      ],
+      [
+        "transactiondt",
+        "integer",
+        3
+      ],
+      [
+        "transactionamt",
+        "numeric",
+        4
+      ],
+      [
+        "productcd",
+        "text",
+        5
+      ],
+      [
+        "card1",
+        "integer",
+        6
+      ],
+      [
+        "card2",
+        "double precision",
+        7
+      ],
+      [
+        "card3",
+        "double precision",
+        8
+      ],
+      [
+        "card4",
+        "text",
+        9
+      ],
+      [
+        "card5",
+        "double precision",
+        10
+      ],
+      [
+        "card6",
+        "text",
+        11
+      ],
+      [
+        "addr1",
+        "double precision",
+        12
+      ],
+      [
+        "addr2",
+        "double precision",
+        13
+      ],
+      [
+        "dist1",
+        "double precision",
+        14
+      ],
+      [
+        "dist2",
+        "double precision",
+        15
+      ],
+      [
+        "p_emaildomain",
+        "text",
+        16
+      ],
+      [
+        "r_emaildomain",
+        "text",
+        17
+      ],
+      [
+        "c1",
+        "double precision",
+        18
+      ],
+      [
+        "c3",
+        "double precision",
+        19
+      ],
+      [
+        "c4",
+        "double precision",
+        20
+      ],
+      [
+        "c5",
+        "double precision",
+        21
+      ],
+      [
+        "c7",
+        "double precision",
+        22
+      ],
+      [
+        "c8",
+        "double precision",
+        23
+      ],
+      [
+        "c9",
+        "double precision",
+        24
+      ],
+      [
+        "c10",
+        "double precision",
+        25
+      ],
+      [
+        "c12",
+        "double precision",
+        26
+      ],
+      [
+        "c13",
+        "double precision",
+        27
+      ],
+      [
+        "c14",
+        "double precision",
+        28
+      ],
+      [
+        "d1",
+        "double precision",
+        29
+      ],
+      [
+        "d2",
+        "double precision",
+        30
+      ],
+      [
+        "d3",
+        "double precision",
+        31
+      ],
+      [
+        "d4",
+        "double precision",
+        32
+      ],
+      [
+        "d5",
+        "double precision",
+        33
+      ],
+      [
+        "d6",
+        "double precision",
+        34
+      ],
+      [
+        "d7",
+        "double precision",
+        35
+      ],
+      [
+        "d8",
+        "double precision",
+        36
+      ],
+      [
+        "d9",
+        "double precision",
+        37
+      ],
+      [
+        "d10",
+        "double precision",
+        38
+      ],
+      [
+        "d11",
+        "double precision",
+        39
+      ],
+      [
+        "d12",
+        "double precision",
+        40
+      ],
+      [
+        "d13",
+        "double precision",
+        41
+      ],
+      [
+        "d14",
+        "double precision",
+        42
+      ],
+      [
+        "d15",
+        "double precision",
+        43
+      ],
+      [
+        "m1",
+        "text",
+        44
+      ],
+      [
+        "m2",
+        "text",
+        45
+      ],
+      [
+        "m3",
+        "text",
+        46
+      ],
+      [
+        "m4",
+        "text",
+        47
+      ],
+      [
+        "m5",
+        "text",
+        48
+      ],
+      [
+        "m6",
+        "text",
+        49
+      ],
+      [
+        "m7",
+        "text",
+        50
+      ],
+      [
+        "m8",
+        "text",
+        51
+      ],
+      [
+        "m9",
+        "text",
+        52
+      ],
+      [
+        "v1",
+        "double precision",
+        53
+      ],
+      [
+        "v2",
+        "double precision",
+        54
+      ],
+      [
+        "v3",
+        "double precision",
+        55
+      ],
+      [
+        "v4",
+        "double precision",
+        56
+      ],
+      [
+        "v5",
+        "double precision",
+        57
+      ],
+      [
+        "v6",
+        "double precision",
+        58
+      ],
+      [
+        "v7",
+        "double precision",
+        59
+      ],
+      [
+        "v8",
+        "double precision",
+        60
+      ],
+      [
+        "v9",
+        "double precision",
+        61
+      ],
+      [
+        "v10",
+        "double precision",
+        62
+      ],
+      [
+        "v11",
+        "double precision",
+        63
+      ],
+      [
+        "v12",
+        "double precision",
+        64
+      ],
+      [
+        "v13",
+        "double precision",
+        65
+      ],
+      [
+        "v14",
+        "double precision",
+        66
+      ],
+      [
+        "v15",
+        "double precision",
+        67
+      ],
+      [
+        "v16",
+        "double precision",
+        68
+      ],
+      [
+        "v17",
+        "double precision",
+        69
+      ],
+      [
+        "v19",
+        "double precision",
+        70
+      ],
+      [
+        "v20",
+        "double precision",
+        71
+      ],
+      [
+        "v21",
+        "double precision",
+        72
+      ],
+      [
+        "v22",
+        "double precision",
+        73
+      ],
+      [
+        "v23",
+        "double precision",
+        74
+      ],
+      [
+        "v24",
+        "double precision",
+        75
+      ],
+      [
+        "v25",
+        "double precision",
+        76
+      ],
+      [
+        "v26",
+        "double precision",
+        77
+      ],
+      [
+        "v27",
+        "double precision",
+        78
+      ],
+      [
+        "v29",
+        "double precision",
+        79
+      ],
+      [
+        "v30",
+        "double precision",
+        80
+      ],
+      [
+        "v31",
+        "double precision",
+        81
+      ],
+      [
+        "v33",
+        "double precision",
+        82
+      ],
+      [
+        "v34",
+        "double precision",
+        83
+      ],
+      [
+        "v35",
+        "double precision",
+        84
+      ],
+      [
+        "v36",
+        "double precision",
+        85
+      ],
+      [
+        "v37",
+        "double precision",
+        86
+      ],
+      [
+        "v38",
+        "double precision",
+        87
+      ],
+      [
+        "v39",
+        "double precision",
+        88
+      ],
+      [
+        "v40",
+        "double precision",
+        89
+      ],
+      [
+        "v41",
+        "double precision",
+        90
+      ],
+      [
+        "v42",
+        "double precision",
+        91
+      ],
+      [
+        "v43",
+        "double precision",
+        92
+      ],
+      [
+        "v44",
+        "double precision",
+        93
+      ],
+      [
+        "v45",
+        "double precision",
+        94
+      ],
+      [
+        "v46",
+        "double precision",
+        95
+      ],
+      [
+        "v47",
+        "double precision",
+        96
+      ],
+      [
+        "v48",
+        "double precision",
+        97
+      ],
+      [
+        "v49",
+        "double precision",
+        98
+      ],
+      [
+        "v50",
+        "double precision",
+        99
+      ],
+      [
+        "v51",
+        "double precision",
+        100
+      ],
+      [
+        "v52",
+        "double precision",
+        101
+      ],
+      [
+        "v53",
+        "double precision",
+        102
+      ],
+      [
+        "v54",
+        "double precision",
+        103
+      ],
+      [
+        "v55",
+        "double precision",
+        104
+      ],
+      [
+        "v56",
+        "double precision",
+        105
+      ],
+      [
+        "v58",
+        "double precision",
+        106
+      ],
+      [
+        "v59",
+        "double precision",
+        107
+      ],
+      [
+        "v60",
+        "double precision",
+        108
+      ],
+      [
+        "v61",
+        "double precision",
+        109
+      ],
+      [
+        "v62",
+        "double precision",
+        110
+      ],
+      [
+        "v63",
+        "double precision",
+        111
+      ],
+      [
+        "v64",
+        "double precision",
+        112
+      ],
+      [
+        "v65",
+        "double precision",
+        113
+      ],
+      [
+        "v66",
+        "double precision",
+        114
+      ],
+      [
+        "v67",
+        "double precision",
+        115
+      ],
+      [
+        "v68",
+        "double precision",
+        116
+      ],
+      [
+        "v69",
+        "double precision",
+        117
+      ],
+      [
+        "v70",
+        "double precision",
+        118
+      ],
+      [
+        "v72",
+        "double precision",
+        119
+      ],
+      [
+        "v73",
+        "double precision",
+        120
+      ],
+      [
+        "v74",
+        "double precision",
+        121
+      ],
+      [
+        "v75",
+        "double precision",
+        122
+      ],
+      [
+        "v76",
+        "double precision",
+        123
+      ],
+      [
+        "v77",
+        "double precision",
+        124
+      ],
+      [
+        "v78",
+        "double precision",
+        125
+      ],
+      [
+        "v79",
+        "double precision",
+        126
+      ],
+      [
+        "v80",
+        "double precision",
+        127
+      ],
+      [
+        "v81",
+        "double precision",
+        128
+      ],
+      [
+        "v82",
+        "double precision",
+        129
+      ],
+      [
+        "v83",
+        "double precision",
+        130
+      ],
+      [
+        "v84",
+        "double precision",
+        131
+      ],
+      [
+        "v85",
+        "double precision",
+        132
+      ],
+      [
+        "v86",
+        "double precision",
+        133
+      ],
+      [
+        "v87",
+        "double precision",
+        134
+      ],
+      [
+        "v88",
+        "double precision",
+        135
+      ],
+      [
+        "v89",
+        "double precision",
+        136
+      ],
+      [
+        "v90",
+        "double precision",
+        137
+      ],
+      [
+        "v91",
+        "double precision",
+        138
+      ],
+      [
+        "v93",
+        "double precision",
+        139
+      ],
+      [
+        "v94",
+        "double precision",
+        140
+      ],
+      [
+        "v95",
+        "double precision",
+        141
+      ],
+      [
+        "v96",
+        "double precision",
+        142
+      ],
+      [
+        "v97",
+        "double precision",
+        143
+      ],
+      [
+        "v98",
+        "double precision",
+        144
+      ],
+      [
+        "v99",
+        "double precision",
+        145
+      ],
+      [
+        "v100",
+        "double precision",
+        146
+      ],
+      [
+        "v101",
+        "double precision",
+        147
+      ],
+      [
+        "v102",
+        "double precision",
+        148
+      ],
+      [
+        "v103",
+        "double precision",
+        149
+      ],
+      [
+        "v104",
+        "double precision",
+        150
+      ],
+      [
+        "v105",
+        "double precision",
+        151
+      ],
+      [
+        "v106",
+        "double precision",
+        152
+      ],
+      [
+        "v107",
+        "double precision",
+        153
+      ],
+      [
+        "v108",
+        "double precision",
+        154
+      ],
+      [
+        "v109",
+        "double precision",
+        155
+      ],
+      [
+        "v110",
+        "double precision",
+        156
+      ],
+      [
+        "v111",
+        "double precision",
+        157
+      ],
+      [
+        "v112",
+        "double precision",
+        158
+      ],
+      [
+        "v113",
+        "double precision",
+        159
+      ],
+      [
+        "v114",
+        "double precision",
+        160
+      ],
+      [
+        "v115",
+        "double precision",
+        161
+      ],
+      [
+        "v116",
+        "double precision",
+        162
+      ],
+      [
+        "v117",
+        "double precision",
+        163
+      ],
+      [
+        "v118",
+        "double precision",
+        164
+      ],
+      [
+        "v119",
+        "double precision",
+        165
+      ],
+      [
+        "v120",
+        "double precision",
+        166
+      ],
+      [
+        "v121",
+        "double precision",
+        167
+      ],
+      [
+        "v122",
+        "double precision",
+        168
+      ],
+      [
+        "v123",
+        "double precision",
+        169
+      ],
+      [
+        "v124",
+        "double precision",
+        170
+      ],
+      [
+        "v125",
+        "double precision",
+        171
+      ],
+      [
+        "v126",
+        "double precision",
+        172
+      ],
+      [
+        "v127",
+        "double precision",
+        173
+      ],
+      [
+        "v128",
+        "double precision",
+        174
+      ],
+      [
+        "v129",
+        "double precision",
+        175
+      ],
+      [
+        "v130",
+        "double precision",
+        176
+      ],
+      [
+        "v131",
+        "double precision",
+        177
+      ],
+      [
+        "v132",
+        "double precision",
+        178
+      ],
+      [
+        "v133",
+        "double precision",
+        179
+      ],
+      [
+        "v134",
+        "double precision",
+        180
+      ],
+      [
+        "v135",
+        "double precision",
+        181
+      ],
+      [
+        "v136",
+        "double precision",
+        182
+      ],
+      [
+        "v137",
+        "double precision",
+        183
+      ],
+      [
+        "v138",
+        "double precision",
+        184
+      ],
+      [
+        "v139",
+        "double precision",
+        185
+      ],
+      [
+        "v140",
+        "double precision",
+        186
+      ],
+      [
+        "v141",
+        "double precision",
+        187
+      ],
+      [
+        "v142",
+        "double precision",
+        188
+      ],
+      [
+        "v143",
+        "double precision",
+        189
+      ],
+      [
+        "v144",
+        "double precision",
+        190
+      ],
+      [
+        "v145",
+        "double precision",
+        191
+      ],
+      [
+        "v146",
+        "double precision",
+        192
+      ],
+      [
+        "v147",
+        "double precision",
+        193
+      ],
+      [
+        "v148",
+        "double precision",
+        194
+      ],
+      [
+        "v149",
+        "double precision",
+        195
+      ],
+      [
+        "v150",
+        "double precision",
+        196
+      ],
+      [
+        "v151",
+        "double precision",
+        197
+      ],
+      [
+        "v152",
+        "double precision",
+        198
+      ],
+      [
+        "v153",
+        "double precision",
+        199
+      ],
+      [
+        "v155",
+        "double precision",
+        200
+      ],
+      [
+        "v156",
+        "double precision",
+        201
+      ],
+      [
+        "v157",
+        "double precision",
+        202
+      ],
+      [
+        "v158",
+        "double precision",
+        203
+      ],
+      [
+        "v159",
+        "double precision",
+        204
+      ],
+      [
+        "v160",
+        "double precision",
+        205
+      ],
+      [
+        "v161",
+        "double precision",
+        206
+      ],
+      [
+        "v162",
+        "double precision",
+        207
+      ],
+      [
+        "v163",
+        "double precision",
+        208
+      ],
+      [
+        "v164",
+        "double precision",
+        209
+      ],
+      [
+        "v165",
+        "double precision",
+        210
+      ],
+      [
+        "v166",
+        "double precision",
+        211
+      ],
+      [
+        "v167",
+        "double precision",
+        212
+      ],
+      [
+        "v168",
+        "double precision",
+        213
+      ],
+      [
+        "v169",
+        "double precision",
+        214
+      ],
+      [
+        "v170",
+        "double precision",
+        215
+      ],
+      [
+        "v171",
+        "double precision",
+        216
+      ],
+      [
+        "v172",
+        "double precision",
+        217
+      ],
+      [
+        "v173",
+        "double precision",
+        218
+      ],
+      [
+        "v174",
+        "double precision",
+        219
+      ],
+      [
+        "v175",
+        "double precision",
+        220
+      ],
+      [
+        "v176",
+        "double precision",
+        221
+      ],
+      [
+        "v177",
+        "double precision",
+        222
+      ],
+      [
+        "v178",
+        "double precision",
+        223
+      ],
+      [
+        "v179",
+        "double precision",
+        224
+      ],
+      [
+        "v180",
+        "double precision",
+        225
+      ],
+      [
+        "v181",
+        "double precision",
+        226
+      ],
+      [
+        "v182",
+        "double precision",
+        227
+      ],
+      [
+        "v183",
+        "double precision",
+        228
+      ],
+      [
+        "v184",
+        "double precision",
+        229
+      ],
+      [
+        "v185",
+        "double precision",
+        230
+      ],
+      [
+        "v186",
+        "double precision",
+        231
+      ],
+      [
+        "v187",
+        "double precision",
+        232
+      ],
+      [
+        "v188",
+        "double precision",
+        233
+      ],
+      [
+        "v189",
+        "double precision",
+        234
+      ],
+      [
+        "v190",
+        "double precision",
+        235
+      ],
+      [
+        "v191",
+        "double precision",
+        236
+      ],
+      [
+        "v192",
+        "double precision",
+        237
+      ],
+      [
+        "v193",
+        "double precision",
+        238
+      ],
+      [
+        "v194",
+        "double precision",
+        239
+      ],
+      [
+        "v195",
+        "double precision",
+        240
+      ],
+      [
+        "v196",
+        "double precision",
+        241
+      ],
+      [
+        "v197",
+        "double precision",
+        242
+      ],
+      [
+        "v198",
+        "double precision",
+        243
+      ],
+      [
+        "v199",
+        "double precision",
+        244
+      ],
+      [
+        "v200",
+        "double precision",
+        245
+      ],
+      [
+        "v201",
+        "double precision",
+        246
+      ],
+      [
+        "v202",
+        "double precision",
+        247
+      ],
+      [
+        "v203",
+        "double precision",
+        248
+      ],
+      [
+        "v204",
+        "double precision",
+        249
+      ],
+      [
+        "v205",
+        "double precision",
+        250
+      ],
+      [
+        "v206",
+        "double precision",
+        251
+      ],
+      [
+        "v207",
+        "double precision",
+        252
+      ],
+      [
+        "v208",
+        "double precision",
+        253
+      ],
+      [
+        "v209",
+        "double precision",
+        254
+      ],
+      [
+        "v210",
+        "double precision",
+        255
+      ],
+      [
+        "v211",
+        "double precision",
+        256
+      ],
+      [
+        "v212",
+        "double precision",
+        257
+      ],
+      [
+        "v213",
+        "double precision",
+        258
+      ],
+      [
+        "v214",
+        "double precision",
+        259
+      ],
+      [
+        "v215",
+        "double precision",
+        260
+      ],
+      [
+        "v216",
+        "double precision",
+        261
+      ],
+      [
+        "v217",
+        "double precision",
+        262
+      ],
+      [
+        "v218",
+        "double precision",
+        263
+      ],
+      [
+        "v219",
+        "double precision",
+        264
+      ],
+      [
+        "v220",
+        "double precision",
+        265
+      ],
+      [
+        "v221",
+        "double precision",
+        266
+      ],
+      [
+        "v222",
+        "double precision",
+        267
+      ],
+      [
+        "v223",
+        "double precision",
+        268
+      ],
+      [
+        "v224",
+        "double precision",
+        269
+      ],
+      [
+        "v225",
+        "double precision",
+        270
+      ],
+      [
+        "v226",
+        "double precision",
+        271
+      ],
+      [
+        "v227",
+        "double precision",
+        272
+      ],
+      [
+        "v228",
+        "double precision",
+        273
+      ],
+      [
+        "v229",
+        "double precision",
+        274
+      ],
+      [
+        "v230",
+        "double precision",
+        275
+      ],
+      [
+        "v231",
+        "double precision",
+        276
+      ],
+      [
+        "v232",
+        "double precision",
+        277
+      ],
+      [
+        "v233",
+        "double precision",
+        278
+      ],
+      [
+        "v234",
+        "double precision",
+        279
+      ],
+      [
+        "v235",
+        "double precision",
+        280
+      ],
+      [
+        "v236",
+        "double precision",
+        281
+      ],
+      [
+        "v237",
+        "double precision",
+        282
+      ],
+      [
+        "v238",
+        "double precision",
+        283
+      ],
+      [
+        "v239",
+        "double precision",
+        284
+      ],
+      [
+        "v240",
+        "double precision",
+        285
+      ],
+      [
+        "v241",
+        "double precision",
+        286
+      ],
+      [
+        "v242",
+        "double precision",
+        287
+      ],
+      [
+        "v243",
+        "double precision",
+        288
+      ],
+      [
+        "v244",
+        "double precision",
+        289
+      ],
+      [
+        "v245",
+        "double precision",
+        290
+      ],
+      [
+        "v246",
+        "double precision",
+        291
+      ],
+      [
+        "v247",
+        "double precision",
+        292
+      ],
+      [
+        "v248",
+        "double precision",
+        293
+      ],
+      [
+        "v249",
+        "double precision",
+        294
+      ],
+      [
+        "v251",
+        "double precision",
+        295
+      ],
+      [
+        "v252",
+        "double precision",
+        296
+      ],
+      [
+        "v253",
+        "double precision",
+        297
+      ],
+      [
+        "v254",
+        "double precision",
+        298
+      ],
+      [
+        "v255",
+        "double precision",
+        299
+      ],
+      [
+        "v256",
+        "double precision",
+        300
+      ],
+      [
+        "v257",
+        "double precision",
+        301
+      ],
+      [
+        "v258",
+        "double precision",
+        302
+      ],
+      [
+        "v259",
+        "double precision",
+        303
+      ],
+      [
+        "v260",
+        "double precision",
+        304
+      ],
+      [
+        "v261",
+        "double precision",
+        305
+      ],
+      [
+        "v262",
+        "double precision",
+        306
+      ],
+      [
+        "v263",
+        "double precision",
+        307
+      ],
+      [
+        "v264",
+        "double precision",
+        308
+      ],
+      [
+        "v265",
+        "double precision",
+        309
+      ],
+      [
+        "v266",
+        "double precision",
+        310
+      ],
+      [
+        "v267",
+        "double precision",
+        311
+      ],
+      [
+        "v268",
+        "double precision",
+        312
+      ],
+      [
+        "v269",
+        "double precision",
+        313
+      ],
+      [
+        "v270",
+        "double precision",
+        314
+      ],
+      [
+        "v271",
+        "double precision",
+        315
+      ],
+      [
+        "v272",
+        "double precision",
+        316
+      ],
+      [
+        "v273",
+        "double precision",
+        317
+      ],
+      [
+        "v274",
+        "double precision",
+        318
+      ],
+      [
+        "v275",
+        "double precision",
+        319
+      ],
+      [
+        "v276",
+        "double precision",
+        320
+      ],
+      [
+        "v277",
+        "double precision",
+        321
+      ],
+      [
+        "v278",
+        "double precision",
+        322
+      ],
+      [
+        "v279",
+        "double precision",
+        323
+      ],
+      [
+        "v280",
+        "double precision",
+        324
+      ],
+      [
+        "v281",
+        "double precision",
+        325
+      ],
+      [
+        "v282",
+        "double precision",
+        326
+      ],
+      [
+        "v283",
+        "double precision",
+        327
+      ],
+      [
+        "v284",
+        "double precision",
+        328
+      ],
+      [
+        "v285",
+        "double precision",
+        329
+      ],
+      [
+        "v286",
+        "double precision",
+        330
+      ],
+      [
+        "v287",
+        "double precision",
+        331
+      ],
+      [
+        "v288",
+        "double precision",
+        332
+      ],
+      [
+        "v289",
+        "double precision",
+        333
+      ],
+      [
+        "v290",
+        "double precision",
+        334
+      ],
+      [
+        "v292",
+        "double precision",
+        335
+      ],
+      [
+        "v293",
+        "double precision",
+        336
+      ],
+      [
+        "v294",
+        "double precision",
+        337
+      ],
+      [
+        "v295",
+        "double precision",
+        338
+      ],
+      [
+        "v296",
+        "double precision",
+        339
+      ],
+      [
+        "v297",
+        "double precision",
+        340
+      ],
+      [
+        "v298",
+        "double precision",
+        341
+      ],
+      [
+        "v299",
+        "double precision",
+        342
+      ],
+      [
+        "v300",
+        "double precision",
+        343
+      ],
+      [
+        "v301",
+        "double precision",
+        344
+      ],
+      [
+        "v302",
+        "double precision",
+        345
+      ],
+      [
+        "v303",
+        "double precision",
+        346
+      ],
+      [
+        "v304",
+        "double precision",
+        347
+      ],
+      [
+        "v305",
+        "double precision",
+        348
+      ],
+      [
+        "v306",
+        "double precision",
+        349
+      ],
+      [
+        "v307",
+        "double precision",
+        350
+      ],
+      [
+        "v308",
+        "double precision",
+        351
+      ],
+      [
+        "v309",
+        "double precision",
+        352
+      ],
+      [
+        "v310",
+        "double precision",
+        353
+      ],
+      [
+        "v311",
+        "double precision",
+        354
+      ],
+      [
+        "v312",
+        "double precision",
+        355
+      ],
+      [
+        "v313",
+        "double precision",
+        356
+      ],
+      [
+        "v314",
+        "double precision",
+        357
+      ],
+      [
+        "v315",
+        "double precision",
+        358
+      ],
+      [
+        "v316",
+        "double precision",
+        359
+      ],
+      [
+        "v317",
+        "double precision",
+        360
+      ],
+      [
+        "v318",
+        "double precision",
+        361
+      ],
+      [
+        "v319",
+        "double precision",
+        362
+      ],
+      [
+        "v320",
+        "double precision",
+        363
+      ],
+      [
+        "v321",
+        "double precision",
+        364
+      ],
+      [
+        "v322",
+        "double precision",
+        365
+      ],
+      [
+        "v323",
+        "double precision",
+        366
+      ],
+      [
+        "v324",
+        "double precision",
+        367
+      ],
+      [
+        "v325",
+        "double precision",
+        368
+      ],
+      [
+        "v326",
+        "double precision",
+        369
+      ],
+      [
+        "v327",
+        "double precision",
+        370
+      ],
+      [
+        "v328",
+        "double precision",
+        371
+      ],
+      [
+        "v329",
+        "double precision",
+        372
+      ],
+      [
+        "v330",
+        "double precision",
+        373
+      ],
+      [
+        "v332",
+        "double precision",
+        374
+      ],
+      [
+        "v333",
+        "double precision",
+        375
+      ],
+      [
+        "v334",
+        "double precision",
+        376
+      ],
+      [
+        "v335",
+        "double precision",
+        377
+      ],
+      [
+        "v336",
+        "double precision",
+        378
+      ],
+      [
+        "v337",
+        "double precision",
+        379
+      ],
+      [
+        "v338",
+        "double precision",
+        380
+      ],
+      [
+        "v339",
+        "double precision",
+        381
+      ],
+      [
+        "id_01",
+        "double precision",
+        382
+      ],
+      [
+        "id_02",
+        "double precision",
+        383
+      ],
+      [
+        "id_03",
+        "double precision",
+        384
+      ],
+      [
+        "id_04",
+        "double precision",
+        385
+      ],
+      [
+        "id_05",
+        "double precision",
+        386
+      ],
+      [
+        "id_06",
+        "double precision",
+        387
+      ],
+      [
+        "id_07",
+        "double precision",
+        388
+      ],
+      [
+        "id_08",
+        "double precision",
+        389
+      ],
+      [
+        "id_09",
+        "double precision",
+        390
+      ],
+      [
+        "id_10",
+        "double precision",
+        391
+      ],
+      [
+        "id_11",
+        "double precision",
+        392
+      ],
+      [
+        "id_12",
+        "text",
+        393
+      ],
+      [
+        "id_13",
+        "double precision",
+        394
+      ],
+      [
+        "id_14",
+        "double precision",
+        395
+      ],
+      [
+        "id_15",
+        "text",
+        396
+      ],
+      [
+        "id_16",
+        "text",
+        397
+      ],
+      [
+        "id_17",
+        "double precision",
+        398
+      ],
+      [
+        "id_18",
+        "double precision",
+        399
+      ],
+      [
+        "id_19",
+        "double precision",
+        400
+      ],
+      [
+        "id_20",
+        "double precision",
+        401
+      ],
+      [
+        "id_21",
+        "double precision",
+        402
+      ],
+      [
+        "id_22",
+        "double precision",
+        403
+      ],
+      [
+        "id_23",
+        "text",
+        404
+      ],
+      [
+        "id_24",
+        "double precision",
+        405
+      ],
+      [
+        "id_25",
+        "double precision",
+        406
+      ],
+      [
+        "id_26",
+        "double precision",
+        407
+      ],
+      [
+        "id_27",
+        "text",
+        408
+      ],
+      [
+        "id_28",
+        "text",
+        409
+      ],
+      [
+        "id_29",
+        "text",
+        410
+      ],
+      [
+        "id_30",
+        "text",
+        411
+      ],
+      [
+        "id_31",
+        "text",
+        412
+      ],
+      [
+        "id_32",
+        "double precision",
+        413
+      ],
+      [
+        "id_33",
+        "text",
+        414
+      ],
+      [
+        "id_34",
+        "text",
+        415
+      ],
+      [
+        "id_35",
+        "text",
+        416
+      ],
+      [
+        "id_36",
+        "text",
+        417
+      ],
+      [
+        "id_37",
+        "text",
+        418
+      ],
+      [
+        "id_38",
+        "text",
+        419
+      ],
+      [
+        "devicetype",
+        "text",
+        420
+      ],
+      [
+        "deviceinfo",
+        "text",
+        421
+      ]
+    ]
+  },
+  {
+    "table": "public.test_clean",
+    "rows": 506691,
+    "column_count": 420,
+    "columns": [
+      [
+        "transactionid",
+        "integer",
+        1
+      ],
+      [
+        "transactiondt",
+        "integer",
+        2
+      ],
+      [
+        "transactionamt",
+        "numeric",
+        3
+      ],
+      [
+        "productcd",
+        "text",
+        4
+      ],
+      [
+        "card1",
+        "integer",
+        5
+      ],
+      [
+        "card2",
+        "double precision",
+        6
+      ],
+      [
+        "card3",
+        "double precision",
+        7
+      ],
+      [
+        "card4",
+        "text",
+        8
+      ],
+      [
+        "card5",
+        "double precision",
+        9
+      ],
+      [
+        "card6",
+        "text",
+        10
+      ],
+      [
+        "addr1",
+        "double precision",
+        11
+      ],
+      [
+        "addr2",
+        "double precision",
+        12
+      ],
+      [
+        "dist1",
+        "double precision",
+        13
+      ],
+      [
+        "dist2",
+        "double precision",
+        14
+      ],
+      [
+        "p_emaildomain",
+        "text",
+        15
+      ],
+      [
+        "r_emaildomain",
+        "text",
+        16
+      ],
+      [
+        "c1",
+        "double precision",
+        17
+      ],
+      [
+        "c3",
+        "double precision",
+        18
+      ],
+      [
+        "c4",
+        "double precision",
+        19
+      ],
+      [
+        "c5",
+        "double precision",
+        20
+      ],
+      [
+        "c7",
+        "double precision",
+        21
+      ],
+      [
+        "c8",
+        "double precision",
+        22
+      ],
+      [
+        "c9",
+        "double precision",
+        23
+      ],
+      [
+        "c10",
+        "double precision",
+        24
+      ],
+      [
+        "c12",
+        "double precision",
+        25
+      ],
+      [
+        "c13",
+        "double precision",
+        26
+      ],
+      [
+        "c14",
+        "double precision",
+        27
+      ],
+      [
+        "d1",
+        "double precision",
+        28
+      ],
+      [
+        "d2",
+        "double precision",
+        29
+      ],
+      [
+        "d3",
+        "double precision",
+        30
+      ],
+      [
+        "d4",
+        "double precision",
+        31
+      ],
+      [
+        "d5",
+        "double precision",
+        32
+      ],
+      [
+        "d6",
+        "double precision",
+        33
+      ],
+      [
+        "d7",
+        "double precision",
+        34
+      ],
+      [
+        "d8",
+        "double precision",
+        35
+      ],
+      [
+        "d9",
+        "double precision",
+        36
+      ],
+      [
+        "d10",
+        "double precision",
+        37
+      ],
+      [
+        "d11",
+        "double precision",
+        38
+      ],
+      [
+        "d12",
+        "double precision",
+        39
+      ],
+      [
+        "d13",
+        "double precision",
+        40
+      ],
+      [
+        "d14",
+        "double precision",
+        41
+      ],
+      [
+        "d15",
+        "double precision",
+        42
+      ],
+      [
+        "m1",
+        "text",
+        43
+      ],
+      [
+        "m2",
+        "text",
+        44
+      ],
+      [
+        "m3",
+        "text",
+        45
+      ],
+      [
+        "m4",
+        "text",
+        46
+      ],
+      [
+        "m5",
+        "text",
+        47
+      ],
+      [
+        "m6",
+        "text",
+        48
+      ],
+      [
+        "m7",
+        "text",
+        49
+      ],
+      [
+        "m8",
+        "text",
+        50
+      ],
+      [
+        "m9",
+        "text",
+        51
+      ],
+      [
+        "v1",
+        "double precision",
+        52
+      ],
+      [
+        "v2",
+        "double precision",
+        53
+      ],
+      [
+        "v3",
+        "double precision",
+        54
+      ],
+      [
+        "v4",
+        "double precision",
+        55
+      ],
+      [
+        "v5",
+        "double precision",
+        56
+      ],
+      [
+        "v6",
+        "double precision",
+        57
+      ],
+      [
+        "v7",
+        "double precision",
+        58
+      ],
+      [
+        "v8",
+        "double precision",
+        59
+      ],
+      [
+        "v9",
+        "double precision",
+        60
+      ],
+      [
+        "v10",
+        "double precision",
+        61
+      ],
+      [
+        "v11",
+        "double precision",
+        62
+      ],
+      [
+        "v12",
+        "double precision",
+        63
+      ],
+      [
+        "v13",
+        "double precision",
+        64
+      ],
+      [
+        "v14",
+        "double precision",
+        65
+      ],
+      [
+        "v15",
+        "double precision",
+        66
+      ],
+      [
+        "v16",
+        "double precision",
+        67
+      ],
+      [
+        "v17",
+        "double precision",
+        68
+      ],
+      [
+        "v19",
+        "double precision",
+        69
+      ],
+      [
+        "v20",
+        "double precision",
+        70
+      ],
+      [
+        "v21",
+        "double precision",
+        71
+      ],
+      [
+        "v22",
+        "double precision",
+        72
+      ],
+      [
+        "v23",
+        "double precision",
+        73
+      ],
+      [
+        "v24",
+        "double precision",
+        74
+      ],
+      [
+        "v25",
+        "double precision",
+        75
+      ],
+      [
+        "v26",
+        "double precision",
+        76
+      ],
+      [
+        "v27",
+        "double precision",
+        77
+      ],
+      [
+        "v29",
+        "double precision",
+        78
+      ],
+      [
+        "v30",
+        "double precision",
+        79
+      ],
+      [
+        "v31",
+        "double precision",
+        80
+      ],
+      [
+        "v33",
+        "double precision",
+        81
+      ],
+      [
+        "v34",
+        "double precision",
+        82
+      ],
+      [
+        "v35",
+        "double precision",
+        83
+      ],
+      [
+        "v36",
+        "double precision",
+        84
+      ],
+      [
+        "v37",
+        "double precision",
+        85
+      ],
+      [
+        "v38",
+        "double precision",
+        86
+      ],
+      [
+        "v39",
+        "double precision",
+        87
+      ],
+      [
+        "v40",
+        "double precision",
+        88
+      ],
+      [
+        "v41",
+        "double precision",
+        89
+      ],
+      [
+        "v42",
+        "double precision",
+        90
+      ],
+      [
+        "v43",
+        "double precision",
+        91
+      ],
+      [
+        "v44",
+        "double precision",
+        92
+      ],
+      [
+        "v45",
+        "double precision",
+        93
+      ],
+      [
+        "v46",
+        "double precision",
+        94
+      ],
+      [
+        "v47",
+        "double precision",
+        95
+      ],
+      [
+        "v48",
+        "double precision",
+        96
+      ],
+      [
+        "v49",
+        "double precision",
+        97
+      ],
+      [
+        "v50",
+        "double precision",
+        98
+      ],
+      [
+        "v51",
+        "double precision",
+        99
+      ],
+      [
+        "v52",
+        "double precision",
+        100
+      ],
+      [
+        "v53",
+        "double precision",
+        101
+      ],
+      [
+        "v54",
+        "double precision",
+        102
+      ],
+      [
+        "v55",
+        "double precision",
+        103
+      ],
+      [
+        "v56",
+        "double precision",
+        104
+      ],
+      [
+        "v58",
+        "double precision",
+        105
+      ],
+      [
+        "v59",
+        "double precision",
+        106
+      ],
+      [
+        "v60",
+        "double precision",
+        107
+      ],
+      [
+        "v61",
+        "double precision",
+        108
+      ],
+      [
+        "v62",
+        "double precision",
+        109
+      ],
+      [
+        "v63",
+        "double precision",
+        110
+      ],
+      [
+        "v64",
+        "double precision",
+        111
+      ],
+      [
+        "v65",
+        "double precision",
+        112
+      ],
+      [
+        "v66",
+        "double precision",
+        113
+      ],
+      [
+        "v67",
+        "double precision",
+        114
+      ],
+      [
+        "v68",
+        "double precision",
+        115
+      ],
+      [
+        "v69",
+        "double precision",
+        116
+      ],
+      [
+        "v70",
+        "double precision",
+        117
+      ],
+      [
+        "v72",
+        "double precision",
+        118
+      ],
+      [
+        "v73",
+        "double precision",
+        119
+      ],
+      [
+        "v74",
+        "double precision",
+        120
+      ],
+      [
+        "v75",
+        "double precision",
+        121
+      ],
+      [
+        "v76",
+        "double precision",
+        122
+      ],
+      [
+        "v77",
+        "double precision",
+        123
+      ],
+      [
+        "v78",
+        "double precision",
+        124
+      ],
+      [
+        "v79",
+        "double precision",
+        125
+      ],
+      [
+        "v80",
+        "double precision",
+        126
+      ],
+      [
+        "v81",
+        "double precision",
+        127
+      ],
+      [
+        "v82",
+        "double precision",
+        128
+      ],
+      [
+        "v83",
+        "double precision",
+        129
+      ],
+      [
+        "v84",
+        "double precision",
+        130
+      ],
+      [
+        "v85",
+        "double precision",
+        131
+      ],
+      [
+        "v86",
+        "double precision",
+        132
+      ],
+      [
+        "v87",
+        "double precision",
+        133
+      ],
+      [
+        "v88",
+        "double precision",
+        134
+      ],
+      [
+        "v89",
+        "double precision",
+        135
+      ],
+      [
+        "v90",
+        "double precision",
+        136
+      ],
+      [
+        "v91",
+        "double precision",
+        137
+      ],
+      [
+        "v93",
+        "double precision",
+        138
+      ],
+      [
+        "v94",
+        "double precision",
+        139
+      ],
+      [
+        "v95",
+        "double precision",
+        140
+      ],
+      [
+        "v96",
+        "double precision",
+        141
+      ],
+      [
+        "v97",
+        "double precision",
+        142
+      ],
+      [
+        "v98",
+        "double precision",
+        143
+      ],
+      [
+        "v99",
+        "double precision",
+        144
+      ],
+      [
+        "v100",
+        "double precision",
+        145
+      ],
+      [
+        "v101",
+        "double precision",
+        146
+      ],
+      [
+        "v102",
+        "double precision",
+        147
+      ],
+      [
+        "v103",
+        "double precision",
+        148
+      ],
+      [
+        "v104",
+        "double precision",
+        149
+      ],
+      [
+        "v105",
+        "double precision",
+        150
+      ],
+      [
+        "v106",
+        "double precision",
+        151
+      ],
+      [
+        "v107",
+        "double precision",
+        152
+      ],
+      [
+        "v108",
+        "double precision",
+        153
+      ],
+      [
+        "v109",
+        "double precision",
+        154
+      ],
+      [
+        "v110",
+        "double precision",
+        155
+      ],
+      [
+        "v111",
+        "double precision",
+        156
+      ],
+      [
+        "v112",
+        "double precision",
+        157
+      ],
+      [
+        "v113",
+        "double precision",
+        158
+      ],
+      [
+        "v114",
+        "double precision",
+        159
+      ],
+      [
+        "v115",
+        "double precision",
+        160
+      ],
+      [
+        "v116",
+        "double precision",
+        161
+      ],
+      [
+        "v117",
+        "double precision",
+        162
+      ],
+      [
+        "v118",
+        "double precision",
+        163
+      ],
+      [
+        "v119",
+        "double precision",
+        164
+      ],
+      [
+        "v120",
+        "double precision",
+        165
+      ],
+      [
+        "v121",
+        "double precision",
+        166
+      ],
+      [
+        "v122",
+        "double precision",
+        167
+      ],
+      [
+        "v123",
+        "double precision",
+        168
+      ],
+      [
+        "v124",
+        "double precision",
+        169
+      ],
+      [
+        "v125",
+        "double precision",
+        170
+      ],
+      [
+        "v126",
+        "double precision",
+        171
+      ],
+      [
+        "v127",
+        "double precision",
+        172
+      ],
+      [
+        "v128",
+        "double precision",
+        173
+      ],
+      [
+        "v129",
+        "double precision",
+        174
+      ],
+      [
+        "v130",
+        "double precision",
+        175
+      ],
+      [
+        "v131",
+        "double precision",
+        176
+      ],
+      [
+        "v132",
+        "double precision",
+        177
+      ],
+      [
+        "v133",
+        "double precision",
+        178
+      ],
+      [
+        "v134",
+        "double precision",
+        179
+      ],
+      [
+        "v135",
+        "double precision",
+        180
+      ],
+      [
+        "v136",
+        "double precision",
+        181
+      ],
+      [
+        "v137",
+        "double precision",
+        182
+      ],
+      [
+        "v138",
+        "double precision",
+        183
+      ],
+      [
+        "v139",
+        "double precision",
+        184
+      ],
+      [
+        "v140",
+        "double precision",
+        185
+      ],
+      [
+        "v141",
+        "double precision",
+        186
+      ],
+      [
+        "v142",
+        "double precision",
+        187
+      ],
+      [
+        "v143",
+        "double precision",
+        188
+      ],
+      [
+        "v144",
+        "double precision",
+        189
+      ],
+      [
+        "v145",
+        "double precision",
+        190
+      ],
+      [
+        "v146",
+        "double precision",
+        191
+      ],
+      [
+        "v147",
+        "double precision",
+        192
+      ],
+      [
+        "v148",
+        "double precision",
+        193
+      ],
+      [
+        "v149",
+        "double precision",
+        194
+      ],
+      [
+        "v150",
+        "double precision",
+        195
+      ],
+      [
+        "v151",
+        "double precision",
+        196
+      ],
+      [
+        "v152",
+        "double precision",
+        197
+      ],
+      [
+        "v153",
+        "double precision",
+        198
+      ],
+      [
+        "v155",
+        "double precision",
+        199
+      ],
+      [
+        "v156",
+        "double precision",
+        200
+      ],
+      [
+        "v157",
+        "double precision",
+        201
+      ],
+      [
+        "v158",
+        "double precision",
+        202
+      ],
+      [
+        "v159",
+        "double precision",
+        203
+      ],
+      [
+        "v160",
+        "double precision",
+        204
+      ],
+      [
+        "v161",
+        "double precision",
+        205
+      ],
+      [
+        "v162",
+        "double precision",
+        206
+      ],
+      [
+        "v163",
+        "double precision",
+        207
+      ],
+      [
+        "v164",
+        "double precision",
+        208
+      ],
+      [
+        "v165",
+        "double precision",
+        209
+      ],
+      [
+        "v166",
+        "double precision",
+        210
+      ],
+      [
+        "v167",
+        "double precision",
+        211
+      ],
+      [
+        "v168",
+        "double precision",
+        212
+      ],
+      [
+        "v169",
+        "double precision",
+        213
+      ],
+      [
+        "v170",
+        "double precision",
+        214
+      ],
+      [
+        "v171",
+        "double precision",
+        215
+      ],
+      [
+        "v172",
+        "double precision",
+        216
+      ],
+      [
+        "v173",
+        "double precision",
+        217
+      ],
+      [
+        "v174",
+        "double precision",
+        218
+      ],
+      [
+        "v175",
+        "double precision",
+        219
+      ],
+      [
+        "v176",
+        "double precision",
+        220
+      ],
+      [
+        "v177",
+        "double precision",
+        221
+      ],
+      [
+        "v178",
+        "double precision",
+        222
+      ],
+      [
+        "v179",
+        "double precision",
+        223
+      ],
+      [
+        "v180",
+        "double precision",
+        224
+      ],
+      [
+        "v181",
+        "double precision",
+        225
+      ],
+      [
+        "v182",
+        "double precision",
+        226
+      ],
+      [
+        "v183",
+        "double precision",
+        227
+      ],
+      [
+        "v184",
+        "double precision",
+        228
+      ],
+      [
+        "v185",
+        "double precision",
+        229
+      ],
+      [
+        "v186",
+        "double precision",
+        230
+      ],
+      [
+        "v187",
+        "double precision",
+        231
+      ],
+      [
+        "v188",
+        "double precision",
+        232
+      ],
+      [
+        "v189",
+        "double precision",
+        233
+      ],
+      [
+        "v190",
+        "double precision",
+        234
+      ],
+      [
+        "v191",
+        "double precision",
+        235
+      ],
+      [
+        "v192",
+        "double precision",
+        236
+      ],
+      [
+        "v193",
+        "double precision",
+        237
+      ],
+      [
+        "v194",
+        "double precision",
+        238
+      ],
+      [
+        "v195",
+        "double precision",
+        239
+      ],
+      [
+        "v196",
+        "double precision",
+        240
+      ],
+      [
+        "v197",
+        "double precision",
+        241
+      ],
+      [
+        "v198",
+        "double precision",
+        242
+      ],
+      [
+        "v199",
+        "double precision",
+        243
+      ],
+      [
+        "v200",
+        "double precision",
+        244
+      ],
+      [
+        "v201",
+        "double precision",
+        245
+      ],
+      [
+        "v202",
+        "double precision",
+        246
+      ],
+      [
+        "v203",
+        "double precision",
+        247
+      ],
+      [
+        "v204",
+        "double precision",
+        248
+      ],
+      [
+        "v205",
+        "double precision",
+        249
+      ],
+      [
+        "v206",
+        "double precision",
+        250
+      ],
+      [
+        "v207",
+        "double precision",
+        251
+      ],
+      [
+        "v208",
+        "double precision",
+        252
+      ],
+      [
+        "v209",
+        "double precision",
+        253
+      ],
+      [
+        "v210",
+        "double precision",
+        254
+      ],
+      [
+        "v211",
+        "double precision",
+        255
+      ],
+      [
+        "v212",
+        "double precision",
+        256
+      ],
+      [
+        "v213",
+        "double precision",
+        257
+      ],
+      [
+        "v214",
+        "double precision",
+        258
+      ],
+      [
+        "v215",
+        "double precision",
+        259
+      ],
+      [
+        "v216",
+        "double precision",
+        260
+      ],
+      [
+        "v217",
+        "double precision",
+        261
+      ],
+      [
+        "v218",
+        "double precision",
+        262
+      ],
+      [
+        "v219",
+        "double precision",
+        263
+      ],
+      [
+        "v220",
+        "double precision",
+        264
+      ],
+      [
+        "v221",
+        "double precision",
+        265
+      ],
+      [
+        "v222",
+        "double precision",
+        266
+      ],
+      [
+        "v223",
+        "double precision",
+        267
+      ],
+      [
+        "v224",
+        "double precision",
+        268
+      ],
+      [
+        "v225",
+        "double precision",
+        269
+      ],
+      [
+        "v226",
+        "double precision",
+        270
+      ],
+      [
+        "v227",
+        "double precision",
+        271
+      ],
+      [
+        "v228",
+        "double precision",
+        272
+      ],
+      [
+        "v229",
+        "double precision",
+        273
+      ],
+      [
+        "v230",
+        "double precision",
+        274
+      ],
+      [
+        "v231",
+        "double precision",
+        275
+      ],
+      [
+        "v232",
+        "double precision",
+        276
+      ],
+      [
+        "v233",
+        "double precision",
+        277
+      ],
+      [
+        "v234",
+        "double precision",
+        278
+      ],
+      [
+        "v235",
+        "double precision",
+        279
+      ],
+      [
+        "v236",
+        "double precision",
+        280
+      ],
+      [
+        "v237",
+        "double precision",
+        281
+      ],
+      [
+        "v238",
+        "double precision",
+        282
+      ],
+      [
+        "v239",
+        "double precision",
+        283
+      ],
+      [
+        "v240",
+        "double precision",
+        284
+      ],
+      [
+        "v241",
+        "double precision",
+        285
+      ],
+      [
+        "v242",
+        "double precision",
+        286
+      ],
+      [
+        "v243",
+        "double precision",
+        287
+      ],
+      [
+        "v244",
+        "double precision",
+        288
+      ],
+      [
+        "v245",
+        "double precision",
+        289
+      ],
+      [
+        "v246",
+        "double precision",
+        290
+      ],
+      [
+        "v247",
+        "double precision",
+        291
+      ],
+      [
+        "v248",
+        "double precision",
+        292
+      ],
+      [
+        "v249",
+        "double precision",
+        293
+      ],
+      [
+        "v251",
+        "double precision",
+        294
+      ],
+      [
+        "v252",
+        "double precision",
+        295
+      ],
+      [
+        "v253",
+        "double precision",
+        296
+      ],
+      [
+        "v254",
+        "double precision",
+        297
+      ],
+      [
+        "v255",
+        "double precision",
+        298
+      ],
+      [
+        "v256",
+        "double precision",
+        299
+      ],
+      [
+        "v257",
+        "double precision",
+        300
+      ],
+      [
+        "v258",
+        "double precision",
+        301
+      ],
+      [
+        "v259",
+        "double precision",
+        302
+      ],
+      [
+        "v260",
+        "double precision",
+        303
+      ],
+      [
+        "v261",
+        "double precision",
+        304
+      ],
+      [
+        "v262",
+        "double precision",
+        305
+      ],
+      [
+        "v263",
+        "double precision",
+        306
+      ],
+      [
+        "v264",
+        "double precision",
+        307
+      ],
+      [
+        "v265",
+        "double precision",
+        308
+      ],
+      [
+        "v266",
+        "double precision",
+        309
+      ],
+      [
+        "v267",
+        "double precision",
+        310
+      ],
+      [
+        "v268",
+        "double precision",
+        311
+      ],
+      [
+        "v269",
+        "double precision",
+        312
+      ],
+      [
+        "v270",
+        "double precision",
+        313
+      ],
+      [
+        "v271",
+        "double precision",
+        314
+      ],
+      [
+        "v272",
+        "double precision",
+        315
+      ],
+      [
+        "v273",
+        "double precision",
+        316
+      ],
+      [
+        "v274",
+        "double precision",
+        317
+      ],
+      [
+        "v275",
+        "double precision",
+        318
+      ],
+      [
+        "v276",
+        "double precision",
+        319
+      ],
+      [
+        "v277",
+        "double precision",
+        320
+      ],
+      [
+        "v278",
+        "double precision",
+        321
+      ],
+      [
+        "v279",
+        "double precision",
+        322
+      ],
+      [
+        "v280",
+        "double precision",
+        323
+      ],
+      [
+        "v281",
+        "double precision",
+        324
+      ],
+      [
+        "v282",
+        "double precision",
+        325
+      ],
+      [
+        "v283",
+        "double precision",
+        326
+      ],
+      [
+        "v284",
+        "double precision",
+        327
+      ],
+      [
+        "v285",
+        "double precision",
+        328
+      ],
+      [
+        "v286",
+        "double precision",
+        329
+      ],
+      [
+        "v287",
+        "double precision",
+        330
+      ],
+      [
+        "v288",
+        "double precision",
+        331
+      ],
+      [
+        "v289",
+        "double precision",
+        332
+      ],
+      [
+        "v290",
+        "double precision",
+        333
+      ],
+      [
+        "v292",
+        "double precision",
+        334
+      ],
+      [
+        "v293",
+        "double precision",
+        335
+      ],
+      [
+        "v294",
+        "double precision",
+        336
+      ],
+      [
+        "v295",
+        "double precision",
+        337
+      ],
+      [
+        "v296",
+        "double precision",
+        338
+      ],
+      [
+        "v297",
+        "double precision",
+        339
+      ],
+      [
+        "v298",
+        "double precision",
+        340
+      ],
+      [
+        "v299",
+        "double precision",
+        341
+      ],
+      [
+        "v300",
+        "double precision",
+        342
+      ],
+      [
+        "v301",
+        "double precision",
+        343
+      ],
+      [
+        "v302",
+        "double precision",
+        344
+      ],
+      [
+        "v303",
+        "double precision",
+        345
+      ],
+      [
+        "v304",
+        "double precision",
+        346
+      ],
+      [
+        "v305",
+        "double precision",
+        347
+      ],
+      [
+        "v306",
+        "double precision",
+        348
+      ],
+      [
+        "v307",
+        "double precision",
+        349
+      ],
+      [
+        "v308",
+        "double precision",
+        350
+      ],
+      [
+        "v309",
+        "double precision",
+        351
+      ],
+      [
+        "v310",
+        "double precision",
+        352
+      ],
+      [
+        "v311",
+        "double precision",
+        353
+      ],
+      [
+        "v312",
+        "double precision",
+        354
+      ],
+      [
+        "v313",
+        "double precision",
+        355
+      ],
+      [
+        "v314",
+        "double precision",
+        356
+      ],
+      [
+        "v315",
+        "double precision",
+        357
+      ],
+      [
+        "v316",
+        "double precision",
+        358
+      ],
+      [
+        "v317",
+        "double precision",
+        359
+      ],
+      [
+        "v318",
+        "double precision",
+        360
+      ],
+      [
+        "v319",
+        "double precision",
+        361
+      ],
+      [
+        "v320",
+        "double precision",
+        362
+      ],
+      [
+        "v321",
+        "double precision",
+        363
+      ],
+      [
+        "v322",
+        "double precision",
+        364
+      ],
+      [
+        "v323",
+        "double precision",
+        365
+      ],
+      [
+        "v324",
+        "double precision",
+        366
+      ],
+      [
+        "v325",
+        "double precision",
+        367
+      ],
+      [
+        "v326",
+        "double precision",
+        368
+      ],
+      [
+        "v327",
+        "double precision",
+        369
+      ],
+      [
+        "v328",
+        "double precision",
+        370
+      ],
+      [
+        "v329",
+        "double precision",
+        371
+      ],
+      [
+        "v330",
+        "double precision",
+        372
+      ],
+      [
+        "v332",
+        "double precision",
+        373
+      ],
+      [
+        "v333",
+        "double precision",
+        374
+      ],
+      [
+        "v334",
+        "double precision",
+        375
+      ],
+      [
+        "v335",
+        "double precision",
+        376
+      ],
+      [
+        "v336",
+        "double precision",
+        377
+      ],
+      [
+        "v337",
+        "double precision",
+        378
+      ],
+      [
+        "v338",
+        "double precision",
+        379
+      ],
+      [
+        "v339",
+        "double precision",
+        380
+      ],
+      [
+        "id_01",
+        "double precision",
+        381
+      ],
+      [
+        "id_02",
+        "double precision",
+        382
+      ],
+      [
+        "id_03",
+        "double precision",
+        383
+      ],
+      [
+        "id_04",
+        "double precision",
+        384
+      ],
+      [
+        "id_05",
+        "double precision",
+        385
+      ],
+      [
+        "id_06",
+        "double precision",
+        386
+      ],
+      [
+        "id_07",
+        "double precision",
+        387
+      ],
+      [
+        "id_08",
+        "double precision",
+        388
+      ],
+      [
+        "id_09",
+        "double precision",
+        389
+      ],
+      [
+        "id_10",
+        "double precision",
+        390
+      ],
+      [
+        "id_11",
+        "double precision",
+        391
+      ],
+      [
+        "id_12",
+        "text",
+        392
+      ],
+      [
+        "id_13",
+        "double precision",
+        393
+      ],
+      [
+        "id_14",
+        "double precision",
+        394
+      ],
+      [
+        "id_15",
+        "text",
+        395
+      ],
+      [
+        "id_16",
+        "text",
+        396
+      ],
+      [
+        "id_17",
+        "double precision",
+        397
+      ],
+      [
+        "id_18",
+        "double precision",
+        398
+      ],
+      [
+        "id_19",
+        "double precision",
+        399
+      ],
+      [
+        "id_20",
+        "double precision",
+        400
+      ],
+      [
+        "id_21",
+        "double precision",
+        401
+      ],
+      [
+        "id_22",
+        "double precision",
+        402
+      ],
+      [
+        "id_23",
+        "text",
+        403
+      ],
+      [
+        "id_24",
+        "double precision",
+        404
+      ],
+      [
+        "id_25",
+        "double precision",
+        405
+      ],
+      [
+        "id_26",
+        "double precision",
+        406
+      ],
+      [
+        "id_27",
+        "text",
+        407
+      ],
+      [
+        "id_28",
+        "text",
+        408
+      ],
+      [
+        "id_29",
+        "text",
+        409
+      ],
+      [
+        "id_30",
+        "text",
+        410
+      ],
+      [
+        "id_31",
+        "text",
+        411
+      ],
+      [
+        "id_32",
+        "double precision",
+        412
+      ],
+      [
+        "id_33",
+        "text",
+        413
+      ],
+      [
+        "id_34",
+        "text",
+        414
+      ],
+      [
+        "id_35",
+        "text",
+        415
+      ],
+      [
+        "id_36",
+        "text",
+        416
+      ],
+      [
+        "id_37",
+        "text",
+        417
+      ],
+      [
+        "id_38",
+        "text",
+        418
+      ],
+      [
+        "devicetype",
+        "text",
+        419
+      ],
+      [
+        "deviceinfo",
+        "text",
+        420
+      ]
+    ]
+  }
+]

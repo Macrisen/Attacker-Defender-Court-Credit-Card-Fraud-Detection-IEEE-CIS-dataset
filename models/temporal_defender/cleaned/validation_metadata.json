@@ -1,0 +1,50 @@
+{
+  "version": "cleaned",
+  "independently_verified": true,
+  "windows": {
+    "fit": {
+      "rows": 265743,
+      "min_time": 86400,
+      "max_time": 6443292,
+      "ordered_id_sha256": "8cc1a49ddb83db0bd49eed8e8a840b428d780f8576e9ac7da710323e34b3a4df"
+    },
+    "inner_fit": {
+      "rows": 225881,
+      "min_time": 86400,
+      "max_time": 5340658,
+      "ordered_id_sha256": "d6833cacba6822fd8a2cc2d37a334f6f041c8e664b1f262d5a9526252914fef5"
+    },
+    "inner_early_stop": {
+      "rows": 39862,
+      "min_time": 5340676,
+      "max_time": 6443292,
+      "ordered_id_sha256": "93a6b912fad90755dde04c15da8b9ea6c150be6376c49f4877ac209ea7586ce7"
+    },
+    "calibration": {
+      "rows": 59054,
+      "min_time": 6443305,
+      "max_time": 8022306,
+      "ordered_id_sha256": "83a227fef260e9159600bc77607492f6d31b6198b24d44a148290b42ec578eb0"
+    },
+    "calibrator_candidate_fit": {
+      "rows": 29527,
+      "min_time": 6443305,
+      "max_time": 7306520,
+      "ordered_id_sha256": "83ca6464882efd19476bbe0680b4fdb58810288b159a0824ef63791c9a1a8c72"
+    },
+    "calibrator_method_selection": {
+      "rows": 29527,
+      "min_time": 7306535,
+      "max_time": 8022306,
+      "ordered_id_sha256": "56465644aea920c5febc85dc408a92dbda279c45f3bd4e701757dcfbf4c4aed8"
+    }
+  },
+  "category_vocabulary": "exact equality with vocabulary recomputed from fit prefix only",
+  "model_feature_order_verified": true,
+  "source_sha256": "b8bcb530dfb206c7d422f65a715e7d6c628a1f8edcc45592eabda5a00421fbad",
+  "selection_config_sha256": "8524aa028fa1b70875fc19055d8159d4ee1cffd7e78af5202db78b1d79428f2d",
+  "label_availability": "offline historical availability assumed; actual discovery timestamps unavailable",
+  "threshold_fixed": 0.16666666666666666,
+  "calibration_refit": "entire permitted calibration window",
+  "historical_baseline_reused": false
+}

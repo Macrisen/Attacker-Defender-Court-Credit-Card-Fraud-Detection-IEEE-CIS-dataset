@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "trained_runs": 6,
+  "training_interactions": 600000,
+  "phase": "4b",
+  "config_hash": "d8df0bb5e5e82c982567d9f07ba119d2078177afa67b014397034c4de37b9592",
+  "started_at": "2026-10-17T16:03:35.416829+00:00",
+  "completed_at": "2026-10-17T16:29:39.017856+00:00",
+  "artifacts": {
+    "reports/phase4b/court_checkpoints.json": "5e944fc7087c70c16622461ee08006e0a3c744be847d5e9b6ede639189dda913",
+    "reports/phase4b/court_training_report.html": "fc00beeef45bd1eaf2f9c33c6630bb4440b646d603afdc8d7c36b7813a5224a2",
+    "reports/phase4b/court_budget_analysis.csv": "4925d9f8526a57f4bfae07a9403872f80aebeac5337c9af6eb48f93aabb7dc59",
+    "reports/phase4b/court_policy_comparison.csv": "6d98bec87ff29518d242e6ac133d263492574faf316ab7efa8c8a0a0047c8594",
+    "reports/phase4b/tests.log": "5f4b86c97aec85c3e99f803173144ec36b35a58b7dd00423af2034144dd957fb",
+    "reports/phase4b/court_delayed_credit_checks.csv": "be8484f5b7587912649abfcebb7322c93af0c715cb1abb6ccf3ca5bff7f0202b",
+    "reports/phase4b/court_training_metrics.csv": "f7aca07b4cb57770924140dd8291da17ccaeef9bf02595110d102b52dc23788c",
+    "reports/phase4b/executed_config.json": "e071dcccb4102d3350f7ac1c6c70977277d5459e3d2bcb45e56b22dbaddd8af8",
+    "reports/phase4b/court_validation_results.csv": "54562626dd1a814ae0090b058e93e05f350dd16bf9a4c93ed841aa3fc63c48c6"
+  }
+}

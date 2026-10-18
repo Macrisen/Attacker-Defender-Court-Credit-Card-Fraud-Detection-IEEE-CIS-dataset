@@ -1,0 +1,17 @@
+version: verified_refit_v1
+training_stream: rl_development
+validation: freeze terminal development model; no validation label updates
+update_interval: 10000
+minimum_verified: 100
+capacity: 1000
+capacity_ablation: 200
+interval_ablation: 20000
+max_updates: 3
+base_replay_rows: 20000
+base_source: earliest Defender Fit rows only
+historical_reference: first1000 RL Development IDs; permanently excluded from updater fitting/calibration
+rounds: 100
+calibration: sigmoid on latest25 percent by verified completion time
+minimum_calibration_class_count: 5
+insufficient_calibration: retain deployed model
+schema_and_vocab: fixed temporal baseline schema/mappings

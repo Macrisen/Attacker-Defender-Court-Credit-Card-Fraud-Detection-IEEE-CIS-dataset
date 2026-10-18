@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "unit_tests": {
+    "phase3_regression": {
+      "status": "PASS",
+      "tests": 29
+    },
+    "phase3_5": {
+      "status": "PASS",
+      "tests": 24
+    }
+  },
+  "independent_checks": [
+    "source hashes",
+    "180 origin rewards recomputed",
+    "cost charged once",
+    "verification timing",
+    "10000 mechanics records excluded from training",
+    "421 registry classifications",
+    "no invalid IEEE-CIS model queries or ASR",
+    "13 HTML sections and local links",
+    "new real model fit remained gated"
+  ]
+}

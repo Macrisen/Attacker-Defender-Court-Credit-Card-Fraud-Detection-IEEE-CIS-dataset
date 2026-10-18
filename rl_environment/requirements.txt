@@ -1,0 +1,5 @@
+-r ../requirements.txt
+gymnasium==1.3.0
+PyYAML==6.0.1
+# Frozen Defender dependencies are pinned in:
+# ../reports/lightgbm_baseline/artifacts/requirements.txt

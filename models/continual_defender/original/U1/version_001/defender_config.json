@@ -1,0 +1,7 @@
+{
+  "calibration_method": "sigmoid",
+  "thresholds": {
+    "theoretical_reward_1_6": 0.16666666666666666
+  },
+  "num_threads": 4
+}

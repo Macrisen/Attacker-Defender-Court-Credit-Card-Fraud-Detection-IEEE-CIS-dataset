@@ -1,0 +1,135 @@
+{
+  "provenance": {
+    "window": {
+      "rows": 265743,
+      "min_time": 86400,
+      "max_time": 6443292,
+      "min_transaction_id": 2987000,
+      "max_transaction_id": 3252742,
+      "first_transaction_id": 2987000,
+      "last_transaction_id": 3252742,
+      "ordered_id_sha256": "8cc1a49ddb83db0bd49eed8e8a840b428d780f8576e9ac7da710323e34b3a4df"
+    },
+    "source_sha256": "b8bcb530dfb206c7d422f65a715e7d6c628a1f8edcc45592eabda5a00421fbad",
+    "fit_uses_labels": false
+  },
+  "global_statistics": {
+    "rows": 265743,
+    "minimum": 0.292,
+    "maximum": 6085.23,
+    "q01": 10.0,
+    "q99": 1033.664000000013,
+    "median_log": 4.24778070111149,
+    "mad_log": 0.5229039233541748
+  },
+  "conditional_statistics": {
+    "productcd": {
+      "C": {
+        "rows": 31313,
+        "minimum": 0.292,
+        "maximum": 486.482,
+        "q01": 4.547,
+        "q99": 198.46980000000008,
+        "median_log": 3.507237666224739,
+        "mad_log": 0.5103878255839569
+      },
+      "H": {
+        "rows": 24459,
+        "minimum": 15.0,
+        "maximum": 500.0,
+        "q01": 15.0,
+        "q99": 300.0,
+        "median_log": 3.9318256327243257,
+        "mad_log": 0.49783842823917945
+      },
+      "R": {
+        "rows": 24996,
+        "minimum": 25.0,
+        "maximum": 1800.0,
+        "q01": 25.0,
+        "q99": 1000.0,
+        "median_log": 4.836281906951478,
+        "mad_log": 0.2211613901102183
+      },
+      "S": {
+        "rows": 5059,
+        "minimum": 5.0,
+        "maximum": 1550.0,
+        "q01": 5.0,
+        "q99": 400.0,
+        "median_log": 3.4339872044851463,
+        "mad_log": 0.49783842823917945
+      },
+      "W": {
+        "rows": 179916,
+        "minimum": 1.0,
+        "maximum": 6085.23,
+        "q01": 15.95,
+        "q99": 1282.47,
+        "median_log": 4.356708826689592,
+        "mad_log": 0.46590945771307224
+      }
+    },
+    "card4": {
+      "american express": {
+        "rows": 5519,
+        "minimum": 5.0,
+        "maximum": 1800.0,
+        "q01": 20.0,
+        "q99": 1000.0,
+        "median_log": 4.836281906951478,
+        "mad_log": 0.46702300110759776
+      },
+      "discover": {
+        "rows": 3316,
+        "minimum": 5.0,
+        "maximum": 3162.95,
+        "q01": 15.0,
+        "q99": 2056.2924999999973,
+        "median_log": 4.667900264820241,
+        "mad_log": 0.7360746320959151
+      },
+      "mastercard": {
+        "rows": 82242,
+        "minimum": 0.467,
+        "maximum": 6085.23,
+        "q01": 8.978,
+        "q99": 1044.95,
+        "median_log": 4.110873864173311,
+        "mad_log": 0.5800151972173175
+      },
+      "visa": {
+        "rows": 174655,
+        "minimum": 0.292,
+        "maximum": 5278.95,
+        "q01": 10.0,
+        "q99": 1007.95,
+        "median_log": 4.241326752570746,
+        "mad_log": 0.529357871894919
+      }
+    },
+    "card6": {
+      "credit": {
+        "rows": 77510,
+        "minimum": 0.424,
+        "maximum": 6085.23,
+        "q01": 9.678,
+        "q99": 1499.6655000000037,
+        "median_log": 4.61512051684126,
+        "mad_log": 0.683294884116934
+      },
+      "debit": {
+        "rows": 188196,
+        "minimum": 0.292,
+        "maximum": 5278.95,
+        "q01": 10.0,
+        "q99": 834.0,
+        "median_log": 4.0943445622221,
+        "mad_log": 0.5780168733063142
+      }
+    }
+  },
+  "minimum_group_rows": 200,
+  "acceptance": "Hard numeric/budget checks only; statistical diagnostics never reject",
+  "causal_validity": false
+}

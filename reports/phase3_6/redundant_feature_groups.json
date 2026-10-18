@@ -1,0 +1,274 @@
+[
+  {
+    "group": 1,
+    "count": 10,
+    "features": [
+      "c1",
+      "c10",
+      "c11",
+      "c12",
+      "c14",
+      "c2",
+      "c4",
+      "c6",
+      "c7",
+      "c8"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 2,
+    "count": 2,
+    "features": [
+      "d1",
+      "d2"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 3,
+    "count": 2,
+    "features": [
+      "d12",
+      "d4"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 4,
+    "count": 2,
+    "features": [
+      "d5",
+      "d7"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 5,
+    "count": 5,
+    "features": [
+      "v129",
+      "v131",
+      "v309",
+      "v334",
+      "v336"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 6,
+    "count": 2,
+    "features": [
+      "v130",
+      "v335"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 7,
+    "count": 2,
+    "features": [
+      "v145",
+      "v150"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 8,
+    "count": 3,
+    "features": [
+      "v15",
+      "v33",
+      "v94"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 9,
+    "count": 2,
+    "features": [
+      "v153",
+      "v154"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 10,
+    "count": 2,
+    "features": [
+      "v16",
+      "v34"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 11,
+    "count": 2,
+    "features": [
+      "v162",
+      "v163"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 12,
+    "count": 2,
+    "features": [
+      "v17",
+      "v18"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 13,
+    "count": 2,
+    "features": [
+      "v180",
+      "v182"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 14,
+    "count": 2,
+    "features": [
+      "v191",
+      "v196"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 15,
+    "count": 2,
+    "features": [
+      "v203",
+      "v212"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 16,
+    "count": 2,
+    "features": [
+      "v206",
+      "v311"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 17,
+    "count": 2,
+    "features": [
+      "v21",
+      "v22"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 18,
+    "count": 2,
+    "features": [
+      "v214",
+      "v276"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 19,
+    "count": 2,
+    "features": [
+      "v248",
+      "v249"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 20,
+    "count": 2,
+    "features": [
+      "v253",
+      "v254"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 21,
+    "count": 2,
+    "features": [
+      "v266",
+      "v269"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 22,
+    "count": 2,
+    "features": [
+      "v27",
+      "v28"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 23,
+    "count": 2,
+    "features": [
+      "v271",
+      "v272"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 24,
+    "count": 2,
+    "features": [
+      "v57",
+      "v58"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 25,
+    "count": 2,
+    "features": [
+      "v71",
+      "v72"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  },
+  {
+    "group": 26,
+    "count": 2,
+    "features": [
+      "v92",
+      "v93"
+    ],
+    "decision": "REVIEW; retain all unless exact-duplicate/constant rule independently applies",
+    "limitation": "Connected correlation components are not all-pairs equivalence"
+  }
+]

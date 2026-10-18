@@ -1,0 +1,2163 @@
+{
+  "features": [
+    {
+      "name": "transactionamt",
+      "postgres_type": "numeric",
+      "role": "numeric"
+    },
+    {
+      "name": "productcd",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "card1",
+      "postgres_type": "integer",
+      "role": "categorical"
+    },
+    {
+      "name": "card2",
+      "postgres_type": "double precision",
+      "role": "categorical"
+    },
+    {
+      "name": "card3",
+      "postgres_type": "double precision",
+      "role": "categorical"
+    },
+    {
+      "name": "card4",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "card5",
+      "postgres_type": "double precision",
+      "role": "categorical"
+    },
+    {
+      "name": "card6",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "addr1",
+      "postgres_type": "double precision",
+      "role": "categorical"
+    },
+    {
+      "name": "addr2",
+      "postgres_type": "double precision",
+      "role": "categorical"
+    },
+    {
+      "name": "dist1",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "dist2",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "p_emaildomain",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "r_emaildomain",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "c1",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "c3",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "c4",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "c5",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "c7",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "c8",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "c9",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "c10",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "c12",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "c13",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "c14",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "d1",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "d2",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "d3",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "d4",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "d5",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "d6",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "d7",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "d8",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "d9",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "d10",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "d11",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "d12",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "d13",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "d14",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "d15",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "m1",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "m2",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "m3",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "m4",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "m5",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "m6",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "m7",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "m8",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "m9",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "v1",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v2",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v3",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v4",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v5",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v6",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v7",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v8",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v9",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v10",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v11",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v12",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v13",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v14",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v15",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v16",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v17",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v19",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v20",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v21",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v22",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v23",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v24",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v25",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v26",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v27",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v29",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v30",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v31",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v33",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v34",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v35",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v36",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v37",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v38",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v39",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v40",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v41",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v42",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v43",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v44",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v45",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v46",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v47",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v48",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v49",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v50",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v51",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v52",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v53",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v54",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v55",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v56",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v58",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v59",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v60",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v61",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v62",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v63",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v64",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v65",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v66",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v67",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v68",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v69",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v70",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v72",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v73",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v74",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v75",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v76",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v77",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v78",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v79",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v80",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v81",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v82",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v83",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v84",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v85",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v86",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v87",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v88",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v89",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v90",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v91",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v93",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v94",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v95",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v96",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v97",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v98",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v99",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v100",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v101",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v102",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v103",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v104",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v105",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v106",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v108",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v109",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v110",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v111",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v112",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v113",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v114",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v115",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v116",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v117",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v118",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v119",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v120",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v121",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v122",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v123",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v124",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v125",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v126",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v127",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v128",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v129",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v130",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v131",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v132",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v133",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v134",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v135",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v136",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v137",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v138",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v139",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v140",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v141",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v142",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v143",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v144",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v145",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v146",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v147",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v148",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v149",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v150",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v151",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v152",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v153",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v155",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v156",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v157",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v158",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v159",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v160",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v161",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v162",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v163",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v164",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v165",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v166",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v167",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v168",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v169",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v170",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v171",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v172",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v173",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v174",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v175",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v176",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v177",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v178",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v179",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v180",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v181",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v182",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v183",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v184",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v185",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v186",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v187",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v188",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v189",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v190",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v191",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v192",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v193",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v194",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v195",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v196",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v197",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v198",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v199",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v200",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v201",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v202",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v203",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v204",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v205",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v206",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v207",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v208",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v209",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v210",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v211",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v212",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v213",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v214",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v215",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v216",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v217",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v218",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v219",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v220",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v221",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v222",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v223",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v224",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v225",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v226",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v227",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v228",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v229",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v230",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v231",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v232",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v233",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v234",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v235",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v236",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v237",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v238",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v239",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v240",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v241",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v242",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v243",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v244",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v245",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v246",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v247",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v248",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v249",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v251",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v252",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v253",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v254",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v255",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v256",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v257",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v258",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v259",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v260",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v261",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v262",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v263",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v264",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v265",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v266",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v267",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v268",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v269",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v270",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v271",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v272",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v273",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v274",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v275",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v276",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v277",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v278",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v279",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v280",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v281",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v282",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v283",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v284",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v285",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v286",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v287",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v288",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v289",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v290",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v292",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v293",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v294",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v295",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v296",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v297",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v298",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v299",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v300",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v301",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v302",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v303",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v304",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v305",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v306",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v307",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v308",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v309",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v310",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v311",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v312",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v313",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v314",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v315",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v316",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v317",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v318",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v319",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v320",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v321",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v322",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v323",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v324",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v325",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v326",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v327",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v328",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v329",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v330",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v332",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v333",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v334",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v335",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v336",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v337",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v338",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v339",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "id_01",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "id_02",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "id_03",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "id_04",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "id_05",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "id_06",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "id_07",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "id_08",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "id_09",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "id_10",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "id_11",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "id_12",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "id_13",
+      "postgres_type": "double precision",
+      "role": "categorical"
+    },
+    {
+      "name": "id_14",
+      "postgres_type": "double precision",
+      "role": "categorical"
+    },
+    {
+      "name": "id_15",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "id_16",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "id_17",
+      "postgres_type": "double precision",
+      "role": "categorical"
+    },
+    {
+      "name": "id_18",
+      "postgres_type": "double precision",
+      "role": "categorical"
+    },
+    {
+      "name": "id_19",
+      "postgres_type": "double precision",
+      "role": "categorical"
+    },
+    {
+      "name": "id_20",
+      "postgres_type": "double precision",
+      "role": "categorical"
+    },
+    {
+      "name": "id_21",
+      "postgres_type": "double precision",
+      "role": "categorical"
+    },
+    {
+      "name": "id_22",
+      "postgres_type": "double precision",
+      "role": "categorical"
+    },
+    {
+      "name": "id_23",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "id_24",
+      "postgres_type": "double precision",
+      "role": "categorical"
+    },
+    {
+      "name": "id_25",
+      "postgres_type": "double precision",
+      "role": "categorical"
+    },
+    {
+      "name": "id_26",
+      "postgres_type": "double precision",
+      "role": "categorical"
+    },
+    {
+      "name": "id_27",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "id_28",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "id_29",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "id_30",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "id_31",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "id_32",
+      "postgres_type": "double precision",
+      "role": "categorical"
+    },
+    {
+      "name": "id_33",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "id_34",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "id_35",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "id_36",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "id_37",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "id_38",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "devicetype",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "deviceinfo",
+      "postgres_type": "text",
+      "role": "categorical"
+    },
+    {
+      "name": "c2",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "c6",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "c11",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v18",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v28",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v32",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v57",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v71",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v92",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v154",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v250",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v291",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    },
+    {
+      "name": "v331",
+      "postgres_type": "double precision",
+      "role": "numeric"
+    }
+  ],
+  "metadata": [
+    "transactionid",
+    "transactiondt",
+    "isfraud"
+  ],
+  "numeric_dtype": "float32",
+  "numeric_missing": "native NaN",
+  "categorical_policy": "Train-only sorted vocabulary; missing and unknown -> -1; native LightGBM categorical handling",
+  "required_input": "All predictor keys must be supplied; explicit null is allowed; metadata is optional"
+}

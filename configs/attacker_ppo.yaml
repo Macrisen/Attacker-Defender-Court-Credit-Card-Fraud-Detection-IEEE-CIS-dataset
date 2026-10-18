@@ -1,0 +1,58 @@
+version: remaining_v1
+seeds: [42, 123, 2026]
+versions: [original, cleaned]
+device: cpu
+threads: 4
+attacker:
+  max_steps: 196608
+  vector_envs: 32
+  rollout_steps: 1024
+  minibatch_size: 256
+  epochs: 10
+  hidden_sizes: [128, 128]
+  learning_rate: 0.0003
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip: 0.2
+  entropy_coefficient: 0.01
+  value_coefficient: 0.5
+  max_grad_norm: 0.5
+  checkpoint_every_rollouts: 48
+  checkpoint_selection: validation conditional flip fraction over ALL originally detected eligible fraud; identity counts as zero; tie lower cost then earlier checkpoint
+  evaluation_action: stochastic squashed Gaussian, fixed source-level evaluation seeds
+  epsilon: 0.05
+  lambda_cost: 0.1
+bandit:
+  training_queries: 65536
+  action: one squashed continuous proposal then forced STOP; same terminal query contract
+court:
+  max_steps: 100000
+  episode_decisions: 10000
+  hidden_size: 32
+  epochs: 4
+  sequence_length: 128
+  learning_rate: 0.0003
+  gamma_day: 0.99
+  action_mask: court_budget_zero_forces_skip
+  checkpoint_every_episodes: 5
+  selection: validation mature Court utility per transaction; tie earlier checkpoint
+continual:
+  update_interval: 10000
+  minimum_verified: 100
+  replay_capacities: [200, 1000]
+  minimum_calibration_per_class: 5
+  fit_base_rows: 20000
+  rounds: 100
+  maximum_updates_per_run: 3
+  calibration: latest 25 percent by completion time; no overlap with verified fit subset
+  insufficient_calibration: retain current model and log ineligible
+  seed: 42
+final:
+  primary_window: rl_validation
+  bootstrap: paired nonoverlapping chronological blocks, 1000 replicates
+  holdout_gate: all phase scientific checks passed and protocol frozen
+resource_budget:
+  per_phase_wall_minutes: 120
+  total_wall_minutes: 360
+  peak_ram_gib: 12
+  max_worker_processes: 1

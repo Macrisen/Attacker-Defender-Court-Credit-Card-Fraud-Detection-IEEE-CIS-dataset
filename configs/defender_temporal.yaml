@@ -1,0 +1,11 @@
+seed: 42
+threads: 4
+max_rounds: 2000
+early_stopping_rounds: 100
+inner_fit_fraction: 0.85
+calibration_selection: chronological_first_half_fit_second_half_logloss_then_refit
+calibration_candidates: [raw, sigmoid, isotonic]
+threshold: 0.16666666666666666
+threshold_rule: strict_greater_than
+configurations: [original_431, cleaned_temporal]
+full_policy_training: false

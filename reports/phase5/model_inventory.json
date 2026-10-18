@@ -1,0 +1,110 @@
+[
+  {
+    "version": "original",
+    "scenario": "F0",
+    "model_path": "/Users/macrisen/Desktop/credit card fraud detect/models/temporal_defender/original",
+    "updates": 0
+  },
+  {
+    "version": "original",
+    "scenario": "F1",
+    "model_path": "/Users/macrisen/Desktop/credit card fraud detect/models/temporal_defender/original",
+    "updates": 0
+  },
+  {
+    "version": "original",
+    "scenario": "U0",
+    "model_path": "/Users/macrisen/Desktop/credit card fraud detect/models/continual_defender/original/U0/version_003",
+    "updates": 3
+  },
+  {
+    "version": "original",
+    "scenario": "U1",
+    "model_path": "/Users/macrisen/Desktop/credit card fraud detect/models/continual_defender/original/U1/version_003",
+    "updates": 3
+  },
+  {
+    "version": "original",
+    "scenario": "U2",
+    "model_path": "/Users/macrisen/Desktop/credit card fraud detect/models/continual_defender/original/U2/version_003",
+    "updates": 3
+  },
+  {
+    "version": "original",
+    "scenario": "U3",
+    "model_path": "/Users/macrisen/Desktop/credit card fraud detect/models/continual_defender/original/U3/version_003",
+    "updates": 3
+  },
+  {
+    "version": "original",
+    "scenario": "A0",
+    "model_path": "/Users/macrisen/Desktop/credit card fraud detect/models/continual_defender/original/A0/version_003",
+    "updates": 3
+  },
+  {
+    "version": "original",
+    "scenario": "A1",
+    "model_path": "/Users/macrisen/Desktop/credit card fraud detect/models/continual_defender/original/A1/version_001",
+    "updates": 1
+  },
+  {
+    "version": "original",
+    "scenario": "A2",
+    "model_path": "/Users/macrisen/Desktop/credit card fraud detect/models/continual_defender/original/A2/version_003",
+    "updates": 3
+  },
+  {
+    "version": "cleaned",
+    "scenario": "F0",
+    "model_path": "/Users/macrisen/Desktop/credit card fraud detect/models/temporal_defender/cleaned",
+    "updates": 0
+  },
+  {
+    "version": "cleaned",
+    "scenario": "F1",
+    "model_path": "/Users/macrisen/Desktop/credit card fraud detect/models/temporal_defender/cleaned",
+    "updates": 0
+  },
+  {
+    "version": "cleaned",
+    "scenario": "U0",
+    "model_path": "/Users/macrisen/Desktop/credit card fraud detect/models/continual_defender/cleaned/U0/version_003",
+    "updates": 3
+  },
+  {
+    "version": "cleaned",
+    "scenario": "U1",
+    "model_path": "/Users/macrisen/Desktop/credit card fraud detect/models/continual_defender/cleaned/U1/version_003",
+    "updates": 3
+  },
+  {
+    "version": "cleaned",
+    "scenario": "U2",
+    "model_path": "/Users/macrisen/Desktop/credit card fraud detect/models/continual_defender/cleaned/U2/version_003",
+    "updates": 3
+  },
+  {
+    "version": "cleaned",
+    "scenario": "U3",
+    "model_path": "/Users/macrisen/Desktop/credit card fraud detect/models/continual_defender/cleaned/U3/version_003",
+    "updates": 3
+  },
+  {
+    "version": "cleaned",
+    "scenario": "A0",
+    "model_path": "/Users/macrisen/Desktop/credit card fraud detect/models/continual_defender/cleaned/A0/version_003",
+    "updates": 3
+  },
+  {
+    "version": "cleaned",
+    "scenario": "A1",
+    "model_path": "/Users/macrisen/Desktop/credit card fraud detect/models/continual_defender/cleaned/A1/version_001",
+    "updates": 1
+  },
+  {
+    "version": "cleaned",
+    "scenario": "A2",
+    "model_path": "/Users/macrisen/Desktop/credit card fraud detect/models/continual_defender/cleaned/A2/version_003",
+    "updates": 3
+  }
+]

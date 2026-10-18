@@ -1,0 +1,24 @@
+{
+  "scope": "revised Defender fitting window ONLY",
+  "fit_end": 6443292,
+  "rows": 265743,
+  "arrow_type": "decimal128(8, 3)",
+  "null_count": 0,
+  "null_percentage": 0.0,
+  "nonfinite_nonnull_count": 0,
+  "positive": 265743,
+  "zero": 0,
+  "negative": 0,
+  "quantiles": {
+    "0": 0.292,
+    "0.01": 10.0,
+    "0.05": 20.12,
+    "0.25": 42.5655,
+    "0.5": 68.95,
+    "0.75": 125.0,
+    "0.95": 424.95,
+    "0.99": 1033.664000000013,
+    "1": 6085.23
+  },
+  "note": "Descriptive calculations use float64 copies; source decimal values and Parquet are unchanged. Empirical bounds do not prove a semantic domain."
+}

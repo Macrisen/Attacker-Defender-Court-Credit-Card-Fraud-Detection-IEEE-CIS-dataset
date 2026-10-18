@@ -1,0 +1,16 @@
+2026-10-17 20:17:27,244 INFO Regression tests passed; repeating Phase 3 simulation into a NEW report directory
+2026-10-17 20:17:31,555 INFO Inspecting training-only amount distribution, conditional ranges and numeric associations
+2026-10-17 20:17:33,390 INFO Validating origin-linked credit and audit logging on the real mechanics replay
+2026-10-17 20:17:39,226 INFO Completed Phase 3.5 checks: /Users/macrisen/Desktop/credit card fraud detect/reports/phase3_5/phase3_5_readiness_report.html
+2026-10-17 20:20:15,040 INFO Regression tests passed; repeating Phase 3 simulation into a NEW report directory
+2026-10-17 20:20:19,217 INFO Inspecting training-only amount distribution, conditional ranges and numeric associations
+2026-10-17 20:20:21,014 INFO Validating origin-linked credit and audit logging on the real mechanics replay
+2026-10-17 20:20:26,845 INFO Completed Phase 3.5 checks: /Users/macrisen/Desktop/credit card fraud detect/reports/phase3_5/phase3_5_readiness_report.html
+2026-10-17 20:22:20,110 INFO Regression tests passed; repeating Phase 3 simulation into a NEW report directory
+2026-10-17 20:22:24,424 INFO Inspecting training-only amount distribution, conditional ranges and numeric associations
+2026-10-17 20:22:26,262 INFO Validating origin-linked credit and audit logging on the real mechanics replay
+2026-10-17 20:22:32,013 INFO Completed Phase 3.5 checks: /Users/macrisen/Desktop/credit card fraud detect/reports/phase3_5/phase3_5_readiness_report.html
+2026-10-17 20:25:02,989 INFO Regression tests passed; repeating Phase 3 simulation into a NEW report directory
+2026-10-17 20:25:07,326 INFO Inspecting training-only amount distribution, conditional ranges and numeric associations
+2026-10-17 20:25:09,129 INFO Validating origin-linked credit and audit logging on the real mechanics replay
+2026-10-17 20:25:15,305 INFO Completed Phase 3.5 checks: /Users/macrisen/Desktop/credit card fraud detect/reports/phase3_5/phase3_5_readiness_report.html

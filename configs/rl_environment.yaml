@@ -1,0 +1,31 @@
+seed: 42
+dataset_version: cleaned
+datasets:
+  cleaned:
+    parquet: data/processed/train_clean.parquet
+    artifacts: reports/lightgbm_baseline/artifacts
+  original:
+    parquet: data/processed/train_original.parquet
+    artifacts: reports/lightgbm_baseline/experiments/A_original
+boundaries: reports/lightgbm_baseline/split_boundaries.json
+transactions: 10000
+threshold_policy: theoretical_reward_1_6
+observable_features: [transactionamt]
+budget:
+  window_size: 10000
+  total: 200
+  audit_reserve: 20
+verification:
+  min_days: 1
+  max_days: 3
+court:
+  investigation_cost: 1
+  missed_fraud_reward: 10
+  flagged_fraud_reward: 3
+  random_investigation_probability: 0.005
+attacker:
+  real_data_mode: identity
+  max_modification_steps: 3
+  max_model_queries: 1
+  feedback: terminal_decision_only
+episode_end: censor_then_explicit_drain_for_diagnostics

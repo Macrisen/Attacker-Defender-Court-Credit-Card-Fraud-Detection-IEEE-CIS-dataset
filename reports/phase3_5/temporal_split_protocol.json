@@ -1,0 +1,75 @@
+{
+  "status": "IMPLEMENTED_AND_BOUNDARIES_VALIDATED; new model fitting gated by preprocessing provenance",
+  "windows": {
+    "defender_fit": {
+      "rows": 265743,
+      "min_time": 86400,
+      "max_time": 6443292,
+      "min_transaction_id": 2987000,
+      "max_transaction_id": 3252742,
+      "first_transaction_id": 2987000,
+      "last_transaction_id": 3252742,
+      "ordered_id_sha256": "8cc1a49ddb83db0bd49eed8e8a840b428d780f8576e9ac7da710323e34b3a4df"
+    },
+    "defender_calibration": {
+      "rows": 59054,
+      "min_time": 6443305,
+      "max_time": 8022306,
+      "min_transaction_id": 3252743,
+      "max_transaction_id": 3311796,
+      "first_transaction_id": 3252743,
+      "last_transaction_id": 3311796,
+      "ordered_id_sha256": "83a227fef260e9159600bc77607492f6d31b6198b24d44a148290b42ec578eb0"
+    },
+    "rl_development": {
+      "rows": 88581,
+      "min_time": 8022314,
+      "max_time": 10437996,
+      "min_transaction_id": 3311797,
+      "max_transaction_id": 3400377,
+      "first_transaction_id": 3311797,
+      "last_transaction_id": 3400377,
+      "ordered_id_sha256": "36f185c2321e7b8ff1d55d5405d5f4781805b2702734e5a9c8925013e151cdd5",
+      "decision_cutoff": 10178796,
+      "eligible_origin_rows": 78416,
+      "maturity_only_rows": 10165
+    },
+    "rl_validation": {
+      "rows": 59054,
+      "min_time": 10438003,
+      "max_time": 12192842,
+      "min_transaction_id": 3400378,
+      "max_transaction_id": 3459431,
+      "first_transaction_id": 3400378,
+      "last_transaction_id": 3459431,
+      "ordered_id_sha256": "5baf0279a5660f637bf4f2e25b63ea6541f10badac1299ccf9c5f182f1a9e950",
+      "decision_cutoff": 11933642,
+      "eligible_origin_rows": 50909,
+      "maturity_only_rows": 8145
+    },
+    "final_holdout": {
+      "rows": 118108,
+      "min_time": 12192900,
+      "max_time": 15811131,
+      "min_transaction_id": 3459432,
+      "max_transaction_id": 3577539,
+      "first_transaction_id": 3459432,
+      "last_transaction_id": 3577539,
+      "ordered_id_sha256": "5ee0ab4d5e34f9689b5d928dbb55a87039daf321708c3042201eed0ed9c060ed"
+    }
+  },
+  "max_delay_seconds": 259200,
+  "historical_feature_selection_cutoff": 12192842.0,
+  "legacy_holdout_previously_evaluated": true,
+  "holdout_policy": "No additional holdout labels or predictor values read in Phase 3.5; legacy baseline already evaluated this holdout, so it is reserved, not historically virgin.",
+  "new_defender_status": "NOT_FITTED: preprocessing provenance not independent of proposed RL windows",
+  "baseline_reuse": "BLOCKED: saved model/calibrator/selection exceed new fitting windows",
+  "existing_baseline_periods": {
+    "model_and_category_fit_end": 9614637.0,
+    "final_calibrator_refit_end": 11481719,
+    "empirical_threshold_selection_end": 12192842,
+    "historical_feature_selection_end": 12192842.0,
+    "fully_unseen_pre_holdout_rows_after_all_learned_choices": 0,
+    "note": "Prespecified threshold 1/6 avoids empirical threshold fitting, but not historical feature-selection look-ahead."
+  }
+}

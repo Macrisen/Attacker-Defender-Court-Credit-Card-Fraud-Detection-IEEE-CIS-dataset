@@ -1,0 +1,18 @@
+[
+  {
+    "path": "/Users/macrisen/Desktop/credit card fraud detect/data/processed/train_cleaned_prefix_430.parquet",
+    "sha256": "3bb331a73f78c068f9d98902471e70494bfbd927c3f8c7a831d09bfc8432f353",
+    "rows": 590540,
+    "columns": 433,
+    "values_verified": true,
+    "transform": "column projection only"
+  },
+  {
+    "path": "/Users/macrisen/Desktop/credit card fraud detect/data/processed/test_cleaned_prefix_430.parquet",
+    "sha256": "ab5bd8e28daece0310f8bec3c44f3193001a3449a27aaabc0a22a84066a1265e",
+    "rows": 506691,
+    "columns": 432,
+    "values_verified": true,
+    "transform": "column projection only"
+  }
+]

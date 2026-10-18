@@ -1,0 +1,17 @@
+[
+  {
+    "path": "/Users/macrisen/Desktop/credit card fraud detect/models/continual_defender/original/U1/version_001",
+    "deployment_time": 8515460,
+    "maximum_verified_completion": 8515157.592089893
+  },
+  {
+    "path": "/Users/macrisen/Desktop/credit card fraud detect/models/continual_defender/original/U1/version_002",
+    "deployment_time": 8784250,
+    "maximum_verified_completion": 8781047.876649916
+  },
+  {
+    "path": "/Users/macrisen/Desktop/credit card fraud detect/models/continual_defender/original/U1/version_003",
+    "deployment_time": 9059581,
+    "maximum_verified_completion": 9059101.96075015
+  }
+]

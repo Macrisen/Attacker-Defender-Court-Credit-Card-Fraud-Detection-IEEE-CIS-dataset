@@ -1,0 +1,115 @@
+{
+  "summary": {
+    "transactions_processed": 78416,
+    "evaluation_only_fraud_count": 3114,
+    "defender_flag_count": 2509,
+    "defender_approve_count": 75907,
+    "court_investigation_count": 1440,
+    "audit_investigation_count": 141,
+    "investigations_pending": 0,
+    "fraud_verified": 696,
+    "legitimate_verified": 885,
+    "investigation_budget_used": 1581,
+    "audit_budget_used": 141,
+    "investigation_rate": 0.020161701693531934,
+    "fraud_found_per_completed_investigation": 0.44022770398481975,
+    "court_policy_reward": 661.0,
+    "audit_reward": -91.0,
+    "evaluation_only_defender_business_reward": 51068.0,
+    "memory_size": 1581,
+    "identity_transactions": 78416,
+    "modified_attack_examples": 0,
+    "attack_validity_rate": null,
+    "attack_success_rate": null,
+    "attack_status": "ASSUMPTION_BASED; causal validity not established",
+    "simulation_time": 10365746.169371063,
+    "updates": 0,
+    "elapsed_seconds": 7.610381666047033,
+    "final_model_path": "/Users/macrisen/Desktop/credit card fraud detect/models/temporal_defender/original",
+    "censored_at_horizon": 85,
+    "strategy": "frozen",
+    "capacity": 1000,
+    "update_interval": 10000,
+    "verified_court": 1440,
+    "verified_audit": 141,
+    "court_verified_fraud": 691,
+    "audit_verified_fraud": 5,
+    "reference_ids_excluded": 1000
+  },
+  "history": [],
+  "forgetting": [
+    {
+      "deployment_time": 8022314,
+      "version": "443f019ec6a52a75e00bf166df23316d9d35e190c900fd5c2c8594049ef0fd28",
+      "AP": 0.42294839277359886,
+      "Brier": 0.01011231754902936
+    }
+  ],
+  "drift": [
+    {
+      "time": 8253180,
+      "rows": 10000,
+      "mean_log_amount": 4.389226252622769,
+      "mean_probability": 0.03200365961969666,
+      "mean_probability_change": 0.0
+    },
+    {
+      "time": 8515460,
+      "rows": 10000,
+      "mean_log_amount": 4.460353460950861,
+      "mean_probability": 0.030662178478378904,
+      "mean_probability_change": -0.0013414811413177546
+    },
+    {
+      "time": 8784250,
+      "rows": 10000,
+      "mean_log_amount": 4.41860416582355,
+      "mean_probability": 0.030329371064820886,
+      "mean_probability_change": -0.00033280741355801863
+    },
+    {
+      "time": 9059581,
+      "rows": 10000,
+      "mean_log_amount": 4.3984894069569505,
+      "mean_probability": 0.02993047966958843,
+      "mean_probability_change": -0.0003988913952324563
+    },
+    {
+      "time": 9333857,
+      "rows": 10000,
+      "mean_log_amount": 4.3737049887244375,
+      "mean_probability": 0.0397569806570465,
+      "mean_probability_change": 0.009826500987458069
+    },
+    {
+      "time": 9652190,
+      "rows": 10000,
+      "mean_log_amount": 4.378361490063974,
+      "mean_probability": 0.030644137303968415,
+      "mean_probability_change": -0.009112843353078083
+    },
+    {
+      "time": 9922138,
+      "rows": 10000,
+      "mean_log_amount": 4.39914066471831,
+      "mean_probability": 0.04045239568225632,
+      "mean_probability_change": 0.009808258378287908
+    }
+  ],
+  "development_metrics": {
+    "AP": 0.5178623494560229,
+    "ROC_AUC": 0.8663256160716291,
+    "recall": 0.47366730892742454,
+    "precision": 0.5878836189717018,
+    "FPR": 0.013731374996680035,
+    "Brier": 0.024869755445581697,
+    "mean_business_utility": 0.6512446439502142,
+    "initially_detected_fraud": 1475,
+    "initially_missed_fraud": 1639,
+    "court_missed_fraud_recovery": 4,
+    "residual_fraud_after_defender_and_court": 1635,
+    "investigation_cost": 1581,
+    "end_to_end_utility": 49527.0,
+    "utility_definition": "initial Defender utility +10 per completed Court discovery of missed fraud - all Court/audit investigation costs; diagnostic research utility"
+  }
+}

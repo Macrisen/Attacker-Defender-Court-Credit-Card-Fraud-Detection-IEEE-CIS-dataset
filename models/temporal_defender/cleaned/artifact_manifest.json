@@ -1,0 +1,14 @@
+{
+  "hashes": {
+    "validation_metadata.json": "edf7678617325ca6db1513535c38ee80caf443b88aaa6b04237e46cff4b64470",
+    "calibrator.joblib": "86016d9591a0676b5fe4dbc37fdf9592ebc26080021e8f9134ff479b4869adcf",
+    "lightgbm_model.txt": "b6fe042c7484b6badbde4e7d387323464ae274ad2bc6413074a0ccffe871fbb0",
+    "training_config.json": "528ab20cb166f1e36c964f08a4e15aad4b1e3583c07ae473eec447fe3f59e4c8",
+    "feature_schema.json": "c6e86cf25c020bc6a6a456aed9578ca01850c71573537a995f9038fd2006efe6",
+    "categorical_mappings.json": "0b0057ef7d66895c4ec7efefcd220abd23177c0d7e620489adf0547e28cdc1ec",
+    "defender_config.json": "965eb6bd4c5ced134aa086bbd5334459929a29e8622408c6b690f2f7a882206d"
+  },
+  "training_seconds": 233.89287958404748,
+  "seed": 42,
+  "threshold_derivation": "FLAG utility=15p-5; APPROVE utility=1-21p; FLAG iff 36p>6 => p>1/6"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "experiments": 54,
+  "transactions": 2749086,
+  "phase": "4c",
+  "config_hash": "d8df0bb5e5e82c982567d9f07ba119d2078177afa67b014397034c4de37b9592",
+  "started_at": "2026-10-17T19:14:22.219970+00:00",
+  "completed_at": "2026-10-17T19:37:15.960220+00:00",
+  "artifacts": {
+    "reports/phase4c/hybrid_transaction_results.csv": "f578a138a9af6fb666acfb859a6a69ce9ff312e26dd9e9c4f4664d80c3b0c24f",
+    "reports/phase4c/hybrid_integration_report.html": "4d37d1415a48de1e6333a6498aa0240c5608ab72e4960ad82bd1a4c74f2397f0",
+    "reports/phase4c/hybrid_experiment_matrix.csv": "b42ae89cba91b241ab22cf47cc6b6192d110a705b7545bbe1da8ff25efaccef0",
+    "reports/phase4c/hybrid_reward_analysis.csv": "5e9836fc4a6d7dd5364d1ea7b2647956e10aee05547a5faa5cde5b43babe7b0c",
+    "reports/phase4c/executed_config.json": "e071dcccb4102d3350f7ac1c6c70977277d5459e3d2bcb45e56b22dbaddd8af8"
+  }
+}

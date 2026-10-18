@@ -1,0 +1,165 @@
+execution:
+  seed: 42
+  dataset_version: cleaned
+  training_parquet: data/processed/train_clean.parquet
+  test_parquet: data/processed/test_clean.parquet
+  original_parquet: data/processed/train_original.parquet
+  baseline_artifacts: reports/lightgbm_baseline/artifacts
+  original_artifacts: reports/lightgbm_baseline/experiments/A_original
+  baseline_splits: reports/lightgbm_baseline/split_boundaries.json
+  feature_selection_manifest: feature_audit/reports/feature_audit_20261014_v1/selection_manifest.json
+  threat_model: configs/attacker_threat_model.yaml
+  regression_transactions: 10000
+  feasibility_candidates: 64
+  temporal_fractions:
+  - 0.45
+  - 0.1
+  - 0.15
+  - 0.1
+  - 0.2
+  max_verification_delay_seconds: 259200
+  gamma_per_day: 0.99
+  court_primary_algorithm: off_policy_time_discounted_DQN_with_mature_origin_replay
+  court_training_execution: none
+  attacker_training_execution: none
+  revised_defender_fit: provenance_gated_new_output_only
+threat_model:
+  version: phase3_5_v1
+  scope: offline_research_simulator
+  objective: fraudulent transaction receives APPROVE
+  knowledge:
+    observes:
+    - current_authorized_control_values
+    - original_authorized_control_values
+    - action_history
+    - remaining_budget
+    architecture_known: false
+    probabilities_visible: false
+    feedback: final_decision_only
+    max_defender_queries: 1
+    excludes:
+    - other_labels
+    - future_transactions
+    - pending_verification_labels
+    - evaluator_paired_scores
+  episode:
+    max_steps: 3
+    stop: final continuous action coordinate greater than zero submits
+    invalid_action: reject_and_terminate
+    clip_actions: false
+  rewards:
+    fraud_approved: 1.0
+    fraud_flagged: -1.0
+    invalid: -2.0
+    cost_weight: 1.0
+  scenarios:
+    A:
+      name: conservative_real_data
+      enabled: false
+      controls: []
+      label_assumption: null
+      dependency_status: UNKNOWN
+      status: BLOCKED
+    B:
+      name: hypothetical_amount_sensitivity
+      enabled: true
+      controls:
+      - feature: transactionamt
+        relative_limit: 0.05
+        weight: 1.0
+        minimum: 0.001
+      label_assumption: hypothetical_fraud_intent_unchanged_under_bounded_amount_edit
+      dependency_status: UNKNOWN
+      status: UNKNOWN_VALIDITY
+      permission: proposal_and_validator_only_no_defender_query_until_dependencies_resolved
+      interpretation: not_verified_realistic_financial_fraud
+    synthetic:
+      name: controlled_quantity_fixture
+      enabled: true
+      controls:
+      - feature: quantity
+        absolute_limit: 2.0
+        weight: 1.0
+        minimum: 1.0
+        maximum: 10.0
+      label_assumption: synthetic_fraud_intent_independent_of_quantity
+      dependency_status: VERIFIED_FIXTURE
+      dependencies:
+      - output: total
+        operation: multiply
+        inputs:
+        - quantity
+        - unit_price
+      status: SYNTHETIC_ONLY
+temporal_protocol:
+  status: IMPLEMENTED_AND_BOUNDARIES_VALIDATED; new model fitting gated by preprocessing
+    provenance
+  windows:
+    defender_fit:
+      rows: 265743
+      min_time: 86400
+      max_time: 6443292
+      min_transaction_id: 2987000
+      max_transaction_id: 3252742
+      first_transaction_id: 2987000
+      last_transaction_id: 3252742
+      ordered_id_sha256: 8cc1a49ddb83db0bd49eed8e8a840b428d780f8576e9ac7da710323e34b3a4df
+    defender_calibration:
+      rows: 59054
+      min_time: 6443305
+      max_time: 8022306
+      min_transaction_id: 3252743
+      max_transaction_id: 3311796
+      first_transaction_id: 3252743
+      last_transaction_id: 3311796
+      ordered_id_sha256: 83a227fef260e9159600bc77607492f6d31b6198b24d44a148290b42ec578eb0
+    rl_development:
+      rows: 88581
+      min_time: 8022314
+      max_time: 10437996
+      min_transaction_id: 3311797
+      max_transaction_id: 3400377
+      first_transaction_id: 3311797
+      last_transaction_id: 3400377
+      ordered_id_sha256: 36f185c2321e7b8ff1d55d5405d5f4781805b2702734e5a9c8925013e151cdd5
+      decision_cutoff: 10178796
+      eligible_origin_rows: 78416
+      maturity_only_rows: 10165
+    rl_validation:
+      rows: 59054
+      min_time: 10438003
+      max_time: 12192842
+      min_transaction_id: 3400378
+      max_transaction_id: 3459431
+      first_transaction_id: 3400378
+      last_transaction_id: 3459431
+      ordered_id_sha256: 5baf0279a5660f637bf4f2e25b63ea6541f10badac1299ccf9c5f182f1a9e950
+      decision_cutoff: 11933642
+      eligible_origin_rows: 50909
+      maturity_only_rows: 8145
+    final_holdout:
+      rows: 118108
+      min_time: 12192900
+      max_time: 15811131
+      min_transaction_id: 3459432
+      max_transaction_id: 3577539
+      first_transaction_id: 3459432
+      last_transaction_id: 3577539
+      ordered_id_sha256: 5ee0ab4d5e34f9689b5d928dbb55a87039daf321708c3042201eed0ed9c060ed
+  max_delay_seconds: 259200
+  historical_feature_selection_cutoff: 12192842.0
+  legacy_holdout_previously_evaluated: true
+  holdout_policy: No additional holdout labels or predictor values read in Phase 3.5;
+    legacy baseline already evaluated this holdout, so it is reserved, not historically
+    virgin.
+  new_defender_status: 'NOT_FITTED: preprocessing provenance not independent of proposed
+    RL windows'
+  baseline_reuse: 'BLOCKED: saved model/calibrator/selection exceed new fitting windows'
+  existing_baseline_periods:
+    model_and_category_fit_end: 9614637.0
+    final_calibrator_refit_end: 11481719
+    empirical_threshold_selection_end: 12192842
+    historical_feature_selection_end: 12192842.0
+    fully_unseen_pre_holdout_rows_after_all_learned_choices: 0
+    note: Prespecified threshold 1/6 avoids empirical threshold fitting, but not historical
+      feature-selection look-ahead.

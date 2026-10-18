@@ -1,0 +1,11 @@
+version: phase3_6_prefix_v1
+fit_window: defender_fit
+missing_review_percent: 90
+near_constant_percent: 99.5
+correlation_review: 0.98
+minimum_pair_observations: 1000
+selection: drop_all_null_or_complete_constant_or_exact_duplicate_only
+correlation_action: REVIEW
+missingness_action: REVIEW
+rare_values_action: REVIEW
+representative: first_in_original_schema_order

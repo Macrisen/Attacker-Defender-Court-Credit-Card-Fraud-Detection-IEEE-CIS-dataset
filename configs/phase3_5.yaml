@@ -1,0 +1,19 @@
+seed: 42
+dataset_version: cleaned
+training_parquet: data/processed/train_clean.parquet
+test_parquet: data/processed/test_clean.parquet
+original_parquet: data/processed/train_original.parquet
+baseline_artifacts: reports/lightgbm_baseline/artifacts
+original_artifacts: reports/lightgbm_baseline/experiments/A_original
+baseline_splits: reports/lightgbm_baseline/split_boundaries.json
+feature_selection_manifest: feature_audit/reports/feature_audit_20261014_v1/selection_manifest.json
+threat_model: configs/attacker_threat_model.yaml
+regression_transactions: 10000
+feasibility_candidates: 64
+temporal_fractions: [0.45, 0.10, 0.15, 0.10, 0.20]
+max_verification_delay_seconds: 259200
+gamma_per_day: 0.99
+court_primary_algorithm: off_policy_time_discounted_DQN_with_mature_origin_replay
+court_training_execution: none
+attacker_training_execution: none
+revised_defender_fit: provenance_gated_new_output_only

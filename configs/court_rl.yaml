@@ -1,0 +1,16 @@
+version: court_recurrent_mc_ppo_v1
+observation: unchanged Phase3.6 11 dimensions
+recurrent: GRU, hidden32
+training: fixed-policy complete 10000-decision episodes within Development, mature all labels before update
+updates_per_episode: 4
+sequence_length: 128
+recurrent_training: exact causal forward carry within epoch; truncated gradient at128; one optimizer update after whole-episode gradient accumulation
+critic_return_scale: 100.0
+advantages: matured time-aware returns / 100 - behavior value; normalized within episode
+mask: INVESTIGATE probability zero if Court budget exhausted; mask from historical observation in rollout and update
+seed_schedule: [42, 123, 2026]
+common_random_numbers: verification delay keyed by seed and TransactionID, audits keyed by seed and TransactionID
+validation_selection: mature Court utility per arrival, then earlier checkpoint
+baseline_thresholds:
+  probability: 0.16666666666666666
+  top_risk: fit-prefix calibrated-score 98.2 percentile; causal threshold surrogate, not future-window sorting

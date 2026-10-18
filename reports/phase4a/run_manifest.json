@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "actual_trained_runs": 12,
+  "training_interactions": 1572864,
+  "phase": "4a",
+  "config_hash": "d8df0bb5e5e82c982567d9f07ba119d2078177afa67b014397034c4de37b9592",
+  "started_at": "2026-10-17T15:58:46.931871+00:00",
+  "completed_at": "2026-10-17T16:02:31.100287+00:00",
+  "artifacts": {
+    "reports/phase4a/attacker_training_metrics.csv": "17655aea2dce68e27d042cd664fb49a4e495a0a8fe6f300f658ab93d1a2be001",
+    "reports/phase4a/attacker_validation_results.csv": "8c330f30a109950577081d11057f8d77be5caa23bc546e92987df367da59c31f",
+    "reports/phase4a/attacker_ablation.csv": "520b37d2bcf12aaf1b991fe6ff7bc288dc1d7562513f58278f69071c913d2cbd",
+    "reports/phase4a/attacker_training_report.html": "ec0b7a3e1a2fb55b5d3c4b93d4831b1ccf904559252c3ecfd1cea864fbcfd016",
+    "reports/phase4a/attacker_checkpoints.json": "51fd340103e411d6a3a2bacda3ee23cdd7e547a8ac6b3707d58b36d29ed2b825",
+    "reports/phase4a/tests.log": "e4c221b3fd22de6eb1ea026c89164134cf39cdd06ea45b5c43a574718a8a59fe",
+    "reports/phase4a/attacker_baseline_comparison.csv": "e1f07779f74ee3555c5107a48e372a32b5c35a6a10cd1b205699175b175ce3ce",
+    "reports/phase4a/attacker_action_distribution.csv": "debed57fd7a6b78f645a75c8805a96e0da5d98ec7aafd496988d44b737fa5444",
+    "reports/phase4a/executed_config.json": "e071dcccb4102d3350f7ac1c6c70977277d5459e3d2bcb45e56b22dbaddd8af8"
+  }
+}

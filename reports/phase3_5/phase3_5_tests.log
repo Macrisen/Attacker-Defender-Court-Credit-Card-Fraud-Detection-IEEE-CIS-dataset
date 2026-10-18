@@ -1,0 +1,32 @@
+Training until validation scores don't improve for 100 rounds
+Did not meet early stopping. Best iteration is:
+[1]	valid_0's average_precision: 1
+test_actual_displacement_budget_and_history (test_readiness.ConstraintTests.test_actual_displacement_budget_and_history) ... ok
+test_bounds_are_rejected_not_clipped (test_readiness.ConstraintTests.test_bounds_are_rejected_not_clipped) ... ok
+test_constraint_gymnasium_adapter (test_readiness.ConstraintTests.test_constraint_gymnasium_adapter) ... ok
+test_continuous_dimensions_and_stop (test_readiness.ConstraintTests.test_continuous_dimensions_and_stop) ... ok
+test_denominators_condition_on_eligible_modified_fraud (test_readiness.ConstraintTests.test_denominators_condition_on_eligible_modified_fraud) ... ok
+test_dependency_recomputed_and_checked (test_readiness.ConstraintTests.test_dependency_recomputed_and_checked) ... ok
+test_deterministic_replay (test_readiness.ConstraintTests.test_deterministic_replay) ... ok
+test_identity_is_not_an_adversarial_success (test_readiness.ConstraintTests.test_identity_is_not_an_adversarial_success) ... ok
+test_label_assumption_is_tracked_not_fact (test_readiness.ConstraintTests.test_label_assumption_is_tracked_not_fact) ... ok
+test_missing_control_is_unknown_without_imputation (test_readiness.ConstraintTests.test_missing_control_is_unknown_without_imputation) ... ok
+test_original_and_metadata_unchanged (test_readiness.ConstraintTests.test_original_and_metadata_unchanged) ... ok
+test_query_budget_feedback_and_rewards (test_readiness.ConstraintTests.test_query_budget_feedback_and_rewards) ... ok
+test_scenario_B_unknown_dependency_never_accepted (test_readiness.ConstraintTests.test_scenario_B_unknown_dependency_never_accepted) ... ok
+test_synthetic_or_unreferenced_evidence_cannot_promote_real_dependency (test_readiness.ConstraintTests.test_synthetic_or_unreferenced_evidence_cannot_promote_real_dependency) ... ok
+test_unknown_and_immutable_controls_rejected (test_readiness.ConstraintTests.test_unknown_and_immutable_controls_rejected) ... ok
+test_audit_logging_and_budget (test_readiness.CreditTests.test_audit_logging_and_budget) ... ok
+test_collector_excludes_audit_and_preserves_pending_across_windows (test_readiness.CreditTests.test_collector_excludes_audit_and_preserves_pending_across_windows) ... ok
+test_executed_numerical_credit_cases (test_readiness.CreditTests.test_executed_numerical_credit_cases) ... ok
+test_no_future_label_and_origin_state_not_rewritten (test_readiness.CreditTests.test_no_future_label_and_origin_state_not_rewritten) ... ok
+test_time_discount_domain (test_readiness.CreditTests.test_time_discount_domain) ... ok
+test_timestamp_gate_catches_incorrect_partition_tag (test_readiness.CreditTests.test_timestamp_gate_catches_incorrect_partition_tag) ... ok
+test_alignment_detects_missing_transaction (test_readiness.TemporalTests.test_alignment_detects_missing_transaction) ... ok
+test_revised_fit_pipeline_executes_only_on_synthetic_fixture (test_readiness.TemporalTests.test_revised_fit_pipeline_executes_only_on_synthetic_fixture) ... ok
+test_windows_and_maturation_guard (test_readiness.TemporalTests.test_windows_and_maturation_guard) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.024s
+
+OK

@@ -1,0 +1,10 @@
+{
+  "attempts": 5,
+  "validity_rate": 0.6,
+  "rejection_rate": 0.4,
+  "valid_nonidentity_fraction": 0.4,
+  "asr_denominator": 2,
+  "asr": 1.0,
+  "originally_detected_denominator": 0,
+  "conditional_evasion_originally_detected": null
+}

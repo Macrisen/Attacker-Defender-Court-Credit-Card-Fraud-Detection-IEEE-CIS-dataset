@@ -1,0 +1,53 @@
+Matplotlib is building the font cache; this may take a moment.
+Training until validation scores don't improve for 100 rounds
+Did not meet early stopping. Best iteration is:
+[1]	valid_0's average_precision: 1
+Final original 42 E1 complete
+Final original 42 E2 complete
+Final original 42 E3 complete
+Final original 42 E4 complete
+Final original 42 E5 complete
+Final original 42 E6 complete
+Final original 42 E7 complete
+Final original 42 E8 complete
+Final original 123 E1 complete
+Final original 123 E2 complete
+Final original 123 E3 complete
+Final original 123 E4 complete
+Final original 123 E5 complete
+Final original 123 E6 complete
+Final original 123 E7 complete
+Final original 123 E8 complete
+Final original 2026 E1 complete
+Final original 2026 E2 complete
+Final original 2026 E3 complete
+Final original 2026 E4 complete
+Final original 2026 E5 complete
+Final original 2026 E6 complete
+Final original 2026 E7 complete
+Final original 2026 E8 complete
+Final cleaned 42 E1 complete
+Final cleaned 42 E2 complete
+Final cleaned 42 E3 complete
+Final cleaned 42 E4 complete
+Final cleaned 42 E5 complete
+Final cleaned 42 E6 complete
+Final cleaned 42 E7 complete
+Final cleaned 42 E8 complete
+Final cleaned 123 E1 complete
+Final cleaned 123 E2 complete
+Final cleaned 123 E3 complete
+Final cleaned 123 E4 complete
+Final cleaned 123 E5 complete
+Final cleaned 123 E6 complete
+Final cleaned 123 E7 complete
+Final cleaned 123 E8 complete
+Final cleaned 2026 E1 complete
+Final cleaned 2026 E2 complete
+Final cleaned 2026 E3 complete
+Final cleaned 2026 E4 complete
+Final cleaned 2026 E5 complete
+Final cleaned 2026 E6 complete
+Final cleaned 2026 E7 complete
+Final cleaned 2026 E8 complete
+{"phase": "6", "status": "PASS", "final_experiments": 48, "tests": 125, "final_protocol_frozen": true, "holdout_historically_pristine": false}

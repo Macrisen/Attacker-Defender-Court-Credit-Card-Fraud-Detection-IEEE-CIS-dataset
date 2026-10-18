@@ -1,0 +1,44 @@
+version: phase3_7_mode_b_v1
+mode: ASSUMPTION_BASED
+strict_mode: STRICT_BLOCKED
+control: transactionamt
+action_shape: [1]
+action_bounds: [-1.0, 1.0]
+epsilon_default: 0.05
+epsilon_sensitivity: [0.01, 0.03, 0.05]
+max_steps: 3
+stop_deadband: 0.000001
+mapping: original_amount * (1 + epsilon * action); absolute proposal, not incremental
+rounding: decimal ROUND_HALF_EVEN to source scale; nearest representable point inside exact budget interval
+lambda_cost: 0.1
+invalid_penalty: -2.0
+identity_reward: 0.0
+feedback: terminal_decision_only
+max_terminal_queries: 1
+label_contract: Counterfactual fraud intent is assumed unchanged after bounded amount edits; this is not an observed label for a real modified transaction.
+dependency_contract: All non-amount fields remain fixed as a feature-space approximation; anonymous dependencies are UNKNOWN_DEPENDENCY, not resolved.
+causal_validity: NOT_ESTABLISHED
+plausibility:
+  fit_window: defender_fit
+  conditional_attributes: [productcd, card4, card6]
+  minimum_group_rows: 200
+  support_quantiles: [0.01, 0.99]
+  anomaly: absolute log1p amount deviation from median / max(1.4826 * log-MAD, 0.000001)
+  acceptance: Hard arithmetic checks only; support, rarity and anomaly scores are soft diagnostics.
+experiment:
+  source_window: rl_development
+  eligible: historical isfraud == 1 and positive finite representable original amount
+  sample: all eligible fraud in window, chronological order
+  policies: [identity, random_uniform, fixed_decrease, fixed_increase]
+  seed: 42
+  proposals: same TransactionID action across epsilon and model versions
+  evaluation: separate predeclared episodes; no best-of-policy or best-of-epsilon attack selection
+  full_ppo_training: false
+smoke:
+  decisions: 10000
+  epsilon: 0.05
+  policy: random_uniform
+  court_policy: fixed FLAG or seeded probability 0.005
+  court_seed: 42
+  audit_seed: 42
+  verification_seed: 43

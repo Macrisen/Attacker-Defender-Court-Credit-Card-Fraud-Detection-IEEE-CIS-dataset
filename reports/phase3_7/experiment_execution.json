@@ -1,0 +1,24 @@
+{
+  "source_window": {
+    "rows": 88581,
+    "min_time": 8022314,
+    "max_time": 10437996,
+    "min_transaction_id": 3311797,
+    "max_transaction_id": 3400377,
+    "first_transaction_id": 3311797,
+    "last_transaction_id": 3400377,
+    "ordered_id_sha256": "36f185c2321e7b8ff1d55d5405d5f4781805b2702734e5a9c8925013e151cdd5",
+    "decision_cutoff": 10178796,
+    "eligible_origin_rows": 78416,
+    "maturity_only_rows": 10165
+  },
+  "source_fraud": 3537,
+  "eligible_fraud": 3537,
+  "episodes": 84888,
+  "elapsed_seconds": 38.709769833949395,
+  "holdout_reads": false,
+  "validation_reads": false,
+  "amount_arrow_type": "decimal128(8, 3)",
+  "defender_numeric_input": "saved float32 encoding; Decimal retained until existing encode()",
+  "candidate_search": false
+}

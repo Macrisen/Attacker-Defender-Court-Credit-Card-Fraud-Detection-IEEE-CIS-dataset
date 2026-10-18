@@ -1,0 +1,56 @@
+2026-10-17 20:17:28,019 INFO Running assertion-based unit and real Defender integration tests
+2026-10-17 20:17:29,003 INFO Loading chronological model-training records only
+2026-10-17 20:17:30,991 INFO Processed 2000 transactions; pending=62
+2026-10-17 20:17:31,012 INFO Processed 4000 transactions; pending=131
+2026-10-17 20:17:31,031 INFO Processed 6000 transactions; pending=191
+2026-10-17 20:17:31,048 INFO Processed 8000 transactions; pending=178
+2026-10-17 20:17:31,070 INFO Processed 10000 transactions; pending=114
+2026-10-17 20:17:31,086 INFO Replaying the same seed to verify identical actions, delays and rewards
+2026-10-17 20:17:31,113 INFO Processed 2000 transactions; pending=62
+2026-10-17 20:17:31,133 INFO Processed 4000 transactions; pending=131
+2026-10-17 20:17:31,155 INFO Processed 6000 transactions; pending=191
+2026-10-17 20:17:31,173 INFO Processed 8000 transactions; pending=178
+2026-10-17 20:17:31,196 INFO Processed 10000 transactions; pending=114
+2026-10-17 20:17:31,313 INFO COMPLETE: 29 tests PASS; real-data attacker PARTIAL; report=/Users/macrisen/Desktop/credit card fraud detect/reports/phase3_5/phase3_regression/environment_validation_report.html
+2026-10-17 20:20:15,821 INFO Running assertion-based unit and real Defender integration tests
+2026-10-17 20:20:16,776 INFO Loading chronological model-training records only
+2026-10-17 20:20:18,672 INFO Processed 2000 transactions; pending=62
+2026-10-17 20:20:18,692 INFO Processed 4000 transactions; pending=131
+2026-10-17 20:20:18,711 INFO Processed 6000 transactions; pending=191
+2026-10-17 20:20:18,729 INFO Processed 8000 transactions; pending=178
+2026-10-17 20:20:18,750 INFO Processed 10000 transactions; pending=114
+2026-10-17 20:20:18,767 INFO Replaying the same seed to verify identical actions, delays and rewards
+2026-10-17 20:20:18,794 INFO Processed 2000 transactions; pending=62
+2026-10-17 20:20:18,813 INFO Processed 4000 transactions; pending=131
+2026-10-17 20:20:18,833 INFO Processed 6000 transactions; pending=191
+2026-10-17 20:20:18,851 INFO Processed 8000 transactions; pending=178
+2026-10-17 20:20:18,872 INFO Processed 10000 transactions; pending=114
+2026-10-17 20:20:18,976 INFO COMPLETE: 29 tests PASS; real-data attacker PARTIAL; report=/Users/macrisen/Desktop/credit card fraud detect/reports/phase3_5/phase3_regression/environment_validation_report.html
+2026-10-17 20:22:20,948 INFO Running assertion-based unit and real Defender integration tests
+2026-10-17 20:22:21,914 INFO Loading chronological model-training records only
+2026-10-17 20:22:23,872 INFO Processed 2000 transactions; pending=62
+2026-10-17 20:22:23,892 INFO Processed 4000 transactions; pending=131
+2026-10-17 20:22:23,911 INFO Processed 6000 transactions; pending=191
+2026-10-17 20:22:23,928 INFO Processed 8000 transactions; pending=178
+2026-10-17 20:22:23,950 INFO Processed 10000 transactions; pending=114
+2026-10-17 20:22:23,967 INFO Replaying the same seed to verify identical actions, delays and rewards
+2026-10-17 20:22:23,993 INFO Processed 2000 transactions; pending=62
+2026-10-17 20:22:24,013 INFO Processed 4000 transactions; pending=131
+2026-10-17 20:22:24,033 INFO Processed 6000 transactions; pending=191
+2026-10-17 20:22:24,050 INFO Processed 8000 transactions; pending=178
+2026-10-17 20:22:24,072 INFO Processed 10000 transactions; pending=114
+2026-10-17 20:22:24,177 INFO COMPLETE: 29 tests PASS; real-data attacker PARTIAL; report=/Users/macrisen/Desktop/credit card fraud detect/reports/phase3_5/phase3_regression/environment_validation_report.html
+2026-10-17 20:25:03,767 INFO Running assertion-based unit and real Defender integration tests
+2026-10-17 20:25:04,728 INFO Loading chronological model-training records only
+2026-10-17 20:25:06,763 INFO Processed 2000 transactions; pending=62
+2026-10-17 20:25:06,783 INFO Processed 4000 transactions; pending=131
+2026-10-17 20:25:06,802 INFO Processed 6000 transactions; pending=191
+2026-10-17 20:25:06,819 INFO Processed 8000 transactions; pending=178
+2026-10-17 20:25:06,841 INFO Processed 10000 transactions; pending=114
+2026-10-17 20:25:06,858 INFO Replaying the same seed to verify identical actions, delays and rewards
+2026-10-17 20:25:06,884 INFO Processed 2000 transactions; pending=62
+2026-10-17 20:25:06,903 INFO Processed 4000 transactions; pending=131
+2026-10-17 20:25:06,923 INFO Processed 6000 transactions; pending=191
+2026-10-17 20:25:06,940 INFO Processed 8000 transactions; pending=178
+2026-10-17 20:25:06,961 INFO Processed 10000 transactions; pending=114
+2026-10-17 20:25:07,068 INFO COMPLETE: 29 tests PASS; real-data attacker PARTIAL; report=/Users/macrisen/Desktop/credit card fraud detect/reports/phase3_5/phase3_regression/environment_validation_report.html

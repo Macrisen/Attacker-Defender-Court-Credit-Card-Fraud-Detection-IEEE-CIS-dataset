@@ -1,0 +1,34 @@
+test_continuous_bounds_dependents_and_cost (test_environment.AttackerTests.test_continuous_bounds_dependents_and_cost) ... ok
+test_invalid_action_and_perturbation_budget (test_environment.AttackerTests.test_invalid_action_and_perturbation_budget) ... ok
+test_query_budget_stop_and_fixed_observations (test_environment.AttackerTests.test_query_budget_stop_and_fixed_observations) ... ok
+test_real_data_is_blocked (test_environment.AttackerTests.test_real_data_is_blocked) ... ok
+test_synthetic_gymnasium_api (test_environment.AttackerTests.test_synthetic_gymnasium_api) ... ok
+test_agent_info_cannot_mutate_internal_event_log (test_environment.EnvironmentTests.test_agent_info_cannot_mutate_internal_event_log) ... ok
+test_blocked_investigate_no_double_cost (test_environment.EnvironmentTests.test_blocked_investigate_no_double_cost) ... ok
+test_budget_exact_window_rollover (test_environment.EnvironmentTests.test_budget_exact_window_rollover) ... ok
+test_budget_exhaustion_reserve_separation (test_environment.EnvironmentTests.test_budget_exhaustion_reserve_separation) ... ok
+test_chronological_order_reset_and_batches (test_environment.EnvironmentTests.test_chronological_order_reset_and_batches) ... ok
+test_court_gymnasium_api (test_environment.EnvironmentTests.test_court_gymnasium_api) ... ok
+test_delayed_verification_timing_and_outcomes (test_environment.EnvironmentTests.test_delayed_verification_timing_and_outcomes) ... ok
+test_duplicate_ids_rejected (test_environment.EnvironmentTests.test_duplicate_ids_rejected) ... ok
+test_episode_censor_explicit_drain_and_reset_archive (test_environment.EnvironmentTests.test_episode_censor_explicit_drain_and_reset_archive) ... ok
+test_flagged_fraud_reward (test_environment.EnvironmentTests.test_flagged_fraud_reward) ... ok
+test_hidden_label_isolation_until_verification (test_environment.EnvironmentTests.test_hidden_label_isolation_until_verification) ... ok
+test_identity_keeps_values_and_does_not_alias_source (test_environment.EnvironmentTests.test_identity_keeps_values_and_does_not_alias_source) ... ok
+test_immediate_delayed_rewards_and_attribution (test_environment.EnvironmentTests.test_immediate_delayed_rewards_and_attribution) ... ok
+test_metadata_observation_rejected (test_environment.EnvironmentTests.test_metadata_observation_rejected) ... ok
+test_missing_observation_mask (test_environment.EnvironmentTests.test_missing_observation_mask) ... ok
+test_no_premature_memory_and_no_duplicates (test_environment.EnvironmentTests.test_no_premature_memory_and_no_duplicates) ... ok
+test_parquet_schema_holdout_boundary_missing_values (test_environment.EnvironmentTests.test_parquet_schema_holdout_boundary_missing_values) ... ok
+test_pending_survives_budget_window (test_environment.EnvironmentTests.test_pending_survives_budget_window) ... ok
+test_random_audits_only_approved_and_not_court_rewards (test_environment.EnvironmentTests.test_random_audits_only_approved_and_not_court_rewards) ... ok
+test_random_delay_seed_reproducibility (test_environment.EnvironmentTests.test_random_delay_seed_reproducibility) ... ok
+test_skip_does_not_reveal_or_charge (test_environment.EnvironmentTests.test_skip_does_not_reveal_or_charge) ... ok
+test_frozen_schema_calibration_and_missing_values (test_environment.FrozenDefenderIntegrationTests.test_frozen_schema_calibration_and_missing_values) ... ok
+test_missing_artifacts_are_not_substituted (test_environment.FrozenDefenderIntegrationTests.test_missing_artifacts_are_not_substituted) ... ok
+test_reordered_schema_is_consistent_and_extra_label_rejected (test_environment.FrozenDefenderIntegrationTests.test_reordered_schema_is_consistent_and_extra_label_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.134s
+
+OK

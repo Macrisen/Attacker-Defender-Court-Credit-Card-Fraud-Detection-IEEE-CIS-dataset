@@ -1,0 +1,97 @@
+Court original 42 episode 1 reward -148.0 seconds 5.5
+Court original 42 episode 2 reward -148.0 seconds 11.0
+Court original 42 episode 3 reward -137.0 seconds 16.4
+Court original 42 episode 4 reward -136.0 seconds 21.8
+Court original 42 episode 5 reward -106.0 seconds 27.3
+Court original 42 episode 6 reward -133.0 seconds 32.8
+Court original 42 episode 7 reward -141.0 seconds 38.2
+Court original 42 episode 8 reward -140.0 seconds 43.7
+Court original 42 episode 9 reward -151.0 seconds 49.3
+Court original 42 episode 10 reward -144.0 seconds 54.8
+Court original 123 episode 1 reward -134.0 seconds 5.7
+Court original 123 episode 2 reward -144.0 seconds 11.5
+Court original 123 episode 3 reward -111.0 seconds 17.4
+Court original 123 episode 4 reward -143.0 seconds 23.0
+Court original 123 episode 5 reward -115.0 seconds 29.2
+Court original 123 episode 6 reward -113.0 seconds 35.1
+Court original 123 episode 7 reward -105.0 seconds 40.7
+Court original 123 episode 8 reward -154.0 seconds 46.2
+Court original 123 episode 9 reward -134.0 seconds 51.8
+Court original 123 episode 10 reward -151.0 seconds 57.4
+Court original 2026 episode 1 reward -177.0 seconds 7.6
+Court original 2026 episode 2 reward -134.0 seconds 15.0
+Court original 2026 episode 3 reward -103.0 seconds 22.3
+Court original 2026 episode 4 reward -140.0 seconds 29.3
+Court original 2026 episode 5 reward -149.0 seconds 36.3
+Court original 2026 episode 6 reward -141.0 seconds 43.3
+Court original 2026 episode 7 reward -113.0 seconds 50.2
+Court original 2026 episode 8 reward -155.0 seconds 56.9
+Court original 2026 episode 9 reward -145.0 seconds 63.6
+Court original 2026 episode 10 reward -118.0 seconds 70.2
+Court validation original 42 learned -666.0
+Court validation original 42 random -736.0
+Court validation original 42 rule 365.0
+Court validation original 42 top_risk 513.0
+Court validation original 42 threshold 597.0
+Court validation original 42 skip 0.0
+Court validation original 123 learned -737.0
+Court validation original 123 random -740.0
+Court validation original 123 rule 387.0
+Court validation original 123 top_risk 513.0
+Court validation original 123 threshold 597.0
+Court validation original 123 skip 0.0
+Court validation original 2026 learned -768.0
+Court validation original 2026 random -668.0
+Court validation original 2026 rule 446.0
+Court validation original 2026 top_risk 513.0
+Court validation original 2026 threshold 597.0
+Court validation original 2026 skip 0.0
+Court cleaned 42 episode 1 reward -148.0 seconds 6.5
+Court cleaned 42 episode 2 reward -148.0 seconds 13.1
+Court cleaned 42 episode 3 reward -137.0 seconds 19.7
+Court cleaned 42 episode 4 reward -136.0 seconds 26.2
+Court cleaned 42 episode 5 reward -106.0 seconds 33.0
+Court cleaned 42 episode 6 reward -133.0 seconds 39.6
+Court cleaned 42 episode 7 reward -141.0 seconds 46.2
+Court cleaned 42 episode 8 reward -140.0 seconds 52.6
+Court cleaned 42 episode 9 reward -151.0 seconds 59.1
+Court cleaned 42 episode 10 reward -144.0 seconds 65.4
+Court cleaned 123 episode 1 reward -134.0 seconds 6.2
+Court cleaned 123 episode 2 reward -144.0 seconds 12.5
+Court cleaned 123 episode 3 reward -111.0 seconds 18.8
+Court cleaned 123 episode 4 reward -143.0 seconds 25.0
+Court cleaned 123 episode 5 reward -115.0 seconds 31.7
+Court cleaned 123 episode 6 reward -113.0 seconds 38.4
+Court cleaned 123 episode 7 reward -105.0 seconds 45.5
+Court cleaned 123 episode 8 reward -154.0 seconds 52.1
+Court cleaned 123 episode 9 reward -134.0 seconds 58.8
+Court cleaned 123 episode 10 reward -151.0 seconds 66.0
+Court cleaned 2026 episode 1 reward -177.0 seconds 6.5
+Court cleaned 2026 episode 2 reward -134.0 seconds 13.3
+Court cleaned 2026 episode 3 reward -103.0 seconds 19.9
+Court cleaned 2026 episode 4 reward -140.0 seconds 26.6
+Court cleaned 2026 episode 5 reward -149.0 seconds 32.9
+Court cleaned 2026 episode 6 reward -141.0 seconds 39.3
+Court cleaned 2026 episode 7 reward -113.0 seconds 45.8
+Court cleaned 2026 episode 8 reward -155.0 seconds 52.1
+Court cleaned 2026 episode 9 reward -145.0 seconds 58.5
+Court cleaned 2026 episode 10 reward -118.0 seconds 64.8
+Court validation cleaned 42 learned -666.0
+Court validation cleaned 42 random -736.0
+Court validation cleaned 42 rule 365.0
+Court validation cleaned 42 top_risk 513.0
+Court validation cleaned 42 threshold 597.0
+Court validation cleaned 42 skip 0.0
+Court validation cleaned 123 learned -737.0
+Court validation cleaned 123 random -740.0
+Court validation cleaned 123 rule 387.0
+Court validation cleaned 123 top_risk 513.0
+Court validation cleaned 123 threshold 597.0
+Court validation cleaned 123 skip 0.0
+Court validation cleaned 2026 learned -768.0
+Court validation cleaned 2026 random -668.0
+Court validation cleaned 2026 rule 446.0
+Court validation cleaned 2026 top_risk 513.0
+Court validation cleaned 2026 threshold 597.0
+Court validation cleaned 2026 skip 0.0
+{"phase": "4b", "status": "PASS", "trained_runs": 6, "training_interactions": 600000}

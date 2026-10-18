@@ -1,0 +1,70 @@
+{
+  "seed": 42,
+  "dataset_version": "cleaned",
+  "datasets": {
+    "cleaned": {
+      "parquet": "data/processed/train_clean.parquet",
+      "artifacts": "reports/lightgbm_baseline/artifacts"
+    },
+    "original": {
+      "parquet": "data/processed/train_original.parquet",
+      "artifacts": "reports/lightgbm_baseline/experiments/A_original"
+    }
+  },
+  "boundaries": "reports/lightgbm_baseline/split_boundaries.json",
+  "transactions": 10000,
+  "threshold_policy": "theoretical_reward_1_6",
+  "observable_features": [
+    "transactionamt"
+  ],
+  "budget": {
+    "window_size": 10000,
+    "total": 200,
+    "audit_reserve": 20
+  },
+  "verification": {
+    "min_days": 1,
+    "max_days": 3
+  },
+  "court": {
+    "investigation_cost": 1,
+    "missed_fraud_reward": 10,
+    "flagged_fraud_reward": 3,
+    "random_investigation_probability": 0.005
+  },
+  "attacker": {
+    "real_data_mode": "identity",
+    "max_modification_steps": 3,
+    "max_model_queries": 1,
+    "feedback": "terminal_decision_only"
+  },
+  "episode_end": "censor_then_explicit_drain_for_diagnostics",
+  "resolved_paths": {
+    "parquet": "/Users/macrisen/Desktop/credit card fraud detect/data/processed/train_clean.parquet",
+    "artifacts": "/Users/macrisen/Desktop/credit card fraud detect/reports/lightgbm_baseline/artifacts",
+    "output": "/Users/macrisen/Desktop/credit card fraud detect/reports/rl_environment"
+  },
+  "saved_boundaries": {
+    "inner_end": 326273,
+    "train_end": 383851,
+    "hold_start": 472432,
+    "total_rows": 590540,
+    "inner_training_cutoff": 8035929.0,
+    "model_training_cutoff": 9614637.0,
+    "prior_holdout_cutoff": 12192842,
+    "sorting": "TransactionDT ascending, then TransactionID; identical timestamps stay together"
+  },
+  "court_observation_names": [
+    "transactionamt_value",
+    "transactionamt_missing",
+    "probability",
+    "flag",
+    "court_budget_ratio",
+    "window_progress",
+    "pending_scaled",
+    "recent_verified_fraud_rate",
+    "recent_verified_count_scaled",
+    "time_since_defender_update_scaled"
+  ],
+  "agent_transform": "fixed analytic signed-log/tanh + missing bit; no fitted statistics"
+}

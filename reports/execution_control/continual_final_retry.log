@@ -1,0 +1,4 @@
+{"phase": "4a", "status": "PASS", "resumed_completed": true}
+{"phase": "4b", "status": "PASS", "resumed_completed": true}
+{"phase": "4c", "status": "PASS", "resumed_completed": true}
+{"phase": "5", "status": "PARTIAL", "error": "TypeError(\"dict() got multiple values for keyword argument 'version'\")"}

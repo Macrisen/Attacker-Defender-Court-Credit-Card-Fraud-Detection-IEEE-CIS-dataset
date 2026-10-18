@@ -1,0 +1,26 @@
+original_431 0.01 identity episodes 3537
+original_431 0.01 random_uniform episodes 3537
+original_431 0.01 fixed_decrease episodes 3537
+original_431 0.01 fixed_increase episodes 3537
+original_431 0.03 identity episodes 3537
+original_431 0.03 random_uniform episodes 3537
+original_431 0.03 fixed_decrease episodes 3537
+original_431 0.03 fixed_increase episodes 3537
+original_431 0.05 identity episodes 3537
+original_431 0.05 random_uniform episodes 3537
+original_431 0.05 fixed_decrease episodes 3537
+original_431 0.05 fixed_increase episodes 3537
+cleaned_prefix_430 0.01 identity episodes 3537
+cleaned_prefix_430 0.01 random_uniform episodes 3537
+cleaned_prefix_430 0.01 fixed_decrease episodes 3537
+cleaned_prefix_430 0.01 fixed_increase episodes 3537
+cleaned_prefix_430 0.03 identity episodes 3537
+cleaned_prefix_430 0.03 random_uniform episodes 3537
+cleaned_prefix_430 0.03 fixed_decrease episodes 3537
+cleaned_prefix_430 0.03 fixed_increase episodes 3537
+cleaned_prefix_430 0.05 identity episodes 3537
+cleaned_prefix_430 0.05 random_uniform episodes 3537
+cleaned_prefix_430 0.05 fixed_decrease episodes 3537
+cleaned_prefix_430 0.05 fixed_increase episodes 3537
+original_431 end-to-end smoke done
+cleaned_prefix_430 end-to-end smoke done

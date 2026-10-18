@@ -1,0 +1,118 @@
+version: phase3_6_v2
+executed:
+  seed: 42
+  defender:
+    seed: 42
+    threads: 4
+    max_rounds: 2000
+    early_stopping_rounds: 100
+    inner_fit_fraction: 0.85
+    calibration_selection: chronological_first_half_fit_second_half_logloss_then_refit
+    calibration_candidates:
+    - raw
+    - sigmoid
+    - isotonic
+    threshold: 0.16666666666666666
+    threshold_rule: strict_greater_than
+    configurations:
+    - original_431
+    - cleaned_temporal
+    full_policy_training: false
+  feature_selection: cleaned_prefix_430
+  court_observation:
+  - transactionamt_value
+  - transactionamt_missing
+  - probability
+  - flag
+  - court_budget_ratio
+  - window_progress
+  - pending_scaled
+  - recent_verified_fraud_rate
+  - recent_verified_count_scaled
+  - time_since_defender_update_scaled
+  - decision_time_remaining_scaled
+  court_action: Discrete(2)
+  court_rewards:
+    investigation_cost: 1
+    missed_fraud: 10
+    flagged_fraud: 3
+    legitimate_bonus: 0
+  budget:
+    window_size: 10000
+    total: 200
+    court: 180
+    audit: 20
+  verification:
+    distribution: Uniform
+    days:
+    - 1
+    - 3
+    seed: 43
+  gamma_per_day: 0.99
+  smoke_decisions_per_version: 10000
+  learner: one synthetic deterministic MC value-regression update; no real policy
+    optimization
+  attacker:
+    interface: Box(k) authorized controls only
+    stop: all abs(action)<=1e-6
+    max_steps: 3
+    max_terminal_queries: 1
+    real_training: BLOCKED
+    real_asr: null
+  protected_windows:
+    defender_fit:
+      rows: 265743
+      min_time: 86400
+      max_time: 6443292
+      min_transaction_id: 2987000
+      max_transaction_id: 3252742
+      first_transaction_id: 2987000
+      last_transaction_id: 3252742
+      ordered_id_sha256: 8cc1a49ddb83db0bd49eed8e8a840b428d780f8576e9ac7da710323e34b3a4df
+    defender_calibration:
+      rows: 59054
+      min_time: 6443305
+      max_time: 8022306
+      min_transaction_id: 3252743
+      max_transaction_id: 3311796
+      first_transaction_id: 3252743
+      last_transaction_id: 3311796
+      ordered_id_sha256: 83a227fef260e9159600bc77607492f6d31b6198b24d44a148290b42ec578eb0
+    rl_development:
+      rows: 88581
+      min_time: 8022314
+      max_time: 10437996
+      min_transaction_id: 3311797
+      max_transaction_id: 3400377
+      first_transaction_id: 3311797
+      last_transaction_id: 3400377
+      ordered_id_sha256: 36f185c2321e7b8ff1d55d5405d5f4781805b2702734e5a9c8925013e151cdd5
+      decision_cutoff: 10178796
+      eligible_origin_rows: 78416
+      maturity_only_rows: 10165
+    rl_validation:
+      rows: 59054
+      min_time: 10438003
+      max_time: 12192842
+      min_transaction_id: 3400378
+      max_transaction_id: 3459431
+      first_transaction_id: 3400378
+      last_transaction_id: 3459431
+      ordered_id_sha256: 5baf0279a5660f637bf4f2e25b63ea6541f10badac1299ccf9c5f182f1a9e950
+      decision_cutoff: 11933642
+      eligible_origin_rows: 50909
+      maturity_only_rows: 8145
+    final_holdout:
+      rows: 118108
+      min_time: 12192900
+      max_time: 15811131
+      min_transaction_id: 3459432
+      max_transaction_id: 3577539
+      first_transaction_id: 3459432
+      last_transaction_id: 3577539
+      ordered_id_sha256: 5ee0ab4d5e34f9689b5d928dbb55a87039daf321708c3042201eed0ed9c060ed
+proposed_not_executed:
+  court: recurrent episodic policy with fixed-policy collection and mature MC returns
+  continual_defender: not implemented
+  full_ppo_dqn_training: false
+  real_attacker_controls: none authorized
